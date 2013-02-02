@@ -1,0 +1,417 @@
+EESchema Schematic File Version 2  date Fri 01 Feb 2013 05:54:58 PM PST
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:led_8x8
+LIBS:uln2804a
+LIBS:leaf
+LIBS:panels_g4-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 2 4
+Title ""
+Date "2 feb 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4205 1490 0    60   ~ 0
+R14
+Text Label 4205 1390 0    60   ~ 0
+C15
+Text Label 4205 1590 0    60   ~ 0
+R13
+Text Label 4205 1690 0    60   ~ 0
+R12
+Text Label 4205 1790 0    60   ~ 0
+R11
+Text Label 4205 1890 0    60   ~ 0
+R10
+Text Label 4205 1990 0    60   ~ 0
+R9
+Text Label 4205 2090 0    60   ~ 0
+C15
+Wire Wire Line
+	4410 2090 4205 2090
+Wire Wire Line
+	4410 1890 4205 1890
+Wire Wire Line
+	4410 1690 4205 1690
+Wire Wire Line
+	4410 1490 4205 1490
+Wire Wire Line
+	4205 1390 4410 1390
+Wire Wire Line
+	4205 1590 4410 1590
+Wire Wire Line
+	4410 1790 4205 1790
+Wire Wire Line
+	4410 1990 4205 1990
+Wire Wire Line
+	1015 1390 1240 1390
+Wire Wire Line
+	1740 1390 2105 1390
+Wire Wire Line
+	1740 1690 2105 1690
+Wire Wire Line
+	1740 2090 2105 2090
+Wire Wire Line
+	2105 1990 1740 1990
+Wire Wire Line
+	5030 1990 4825 1990
+Wire Wire Line
+	5030 1790 4825 1790
+Wire Wire Line
+	4825 1590 5030 1590
+Wire Wire Line
+	4825 1390 5030 1390
+Wire Wire Line
+	5030 1490 4825 1490
+Wire Wire Line
+	5030 1690 4825 1690
+Wire Wire Line
+	5030 1890 4825 1890
+Wire Wire Line
+	5030 2090 4825 2090
+Wire Wire Line
+	10033 3330 10033 3180
+Wire Wire Line
+	9233 2580 9133 2580
+Wire Wire Line
+	9133 2580 9133 2755
+Wire Wire Line
+	9083 5705 9083 5530
+Wire Wire Line
+	9083 5530 9183 5530
+Wire Wire Line
+	9983 6280 9983 6130
+Wire Wire Line
+	-1482 6235 -1482 6085
+Wire Wire Line
+	-2282 5485 -2382 5485
+Wire Wire Line
+	-2382 5485 -2382 5660
+Wire Wire Line
+	-1367 3055 -1367 2880
+Wire Wire Line
+	-1367 2880 -1267 2880
+Wire Wire Line
+	-467 3630 -467 3480
+Wire Wire Line
+	1740 1890 2105 1890
+Wire Wire Line
+	1740 1790 2105 1790
+Wire Wire Line
+	1740 1590 2105 1590
+Wire Wire Line
+	1740 1490 2105 1490
+Text GLabel 1015 1390 0    60   Input ~ 0
+R15
+Text Label 1825 1990 0    60   ~ 0
+R9
+Text Label 1820 1690 0    60   ~ 0
+R12
+Text Label 1820 1590 0    60   ~ 0
+R13
+Text Label 1820 1490 0    60   ~ 0
+R14
+Text Label 1820 1390 0    60   ~ 0
+R15
+Text Label 1820 1790 0    60   ~ 0
+R11
+Text Label 1820 1890 0    60   ~ 0
+R10
+Text Label 1820 2090 0    60   ~ 0
+R8
+Text Label 4825 2090 0    60   ~ 0
+R8
+Text Label 4825 1990 0    60   ~ 0
+R9
+Text Label 4825 1890 0    60   ~ 0
+R10
+Text Label 4825 1790 0    60   ~ 0
+R11
+Text Label 4825 1690 0    60   ~ 0
+R12
+Text Label 4825 1590 0    60   ~ 0
+R13
+Text Label 4825 1390 0    60   ~ 0
+R15
+Text Label 4825 1490 0    60   ~ 0
+R14
+$Comp
+L LED_8X8 MATRIX?
+U 1 1 510C6D41
+P 6080 1740
+F 0 "MATRIX?" H 6080 2240 60  0000 C CNN
+F 1 "LED_8X8" H 6080 2390 60  0000 C CNN
+	1    6080 1740
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51099CA9
+P 10033 3330
+F 0 "#PWR?" H 10033 3330 30  0001 C CNN
+F 1 "GND" H 10033 3260 30  0001 C CNN
+	1    10033 3330
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51099CA6
+P 10033 3330
+F 0 "#PWR?" H 10033 3330 30  0001 C CNN
+F 1 "GND" H 10033 3260 30  0001 C CNN
+	1    10033 3330
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 51099CA5
+P 9133 2755
+F 0 "#PWR?" H 9133 2855 30  0001 C CNN
+F 1 "VCC" H 9133 2855 30  0000 C CNN
+	1    9133 2755
+	1    0    0    1   
+$EndComp
+$Comp
+L ULN2804A U?
+U 1 1 51099CA4
+P 10033 2130
+F 0 "U?" H 10033 2630 60  0000 C CNN
+F 1 "ULN2804A" H 10033 2780 60  0000 C CNN
+	1    10033 2130
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_8X8 MATRIX?
+U 1 1 51099C9D
+P 7964 5082
+F 0 "MATRIX?" H 7964 5582 60  0000 C CNN
+F 1 "LED_8X8" H 7964 5732 60  0000 C CNN
+	1    7964 5082
+	1    0    0    -1  
+$EndComp
+$Comp
+L ULN2804A U?
+U 1 1 51099C97
+P 9983 5080
+F 0 "U?" H 9983 5580 60  0000 C CNN
+F 1 "ULN2804A" H 9983 5730 60  0000 C CNN
+	1    9983 5080
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 51099C96
+P 9083 5705
+F 0 "#PWR?" H 9083 5805 30  0001 C CNN
+F 1 "VCC" H 9083 5805 30  0000 C CNN
+	1    9083 5705
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51099C95
+P 9983 6280
+F 0 "#PWR?" H 9983 6280 30  0001 C CNN
+F 1 "GND" H 9983 6210 30  0001 C CNN
+	1    9983 6280
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51099C92
+P 9983 6280
+F 0 "#PWR?" H 9983 6280 30  0001 C CNN
+F 1 "GND" H 9983 6210 30  0001 C CNN
+	1    9983 6280
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51099C8F
+P -1482 6235
+F 0 "#PWR?" H -1482 6235 30  0001 C CNN
+F 1 "GND" H -1482 6165 30  0001 C CNN
+	1    -1482 6235
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51099C8C
+P -1482 6235
+F 0 "#PWR?" H -1482 6235 30  0001 C CNN
+F 1 "GND" H -1482 6165 30  0001 C CNN
+	1    -1482 6235
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 51099C8B
+P -2382 5660
+F 0 "#PWR?" H -2382 5760 30  0001 C CNN
+F 1 "VCC" H -2382 5760 30  0000 C CNN
+	1    -2382 5660
+	1    0    0    1   
+$EndComp
+$Comp
+L ULN2804A U?
+U 1 1 51099C8A
+P -1482 5035
+F 0 "U?" H -1482 5535 60  0000 C CNN
+F 1 "ULN2804A" H -1482 5685 60  0000 C CNN
+	1    -1482 5035
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED_8X8 MATRIX?
+U 1 1 51087F2B
+P 3155 1740
+F 0 "MATRIX?" H 3155 2240 60  0000 C CNN
+F 1 "LED_8X8" H 3155 2390 60  0000 C CNN
+	1    3155 1740
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F2A
+P 1490 1490
+F 0 "R?" V 1465 1690 50  0000 C CNN
+F 1 "82" V 1490 1490 50  0000 C CNN
+	1    1490 1490
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F29
+P 1490 1690
+F 0 "R?" V 1465 1890 50  0000 C CNN
+F 1 "82" V 1490 1690 50  0000 C CNN
+	1    1490 1690
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F28
+P 1490 1590
+F 0 "R?" V 1465 1790 50  0000 C CNN
+F 1 "82" V 1490 1590 50  0000 C CNN
+	1    1490 1590
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F27
+P 1490 1790
+F 0 "R?" V 1465 1990 50  0000 C CNN
+F 1 "82" V 1490 1790 50  0000 C CNN
+	1    1490 1790
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F26
+P 1490 1890
+F 0 "R?" V 1465 2090 50  0000 C CNN
+F 1 "82" V 1490 1890 50  0000 C CNN
+	1    1490 1890
+	0    1    1    0   
+$EndComp
+$Comp
+L ULN2804A U?
+U 1 1 51087F25
+P -467 2430
+F 0 "U?" H -467 2930 60  0000 C CNN
+F 1 "ULN2804A" H -467 3080 60  0000 C CNN
+	1    -467 2430
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 51087F24
+P -1367 3055
+F 0 "#PWR?" H -1367 3155 30  0001 C CNN
+F 1 "VCC" H -1367 3155 30  0000 C CNN
+	1    -1367 3055
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51087F23
+P -467 3630
+F 0 "#PWR?" H -467 3630 30  0001 C CNN
+F 1 "GND" H -467 3560 30  0001 C CNN
+	1    -467 3630
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F22
+P 1490 2090
+F 0 "R?" V 1465 2290 50  0000 C CNN
+F 1 "82" V 1490 2090 50  0000 C CNN
+	1    1490 2090
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F21
+P 1490 1990
+F 0 "R?" V 1465 2190 50  0000 C CNN
+F 1 "82" V 1490 1990 50  0000 C CNN
+	1    1490 1990
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 51087F20
+P -467 3630
+F 0 "#PWR?" H -467 3630 30  0001 C CNN
+F 1 "GND" H -467 3560 30  0001 C CNN
+	1    -467 3630
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 51087F1F
+P 1490 1390
+F 0 "R?" V 1465 1590 50  0000 C CNN
+F 1 "82" V 1490 1390 50  0000 C CNN
+	1    1490 1390
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
