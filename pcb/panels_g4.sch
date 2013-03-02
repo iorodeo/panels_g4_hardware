@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Feb 2013 05:54:58 PM PST
+EESchema Schematic File Version 2  date Thu 28 Feb 2013 03:25:20 PM PST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,9 +37,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
-Date "2 feb 2013"
+Date "28 feb 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,19 +48,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7650 3150 2000 1400
+S 3700 3900 2000 1400
+U 511014E4
+F0 "pwr" 60
+F1 "pwr.sch" 60
+$EndSheet
+$Sheet
+S 6400 3900 2000 1400
 U 51099D6B
 F0 "LEDs" 60
 F1 "LEDs.sch" 60
 $EndSheet
 $Sheet
-S 2150 3150 2000 1400
+S 3700 1900 2000 1400
 U 51099A3F
 F0 "conn" 60
 F1 "conn.sch" 60
 $EndSheet
 $Sheet
-S 4850 3150 2000 1400
+S 6400 1900 2000 1400
 U 510998BD
 F0 "STM32" 60
 F1 "STM32.sch" 60
