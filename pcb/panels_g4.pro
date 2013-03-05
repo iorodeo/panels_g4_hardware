@@ -1,4 +1,4 @@
-update=Fri 01 Mar 2013 02:02:39 PM PST
+update=Monday, March 04, 2013 02:36:31 PM
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -80,9 +80,10 @@ LibName32=libs/uln2804a
 LibName33=libs/leaf
 [pcbnew]
 version=1
-PadDrlX=400
-PadDimH=600
-PadDimV=600
+LastNetListRead=panels_g4.net
+PadDrlX=260
+PadDimH=394
+PadDimV=394
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -94,7 +95,6 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=98
-LastNetListRead=panels_g4.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -111,3 +111,4 @@ LibName11=mods/LED_8X8_sm
 LibName12=mods/SOCKET_8x1
 LibName13=mods/STM32F103ZE
 LibName14=mods/CONN_16x2
+LibName15=mods/CONN_16x2_SM
