@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 28 Feb 2013 03:25:20 PM PST
+EESchema Schematic File Version 2  date Tue 12 Mar 2013 12:56:47 AM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:led_8x8
 LIBS:uln2804a
 LIBS:leaf
+LIBS:led_16x16
 LIBS:panels_g4-cache
 EELAYER 25  0
 EELAYER END
@@ -39,7 +40,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 5
 Title ""
-Date "28 feb 2013"
+Date "12 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""

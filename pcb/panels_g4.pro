@@ -1,4 +1,4 @@
-update=Monday, March 04, 2013 02:36:31 PM
+update=Mon 11 Mar 2013 02:06:27 PM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -78,12 +78,12 @@ LibName30=valves
 LibName31=libs/led_8x8
 LibName32=libs/uln2804a
 LibName33=libs/leaf
+LibName34=libs/led_16x16
 [pcbnew]
 version=1
-LastNetListRead=panels_g4.net
-PadDrlX=260
-PadDimH=394
-PadDimV=394
+PadDrlX=400
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -95,6 +95,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=98
+LastNetListRead=panels_g4.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -107,8 +108,11 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=mods/LED_8X8_sm
-LibName12=mods/SOCKET_8x1
-LibName13=mods/STM32F103ZE
-LibName14=mods/CONN_16x2
-LibName15=mods/CONN_16x2_SM
+LibName11=mods/SOCKET_8x1
+LibName12=mods/STM32F103ZE
+LibName13=mods/CONN_16x2
+LibName14=mods/CONN_16x2_SM
+LibName15=mods/XZL_SOP18
+LibName16=mods/XZL_TQFP144
+LibName17=mods/LED_8X8_20mm
+LibName18=mods/LED_16X16
