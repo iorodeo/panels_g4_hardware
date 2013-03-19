@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Mar 2013 12:56:47 AM PDT
+EESchema Schematic File Version 2  date Tue 12 Mar 2013 12:36:21 PM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:led_8x8
 LIBS:uln2804a
 LIBS:leaf
 LIBS:led_16x16
+LIBS:uA7800
 LIBS:panels_g4-cache
 EELAYER 25  0
 EELAYER END
@@ -48,11 +49,85 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 9080 5300
+NoConn ~ 9080 5100
+NoConn ~ 9080 5200
+NoConn ~ 9080 5400
+NoConn ~ 9080 5500
+NoConn ~ 9080 5600
+NoConn ~ 9080 5700
+NoConn ~ 9080 5800
+NoConn ~ 9080 5900
+NoConn ~ 9080 6000
+NoConn ~ 9080 6100
+NoConn ~ 9080 5000
+NoConn ~ 9080 4600
+NoConn ~ 9080 4700
+NoConn ~ 6330 6400
+NoConn ~ 6230 6400
+NoConn ~ 6130 6400
+NoConn ~ 6030 6400
+NoConn ~ 5930 6400
+NoConn ~ 5830 6400
+NoConn ~ 5730 6400
+NoConn ~ 5630 6400
+NoConn ~ 5530 6400
+NoConn ~ 5430 6400
+NoConn ~ 5330 6400
+NoConn ~ 5230 6400
+NoConn ~ 5130 6400
+NoConn ~ 5030 6400
+NoConn ~ 4930 6400
+Wire Wire Line
+	5030 1700 5030 1610
+$Comp
+L VCC #PWR?
+U 1 1 513F826F
+P 5030 1610
+F 0 "#PWR?" H 5030 1710 30  0001 C CNN
+F 1 "VCC" H 5030 1710 30  0000 C CNN
+	1    5030 1610
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 513F825E
+P 4930 1610
+F 0 "#PWR?" H 4930 1710 30  0001 C CNN
+F 1 "VCC" H 4930 1710 30  0000 C CNN
+	1    4930 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4930 1700 4930 1610
+NoConn ~ 3130 5200
+NoConn ~ 3130 5100
+NoConn ~ 3130 5000
+NoConn ~ 3130 4900
+NoConn ~ 3130 4800
+NoConn ~ 3130 4700
+NoConn ~ 3130 4600
+NoConn ~ 3130 4500
+NoConn ~ 3130 2700
+NoConn ~ 3130 2800
+NoConn ~ 3130 2900
+NoConn ~ 3130 3000
+NoConn ~ 3130 2600
+NoConn ~ 3130 2500
+NoConn ~ 3130 2400
+NoConn ~ 3130 2300
+NoConn ~ 3130 2200
+NoConn ~ 3130 2100
+NoConn ~ 3130 2000
+NoConn ~ 5130 1700
+NoConn ~ 5330 1700
 Wire Wire Line
 	8130 1700 8130 1195
 Connection ~ 9560 1545
 Wire Wire Line
-	9560 1645 9560 1195
+	9560 1645 9560 1545
+Wire Wire Line
+	9560 1545 9560 1195
 Wire Wire Line
 	8230 1700 8230 1545
 Wire Wire Line
@@ -78,7 +153,23 @@ Wire Wire Line
 Wire Wire Line
 	4830 6495 4830 6400
 Wire Wire Line
-	5530 1600 6530 1600
+	5530 1600 5630 1600
+Wire Wire Line
+	5630 1600 5730 1600
+Wire Wire Line
+	5730 1600 5830 1600
+Wire Wire Line
+	5830 1600 5930 1600
+Wire Wire Line
+	5930 1600 6130 1600
+Wire Wire Line
+	6130 1600 6230 1600
+Wire Wire Line
+	6230 1600 6330 1600
+Wire Wire Line
+	6330 1600 6430 1600
+Wire Wire Line
+	6430 1600 6530 1600
 Wire Wire Line
 	5530 1600 5530 1700
 Connection ~ 5830 1600
@@ -94,7 +185,23 @@ Connection ~ 6330 1600
 Wire Wire Line
 	6330 1600 6330 1700
 Wire Wire Line
-	6730 1600 7730 1600
+	6730 1600 6830 1600
+Wire Wire Line
+	6830 1600 6930 1600
+Wire Wire Line
+	6930 1600 7030 1600
+Wire Wire Line
+	7030 1600 7130 1600
+Wire Wire Line
+	7130 1600 7330 1600
+Wire Wire Line
+	7330 1600 7430 1600
+Wire Wire Line
+	7430 1600 7530 1600
+Wire Wire Line
+	7530 1600 7630 1600
+Wire Wire Line
+	7630 1600 7730 1600
 Connection ~ 7630 1600
 Wire Wire Line
 	7630 1700 7630 1600
@@ -111,10 +218,6 @@ Wire Wire Line
 	6930 1600 6930 1700
 Wire Wire Line
 	6730 1600 6730 1700
-Wire Wire Line
-	2948 1100 2948 1200
-Wire Wire Line
-	3448 1200 3648 1200
 Connection ~ 8645 1543
 Connection ~ 8645 1193
 Wire Wire Line
@@ -131,10 +234,6 @@ Wire Wire Line
 	8030 843  8030 1700
 Wire Wire Line
 	7930 1700 7930 1593
-Wire Wire Line
-	2948 1200 3148 1200
-Wire Wire Line
-	3648 1200 3648 1100
 Wire Wire Line
 	9177 2500 9080 2500
 Wire Wire Line
@@ -192,13 +291,13 @@ Wire Wire Line
 Wire Wire Line
 	7930 6493 7930 6400
 Wire Wire Line
-	2228 4000 2228 3900
+	2358 4000 2358 3900
 Wire Wire Line
 	3028 4000 3130 4000
 Wire Wire Line
 	3028 4100 3130 4100
 Wire Wire Line
-	2228 3900 3130 3900
+	2358 3900 3130 3900
 Wire Wire Line
 	9080 4800 9181 4800
 Wire Wire Line
@@ -236,12 +335,6 @@ Wire Wire Line
 Wire Wire Line
 	5230 1593 5230 1700
 Wire Wire Line
-	5030 1593 5030 1700
-Wire Wire Line
-	5330 1593 5330 1700
-Wire Wire Line
-	4930 1593 4930 1700
-Wire Wire Line
 	10130 4295 10130 4193
 Wire Wire Line
 	10530 4193 10630 4193
@@ -278,7 +371,9 @@ Connection ~ 5930 1600
 Wire Wire Line
 	6030 1700 6030 1470
 Wire Wire Line
-	3580 6895 4080 6895
+	3580 6895 3980 6895
+Wire Wire Line
+	3980 6895 4080 6895
 Connection ~ 3980 6895
 Wire Wire Line
 	3030 6100 3130 6100
@@ -389,15 +484,6 @@ F 1 "VCC" H 6030 1570 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR34
-U 1 1 510B1E3B
-P 4930 1593
-F 0 "#PWR34" H 4930 1653 30  0001 C CNN
-F 1 "VAA" H 4930 1703 30  0000 C CNN
-	1    4930 1593
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR031
 U 1 1 510B1E3A
 P 5230 1593
@@ -406,10 +492,6 @@ F 1 "GND" H 5230 1523 30  0001 C CNN
 	1    5230 1593
 	1    0    0    1   
 $EndComp
-Text GLabel 5030 1593 1    60   BiDi ~ 0
-VREF
-Text GLabel 5330 1593 1    60   BiDi ~ 0
-VBAT
 Text GLabel 6530 6493 3    60   BiDi ~ 0
 R15
 Text GLabel 9183 3000 2    60   BiDi ~ 0
@@ -449,10 +531,10 @@ JTAG-TRST
 $Comp
 L GND #PWR032
 U 1 1 510B1B6F
-P 2228 4000
-F 0 "#PWR032" H 2228 4000 30  0001 C CNN
-F 1 "GND" H 2228 3930 30  0001 C CNN
-	1    2228 4000
+P 2358 4000
+F 0 "#PWR032" H 2358 4000 30  0001 C CNN
+F 1 "GND" H 2358 3930 30  0001 C CNN
+	1    2358 4000
 	1    0    0    -1  
 $EndComp
 Text GLabel 7930 6493 3    60   BiDi ~ 0
@@ -535,31 +617,6 @@ Text GLabel 9177 2600 2    60   BiDi ~ 0
 14/MC14
 Text GLabel 3030 5600 0    60   BiDi ~ 0
 2/MC2
-$Comp
-L JP_SW JP1
-U 1 1 4D54699B
-P 3298 1200
-AR Path="/51099A3F/4D54699B" Ref="JP1"  Part="1" 
-AR Path="/510998BD/4D54699B" Ref="JP1"  Part="1" 
-F 0 "JP1" H 3398 1300 50  0000 C CNN
-F 1 "JP_SW" H 3298 1100 50  0000 C CNN
-F 2 "JP_SW" H 3298 1350 50  0001 C CNN
-	1    3298 1200
-	1    0    0    -1  
-$EndComp
-Text GLabel 3648 1100 1    60   BiDi ~ 0
-VREF
-$Comp
-L VAA #PWR054
-U 1 1 4D52E865
-P 2948 1100
-AR Path="/51099A3F/4D52E865" Ref="#PWR054"  Part="1" 
-AR Path="/510998BD/4D52E865" Ref="#PWR32"  Part="1" 
-F 0 "#PWR32" H 2948 1160 30  0001 C CNN
-F 1 "VAA" H 2948 1210 30  0000 C CNN
-	1    2948 1100
-	1    0    0    -1  
-$EndComp
 Text GLabel 7930 1593 1    60   BiDi ~ 0
 RST
 Text GLabel 1940 6825 2    60   BiDi ~ 0

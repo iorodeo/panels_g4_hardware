@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 12 Mar 2013 12:56:47 AM PDT
+EESchema Schematic File Version 2  date Tue 12 Mar 2013 12:36:21 PM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:led_8x8
 LIBS:uln2804a
 LIBS:leaf
 LIBS:led_16x16
+LIBS:uA7800
 LIBS:panels_g4-cache
 EELAYER 25  0
 EELAYER END

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 11 Mar 2013 10:06:59 PM PDT
+EESchema Schematic File Version 2  date Tue 12 Mar 2013 12:34:42 PM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:led_8x8
 LIBS:uln2804a
 LIBS:leaf
 LIBS:led_16x16
+LIBS:uA7800
 LIBS:panels_g4-cache
 EELAYER 25  0
 EELAYER END
@@ -48,15 +49,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L LED_16X16 MATRIX1
-U 1 1 513E1B4D
-P 6005 3335
-F 0 "MATRIX1" H 6005 3835 60  0000 C CNN
-F 1 "LED_16X16" H 6005 3985 60  0000 C CNN
-	1    6005 3335
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	3360 5480 3710 5480
 Wire Wire Line
 	7510 3185 7255 3185
 Wire Wire Line
@@ -73,22 +67,6 @@ Wire Wire Line
 	7510 3085 7255 3085
 Wire Wire Line
 	7510 3285 7255 3285
-Text Label 7510 2685 2    60   ~ 0
-C14
-Text Label 7510 2585 2    60   ~ 0
-C15
-Text Label 7510 2785 2    60   ~ 0
-C13
-Text Label 7510 2885 2    60   ~ 0
-C12
-Text Label 7510 2985 2    60   ~ 0
-C11
-Text Label 7510 3085 2    60   ~ 0
-C10
-Text Label 7510 3185 2    60   ~ 0
-C9
-Text Label 7510 3285 2    60   ~ 0
-C8
 Wire Wire Line
 	7510 4085 7255 4085
 Wire Wire Line
@@ -105,22 +83,6 @@ Wire Wire Line
 	7510 3785 7255 3785
 Wire Wire Line
 	7510 3985 7255 3985
-Text Label 7510 4085 2    60   ~ 0
-C0
-Text Label 7510 3985 2    60   ~ 0
-C1
-Text Label 7510 3885 2    60   ~ 0
-C2
-Text Label 7510 3785 2    60   ~ 0
-C3
-Text Label 7510 3685 2    60   ~ 0
-C4
-Text Label 7510 3585 2    60   ~ 0
-C5
-Text Label 7510 3385 2    60   ~ 0
-C7
-Text Label 7510 3485 2    60   ~ 0
-C6
 Wire Wire Line
 	3255 3385 3695 3385
 Wire Wire Line
@@ -160,21 +122,19 @@ Wire Wire Line
 Wire Wire Line
 	3270 3285 3695 3285
 Wire Wire Line
-	3490 5880 3710 5880
+	3360 5880 3710 5880
 Wire Wire Line
-	3490 5780 3710 5780
+	3360 5780 3710 5780
 Wire Wire Line
-	3490 5480 3710 5480
+	3710 5580 3360 5580
 Wire Wire Line
-	3490 5580 3710 5580
+	3360 5680 3710 5680
 Wire Wire Line
-	3490 5680 3710 5680
+	3710 5380 3360 5380
 Wire Wire Line
-	3490 5380 3710 5380
+	3710 5280 3360 5280
 Wire Wire Line
-	3490 5280 3710 5280
-Wire Wire Line
-	3490 5180 3710 5180
+	3710 5180 3360 5180
 Wire Wire Line
 	5565 5880 5310 5880
 Wire Wire Line
@@ -194,43 +154,43 @@ Wire Wire Line
 Wire Wire Line
 	4510 6580 4510 6730
 Wire Wire Line
-	7295 6525 7295 6675
+	7415 6525 7415 6675
 Wire Wire Line
-	8350 5725 8095 5725
+	8470 5725 8215 5725
 Wire Wire Line
-	8350 5525 8095 5525
+	8470 5525 8215 5525
 Wire Wire Line
-	8095 5325 8350 5325
+	8215 5325 8470 5325
 Wire Wire Line
-	8095 5125 8350 5125
+	8215 5125 8470 5125
 Wire Wire Line
-	8350 5225 8095 5225
+	8470 5225 8215 5225
 Wire Wire Line
-	8350 5425 8095 5425
+	8470 5425 8215 5425
 Wire Wire Line
-	8350 5625 8095 5625
+	8470 5625 8215 5625
 Wire Wire Line
-	8350 5825 8095 5825
+	8470 5825 8215 5825
 Wire Wire Line
-	6275 5125 6495 5125
+	6275 5125 6615 5125
 Wire Wire Line
-	6275 5225 6495 5225
+	6275 5225 6615 5225
 Wire Wire Line
-	6275 5325 6495 5325
+	6275 5325 6615 5325
 Wire Wire Line
-	6275 5625 6495 5625
+	6275 5625 6615 5625
 Wire Wire Line
-	6275 5525 6495 5525
+	6275 5525 6615 5525
 Wire Wire Line
-	6275 5425 6495 5425
+	6275 5425 6615 5425
 Wire Wire Line
-	6275 5725 6495 5725
+	6275 5725 6615 5725
 Wire Wire Line
-	6275 5825 6495 5825
+	6275 5825 6615 5825
 Wire Wire Line
-	8095 5925 8200 5925
+	8215 5925 8320 5925
 Wire Wire Line
-	8200 5925 8200 6095
+	8320 5925 8320 6095
 Wire Wire Line
 	3255 4085 3695 4085
 Wire Wire Line
@@ -261,6 +221,49 @@ Wire Wire Line
 	4195 3585 4755 3585
 Wire Wire Line
 	4195 3485 4755 3485
+Text GLabel 3360 5280 0    60   Input ~ 0
+C6
+$Comp
+L LED_16X16 MATRIX1
+U 1 1 513E1B4D
+P 6005 3335
+F 0 "MATRIX1" H 6005 3835 60  0000 C CNN
+F 1 "LED_16X16" H 6005 3985 60  0000 C CNN
+	1    6005 3335
+	1    0    0    -1  
+$EndComp
+Text Label 7510 2685 2    60   ~ 0
+C14
+Text Label 7510 2585 2    60   ~ 0
+C15
+Text Label 7510 2785 2    60   ~ 0
+C13
+Text Label 7510 2885 2    60   ~ 0
+C12
+Text Label 7510 2985 2    60   ~ 0
+C11
+Text Label 7510 3085 2    60   ~ 0
+C10
+Text Label 7510 3185 2    60   ~ 0
+C9
+Text Label 7510 3285 2    60   ~ 0
+C8
+Text Label 7510 4085 2    60   ~ 0
+C0
+Text Label 7510 3985 2    60   ~ 0
+C1
+Text Label 7510 3885 2    60   ~ 0
+C2
+Text Label 7510 3785 2    60   ~ 0
+C3
+Text Label 7510 3685 2    60   ~ 0
+C4
+Text Label 7510 3585 2    60   ~ 0
+C5
+Text Label 7510 3385 2    60   ~ 0
+C7
+Text Label 7510 3485 2    60   ~ 0
+C6
 $Comp
 L R RR17
 U 1 1 51100077
@@ -352,19 +355,19 @@ R0
 $Comp
 L ULN2804A U2
 U 1 1 5110001A
-P 7295 5475
-F 0 "U2" H 7295 5975 60  0000 C CNN
-F 1 "ULN2804A" H 7295 6125 60  0000 C CNN
-	1    7295 5475
+P 7415 5475
+F 0 "U2" H 7415 5975 60  0000 C CNN
+F 1 "ULN2804A" H 7415 6125 60  0000 C CNN
+	1    7415 5475
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR014
 U 1 1 51100019
-P 8200 6095
-F 0 "#PWR014" H 8200 6195 30  0001 C CNN
-F 1 "VCC" H 8200 6195 30  0000 C CNN
-	1    8200 6095
+P 8320 6095
+F 0 "#PWR014" H 8320 6195 30  0001 C CNN
+F 1 "VCC" H 8320 6195 30  0000 C CNN
+	1    8320 6095
 	-1   0    0    1   
 $EndComp
 Text GLabel 6275 5825 0    60   Input ~ 0
@@ -383,29 +386,29 @@ Text GLabel 6275 5225 0    60   Input ~ 0
 C14
 Text GLabel 6275 5125 0    60   Input ~ 0
 C15
-Text Label 8350 5225 2    60   ~ 0
+Text Label 8470 5225 2    60   ~ 0
 C14
-Text Label 8350 5125 2    60   ~ 0
+Text Label 8470 5125 2    60   ~ 0
 C15
-Text Label 8350 5325 2    60   ~ 0
+Text Label 8470 5325 2    60   ~ 0
 C13
-Text Label 8350 5425 2    60   ~ 0
+Text Label 8470 5425 2    60   ~ 0
 C12
-Text Label 8350 5525 2    60   ~ 0
+Text Label 8470 5525 2    60   ~ 0
 C11
-Text Label 8350 5625 2    60   ~ 0
+Text Label 8470 5625 2    60   ~ 0
 C10
-Text Label 8350 5725 2    60   ~ 0
+Text Label 8470 5725 2    60   ~ 0
 C9
-Text Label 8350 5825 2    60   ~ 0
+Text Label 8470 5825 2    60   ~ 0
 C8
 $Comp
 L GND #PWR015
 U 1 1 51100018
-P 7295 6675
-F 0 "#PWR015" H 7295 6675 30  0001 C CNN
-F 1 "GND" H 7295 6605 30  0001 C CNN
-	1    7295 6675
+P 7415 6675
+F 0 "#PWR015" H 7415 6675 30  0001 C CNN
+F 1 "GND" H 7415 6605 30  0001 C CNN
+	1    7415 6675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -433,21 +436,19 @@ Text Label 5565 5180 2    60   ~ 0
 C7
 Text Label 5565 5280 2    60   ~ 0
 C6
-Text GLabel 3490 5180 0    60   Input ~ 0
+Text GLabel 3360 5180 0    60   Input ~ 0
 C7
-Text GLabel 3490 5280 0    60   Input ~ 0
-C6
-Text GLabel 3490 5380 0    60   Input ~ 0
+Text GLabel 3360 5380 0    60   Input ~ 0
 C5
-Text GLabel 3490 5680 0    60   Input ~ 0
+Text GLabel 3360 5680 0    60   Input ~ 0
 C2
-Text GLabel 3490 5580 0    60   Input ~ 0
+Text GLabel 3360 5580 0    60   Input ~ 0
 C3
-Text GLabel 3490 5480 0    60   Input ~ 0
+Text GLabel 3360 5480 0    60   Input ~ 0
 C4
-Text GLabel 3490 5780 0    60   Input ~ 0
+Text GLabel 3360 5780 0    60   Input ~ 0
 C1
-Text GLabel 3490 5880 0    60   Input ~ 0
+Text GLabel 3360 5880 0    60   Input ~ 0
 C0
 Text GLabel 3270 3285 0    60   Input ~ 0
 R8
