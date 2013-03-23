@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 20 Mar 2013 06:28:46 PM PDT
+EESchema Schematic File Version 2  date Fri 22 Mar 2013 02:05:30 PM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,6 +34,7 @@ LIBS:uln2804a
 LIBS:leaf
 LIBS:led_16x16
 LIBS:uA7800
+LIBS:miniusb
 LIBS:panels_g4-cache
 EELAYER 25  0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 5
 Title ""
-Date "21 mar 2013"
+Date "22 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -362,10 +363,10 @@ F 1 "ULN2804A" H 7415 6125 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR18
+L VCC #PWR015
 U 1 1 51100019
 P 8320 6095
-F 0 "#PWR18" H 8320 6195 30  0001 C CNN
+F 0 "#PWR015" H 8320 6195 30  0001 C CNN
 F 1 "VCC" H 8320 6195 30  0000 C CNN
 	1    8320 6095
 	-1   0    0    1   
@@ -403,19 +404,19 @@ C9
 Text Label 8470 5825 2    60   ~ 0
 C8
 $Comp
-L GND #PWR17
+L GND #PWR016
 U 1 1 51100018
 P 7415 6675
-F 0 "#PWR17" H 7415 6675 30  0001 C CNN
+F 0 "#PWR016" H 7415 6675 30  0001 C CNN
 F 1 "GND" H 7415 6605 30  0001 C CNN
 	1    7415 6675
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR15
+L GND #PWR017
 U 1 1 51099CA6
 P 4510 6730
-F 0 "#PWR15" H 4510 6730 30  0001 C CNN
+F 0 "#PWR017" H 4510 6730 30  0001 C CNN
 F 1 "GND" H 4510 6660 30  0001 C CNN
 	1    4510 6730
 	1    0    0    -1  
@@ -467,10 +468,10 @@ R14
 Text GLabel 3270 2585 0    60   Input ~ 0
 R15
 $Comp
-L VCC #PWR16
+L VCC #PWR018
 U 1 1 51099CA5
 P 5415 6150
-F 0 "#PWR16" H 5415 6250 30  0001 C CNN
+F 0 "#PWR018" H 5415 6250 30  0001 C CNN
 F 1 "VCC" H 5415 6250 30  0000 C CNN
 	1    5415 6150
 	-1   0    0    1   

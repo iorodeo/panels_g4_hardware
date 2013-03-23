@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Wed 20 Mar 2013 05:30:04 PM PDT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 21 Mar 2013 03:42:03 PM PDT
 
 BeginCmp
 TimeStamp = /510998BD/4BB523CB;
@@ -18,28 +18,28 @@ BeginCmp
 TimeStamp = /511014E4/4B915CF4;
 Reference = C1;
 ValeurCmp = 47pF;
-IdModule  = SM1206;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /511014E4/4B915CF5;
 Reference = C2;
 ValeurCmp = 47pF;
-IdModule  = SM1206;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /511014E4/513F56A1;
 Reference = C3;
 ValeurCmp = 22uF;
-IdModule  = ;
+IdModule  = UD-4x5;
 EndCmp
 
 BeginCmp
 TimeStamp = /511014E4/4F60FA13;
 Reference = C4;
 ValeurCmp = 22uF;
-IdModule  = ;
+IdModule  = UD-4x5;
 EndCmp
 
 BeginCmp
@@ -88,14 +88,14 @@ BeginCmp
 TimeStamp = /51099A3F/513F7F12;
 Reference = C11;
 ValeurCmp = C;
-IdModule  = SM1206;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /51099A3F/513F7F05;
 Reference = C12;
 ValeurCmp = C;
-IdModule  = SM1206;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
@@ -158,28 +158,28 @@ BeginCmp
 TimeStamp = /510998BD/4B837587;
 Reference = C21;
 ValeurCmp = 18pF;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /510998BD/4B837588;
 Reference = C22;
 ValeurCmp = 18pF;
-IdModule  = ;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /511014E4/513EDEAE;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = LEDSM0603;
+IdModule  = SOD323-W;
 EndCmp
 
 BeginCmp
 TimeStamp = /511014E4/513EDECE;
 Reference = D2;
 ValeurCmp = DIODE;
-IdModule  = LEDSM0603;
+IdModule  = SOD323-W;
 EndCmp
 
 BeginCmp
@@ -200,21 +200,21 @@ BeginCmp
 TimeStamp = /510998BD/4B8383C6;
 Reference = OSC1;
 ValeurCmp = 8Mhz;
-IdModule  = ;
+IdModule  = OSC_8MHZ;
 EndCmp
 
 BeginCmp
 TimeStamp = /51099A3F/513EF7CD;
 Reference = P1;
 ValeurCmp = CONN_16X2;
-IdModule  = CONN_16x2;
+IdModule  = CONN_16X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /51099A3F/4BAE3BF5;
 Reference = P2;
 ValeurCmp = CONN_16X2;
-IdModule  = CONN_16x2;
+IdModule  = CONN_16X2;
 EndCmp
 
 BeginCmp
@@ -242,14 +242,14 @@ BeginCmp
 TimeStamp = /511014E4/4B915CFE;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = ;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /511014E4/4B915D04;
 Reference = Q2;
 ValeurCmp = NPN;
-IdModule  = ;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -452,7 +452,7 @@ BeginCmp
 TimeStamp = /511014E4/513F7AA6;
 Reference = U1;
 ValeurCmp = UA7800;
-IdModule  = XZL_SOP18;
+IdModule  = UA78M00;
 EndCmp
 
 BeginCmp
@@ -477,9 +477,9 @@ IdModule  = XZL_TQFP144;
 EndCmp
 
 BeginCmp
-TimeStamp = /511014E4/4B915CF6;
+TimeStamp = /511014E4/514B87E7;
 Reference = USB1;
-ValeurCmp = USB;
+ValeurCmp = MINIUSB;
 IdModule  = XZL_MINIUSB;
 EndCmp
 

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 20 Mar 2013 06:41:12 PM PDT
+EESchema Schematic File Version 2  date Fri 22 Mar 2013 07:46:03 PM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,6 +34,7 @@ LIBS:uln2804a
 LIBS:leaf
 LIBS:led_16x16
 LIBS:uA7800
+LIBS:miniusb
 LIBS:panels_g4-cache
 EELAYER 25  0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 5
 Title ""
-Date "21 mar 2013"
+Date "22 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -49,85 +50,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 9080 5300
-NoConn ~ 9080 5100
-NoConn ~ 9080 5200
-NoConn ~ 9080 5400
-NoConn ~ 9080 5500
-NoConn ~ 9080 5600
-NoConn ~ 9080 5700
-NoConn ~ 9080 5800
-NoConn ~ 9080 5900
-NoConn ~ 9080 6000
-NoConn ~ 9080 6100
-NoConn ~ 9080 5000
-NoConn ~ 9080 4600
-NoConn ~ 9080 4700
-NoConn ~ 6330 6400
-NoConn ~ 6230 6400
-NoConn ~ 6130 6400
-NoConn ~ 6030 6400
-NoConn ~ 5930 6400
-NoConn ~ 5830 6400
-NoConn ~ 5730 6400
-NoConn ~ 5630 6400
-NoConn ~ 5530 6400
-NoConn ~ 5430 6400
-NoConn ~ 5330 6400
-NoConn ~ 5230 6400
-NoConn ~ 5130 6400
-NoConn ~ 5030 6400
-NoConn ~ 4930 6400
+Text GLabel 3029 4500 0    60   BiDi ~ 0
+DISC
+Wire Wire Line
+	3029 4500 3130 4500
+Connection ~ 8660 1545
+Wire Wire Line
+	8910 1545 8230 1545
+Connection ~ 8660 1195
+Wire Wire Line
+	8910 1195 8130 1195
 Wire Wire Line
 	5030 1700 5030 1610
-$Comp
-L VCC #PWR027
-U 1 1 513F826F
-P 5030 1610
-F 0 "#PWR027" H 5030 1710 30  0001 C CNN
-F 1 "VCC" H 5030 1710 30  0000 C CNN
-	1    5030 1610
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR028
-U 1 1 513F825E
-P 4930 1610
-F 0 "#PWR028" H 4930 1710 30  0001 C CNN
-F 1 "VCC" H 4930 1710 30  0000 C CNN
-	1    4930 1610
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4930 1700 4930 1610
-NoConn ~ 3130 5200
-NoConn ~ 3130 5100
-NoConn ~ 3130 5000
-NoConn ~ 3130 4900
-NoConn ~ 3130 4800
-NoConn ~ 3130 4700
-NoConn ~ 3130 4600
-NoConn ~ 3130 4500
-NoConn ~ 3130 2700
-NoConn ~ 3130 2800
-NoConn ~ 3130 2900
-NoConn ~ 3130 3000
-NoConn ~ 3130 2600
-NoConn ~ 3130 2500
-NoConn ~ 3130 2400
-NoConn ~ 3130 2300
-NoConn ~ 3130 2200
-NoConn ~ 3130 2100
-NoConn ~ 3130 2000
-NoConn ~ 5130 1700
-NoConn ~ 5330 1700
 Wire Wire Line
-	8130 1700 8130 1195
+	8130 1195 8130 1700
 Connection ~ 9560 1545
 Wire Wire Line
 	9560 1645 9560 1195
 Wire Wire Line
-	8230 1700 8230 1545
+	8230 1545 8230 1700
 Wire Wire Line
 	3035 3300 3130 3300
 Wire Wire Line
@@ -147,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	3980 6495 4830 6495
 Wire Wire Line
-	3580 6760 3580 6895
+	3580 6895 3580 6760
 Wire Wire Line
 	4830 6495 4830 6400
 Wire Wire Line
@@ -184,10 +127,6 @@ Wire Wire Line
 	6930 1600 6930 1700
 Wire Wire Line
 	6730 1600 6730 1700
-Connection ~ 8645 1543
-Connection ~ 8645 1193
-Wire Wire Line
-	8130 1195 8910 1195
 Wire Wire Line
 	8530 943  8530 843 
 Wire Wire Line
@@ -337,7 +276,7 @@ Connection ~ 5930 1600
 Wire Wire Line
 	6030 1700 6030 1470
 Wire Wire Line
-	3580 6895 4080 6895
+	4080 6895 3580 6895
 Connection ~ 3980 6895
 Wire Wire Line
 	3030 6100 3130 6100
@@ -358,11 +297,76 @@ Wire Wire Line
 Wire Wire Line
 	3035 3400 3130 3400
 Wire Wire Line
-	9560 1545 9310 1545
-Wire Wire Line
-	8230 1545 8910 1545
+	9310 1545 9560 1545
 Wire Wire Line
 	9560 1195 9310 1195
+NoConn ~ 9080 5300
+NoConn ~ 9080 5100
+NoConn ~ 9080 5200
+NoConn ~ 9080 5400
+NoConn ~ 9080 5500
+NoConn ~ 9080 5600
+NoConn ~ 9080 5700
+NoConn ~ 9080 5800
+NoConn ~ 9080 5900
+NoConn ~ 9080 6000
+NoConn ~ 9080 6100
+NoConn ~ 9080 5000
+NoConn ~ 9080 4600
+NoConn ~ 9080 4700
+NoConn ~ 6330 6400
+NoConn ~ 6230 6400
+NoConn ~ 6130 6400
+NoConn ~ 6030 6400
+NoConn ~ 5930 6400
+NoConn ~ 5830 6400
+NoConn ~ 5730 6400
+NoConn ~ 5630 6400
+NoConn ~ 5530 6400
+NoConn ~ 5430 6400
+NoConn ~ 5330 6400
+NoConn ~ 5230 6400
+NoConn ~ 5130 6400
+NoConn ~ 5030 6400
+NoConn ~ 4930 6400
+$Comp
+L VCC #PWR027
+U 1 1 513F826F
+P 5030 1610
+F 0 "#PWR027" H 5030 1710 30  0001 C CNN
+F 1 "VCC" H 5030 1710 30  0000 C CNN
+	1    5030 1610
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR028
+U 1 1 513F825E
+P 4930 1610
+F 0 "#PWR028" H 4930 1710 30  0001 C CNN
+F 1 "VCC" H 4930 1710 30  0000 C CNN
+	1    4930 1610
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3130 5200
+NoConn ~ 3130 5100
+NoConn ~ 3130 5000
+NoConn ~ 3130 4900
+NoConn ~ 3130 4800
+NoConn ~ 3130 4700
+NoConn ~ 3130 4600
+NoConn ~ 3130 2700
+NoConn ~ 3130 2800
+NoConn ~ 3130 2900
+NoConn ~ 3130 3000
+NoConn ~ 3130 2600
+NoConn ~ 3130 2500
+NoConn ~ 3130 2400
+NoConn ~ 3130 2300
+NoConn ~ 3130 2200
+NoConn ~ 3130 2100
+NoConn ~ 3130 2000
+NoConn ~ 5130 1700
+NoConn ~ 5330 1700
 $Comp
 L BUT BUT1
 U 1 1 4BB523CB
@@ -597,11 +601,11 @@ $EndComp
 $Comp
 L OSC OSC1
 U 1 1 4B8383C6
-P 8645 1395
-F 0 "OSC1" H 8745 1445 50  0000 L CNN
-F 1 "8Mhz" H 8745 1345 50  0000 L CNN
-F 4 "535-9721-1-ND" H 8645 1395 60  0001 C CNN "Digikey P/N"
-	1    8645 1395
+P 8660 1395
+F 0 "OSC1" H 8760 1445 50  0000 L CNN
+F 1 "8Mhz" H 8760 1345 50  0000 L CNN
+F 4 "535-9721-1-ND" H 8660 1395 60  0001 C CNN "Digikey P/N"
+	1    8660 1395
 	1    0    0    -1  
 $EndComp
 $Comp
