@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 22 Mar 2013 07:46:03 PM PDT
+EESchema Schematic File Version 2  date Mon 25 Mar 2013 08:21:12 AM PDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,6 +35,7 @@ LIBS:leaf
 LIBS:led_16x16
 LIBS:uA7800
 LIBS:miniusb
+LIBS:mount_hole
 LIBS:panels_g4-cache
 EELAYER 25  0
 EELAYER END
@@ -42,7 +43,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 5
 Title ""
-Date "22 mar 2013"
+Date "25 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,6 +51,42 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MOUNT_HOLE M1
+U 1 1 51506B41
+P 3400 950
+F 0 "M1" H 3400 1100 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 3400 750 60  0000 C CNN
+	1    3400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE M2
+U 1 1 51506B40
+P 4000 950
+F 0 "M2" H 4000 1100 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 4000 750 60  0000 C CNN
+	1    4000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE M4
+U 1 1 51506B37
+P 4000 1400
+F 0 "M4" H 4000 1550 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 4000 1200 60  0000 C CNN
+	1    4000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT_HOLE M3
+U 1 1 51506B2C
+P 3400 1400
+F 0 "M3" H 3400 1550 60  0000 C CNN
+F 1 "MOUNT_HOLE" H 3400 1200 60  0000 C CNN
+	1    3400 1400
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2250 5700 2250 5125
 Connection ~ 5975 7035
