@@ -1,0 +1,14 @@
+EESchema-LIBRARY Version 2.3  Date: Mon 25 Mar 2013 08:19:28 AM PDT
+#encoding utf-8
+#
+# MOUNT_HOLE
+#
+DEF MOUNT_HOLE M 0 40 Y Y 1 F N
+F0 "M" 0 150 60 H V C CNN
+F1 "MOUNT_HOLE" 0 -200 60 H V C CNN
+DRAW
+C 0 0 71 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
