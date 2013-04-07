@@ -1,4 +1,4 @@
-update=Sun 07 Apr 2013 09:31:05 AM PDT
+update=Sun 07 Apr 2013 12:26:43 PM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -75,11 +75,10 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=max6960
-LibName32=led-matrix-8x8
+LibName31=led-matrix-8x8
 [pcbnew]
 version=1
-PadDrlX=400
+PadDrlX=320
 PadDimH=600
 PadDimV=600
 BoardThickness=630
@@ -106,7 +105,5 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=MQFP44
-LibName12=LED_8X8
-LibName13=HEADER_BOT
-LibName14=HEADER_TOP
+LibName11=LED_8X8
+LibName12=pin_array_8x2_custom

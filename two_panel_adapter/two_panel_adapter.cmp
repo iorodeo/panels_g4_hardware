@@ -1,0 +1,31 @@
+Cmp-Mod V01 Genere par PcbNew le Sun 07 Apr 2013 12:28:55 PM PDT
+
+BeginCmp
+TimeStamp = /5161B1D4;
+Reference = M1;
+ValeurCmp = LED-MATRIX-8X8;
+IdModule  = LED_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5161BB2C;
+Reference = M2;
+ValeurCmp = LED-MATRIX-8X8;
+IdModule  = LED_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5161B211;
+Reference = P1;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2_custom;
+EndCmp
+
+BeginCmp
+TimeStamp = /5161BB2B;
+Reference = P2;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2_custom;
+EndCmp
+
+EndListe
