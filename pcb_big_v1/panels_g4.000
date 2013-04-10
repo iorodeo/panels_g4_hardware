@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 06 Apr 2013 11:40:58 PM PDT
+PCBNEW-BOARD Version 1 date Sat 06 Apr 2013 11:41:56 PM PDT
 
 # Created by Pcbnew(2011-aug-04)-testing
 
@@ -9,8 +9,8 @@ Ly 1FFF8001
 EnabledLayers 10FF8001
 Links 164
 NoConn 0
-Di 19804 9007 70076 35158
-Ndraw 11
+Di 19804 9710 70076 35158
+Ndraw 10
 Ntrack 954
 Nzone 0
 BoardThickness 630
@@ -4024,13 +4024,8 @@ Po 54458 27423 197 197 39 0
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
-Te "IO Rodeo Inc. (626) 793-8284"
-Po 51050 9400 394 394 79 0
-De 21 1 0 Normal C
-$EndTEXTPCB
-$TEXTPCB
-Te "G4 Flypanel v1.0 (2013)"
-Po 51250 10350 394 394 79 0
+Te "G4 Flypanel Test v1.0"
+Po 63550 10600 394 394 79 0
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TRACK
