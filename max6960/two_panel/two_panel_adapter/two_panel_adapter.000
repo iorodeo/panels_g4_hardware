@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 12 Apr 2013 10:21:53 AM PDT
+PCBNEW-BOARD Version 1 date Fri 12 Apr 2013 10:26:16 AM PDT
 
 # Created by Pcbnew(2011-aug-04)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 40
 NoConn 0
 Di 19779 19779 32819 45418
-Ndraw 8
+Ndraw 7
 Ntrack 209
 Nzone 0
 BoardThickness 630
@@ -734,14 +734,10 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  pin_array_8x2_custom
 $TEXTPCB
-Te "IO Rodeo Inc."
-Po 26560 33500 400 600 80 0
-De 21 1 0 Normal C
-$EndTEXTPCB
-$TEXTPCB
-Te "Two Panel Adpapter V0.1"
-Po 26350 31890 400 600 80 0
-De 21 1 0 Normal C
+Te "Two Panel Adapter V0.1"
+nl "IO Rodeo Inc"
+Po 26280 21350 400 600 80 0
+De 20 0 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
 Te "BOTTOM"

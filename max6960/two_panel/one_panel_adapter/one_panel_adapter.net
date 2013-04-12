@@ -1,0 +1,125 @@
+# EESchema Netlist Version 1.1 created  Fri 12 Apr 2013 03:34:15 PM PDT
+(
+ ( /5161BB2B $noname  P2 CONN_8X2 {Lib=CONN_8X2}
+  (    1 /ROW5 )
+  (    2 /ROW7 )
+  (    3 /COL10 )
+  (    4 /COL11 )
+  (    5 /ROW8 )
+  (    6 /COL13 )
+  (    7 /ROW6 )
+  (    8 /ROW3 )
+  (    9 /ROW1 )
+  (   10 /COL12 )
+  (   11 /COL14 )
+  (   12 /ROW4 )
+  (   13 /COL1 )
+  (   14 /ROW2 )
+  (   15 /COL15 )
+  (   16 /COL16 )
+ )
+ ( /5161B211 $noname  P1 CONN_8X2 {Lib=CONN_8X2}
+  (    1 /ROW5 )
+  (    2 /ROW7 )
+  (    3 /COL10 )
+  (    4 /COL11 )
+  (    5 /ROW8 )
+  (    6 /COL13 )
+  (    7 /ROW6 )
+  (    8 /ROW3 )
+  (    9 /ROW1 )
+  (   10 /COL12 )
+  (   11 /COL14 )
+  (   12 /ROW4 )
+  (   13 /COL1 )
+  (   14 /ROW2 )
+  (   15 /COL15 )
+  (   16 /COL16 )
+ )
+ ( /5161B1D4 $noname  M1 LED-MATRIX-8X8 {Lib=LED-MATRIX-8X8}
+  (    1 /ROW5 )
+  (    2 /ROW7 )
+  (    3 /COL10 )
+  (    4 /COL11 )
+  (    5 /ROW8 )
+  (    6 /COL13 )
+  (    7 /ROW6 )
+  (    8 /ROW3 )
+  (    9 /ROW1 )
+  (   10 /COL12 )
+  (   11 /COL14 )
+  (   12 /ROW4 )
+  (   13 /COL1 )
+  (   14 /ROW2 )
+  (   15 /COL15 )
+  (   16 /COL16 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "/ROW4" "ROW4"
+ P2 12
+ P1 12
+ M1 12
+Net 2 "/ROW2" "ROW2"
+ P2 14
+ M1 14
+ P1 14
+Net 3 "/COL12" "COL12"
+ M1 10
+ P1 10
+ P2 10
+Net 4 "/COL14" "COL14"
+ M1 11
+ P1 11
+ P2 11
+Net 5 "/COL1" "COL1"
+ M1 13
+ P2 13
+ P1 13
+Net 6 "/COL15" "COL15"
+ M1 15
+ P2 15
+ P1 15
+Net 7 "/COL16" "COL16"
+ P1 16
+ M1 16
+ P2 16
+Net 8 "/ROW5" "ROW5"
+ P2 1
+ M1 1
+ P1 1
+Net 9 "/ROW7" "ROW7"
+ P2 2
+ M1 2
+ P1 2
+Net 10 "/COL10" "COL10"
+ P2 3
+ M1 3
+ P1 3
+Net 11 "/COL11" "COL11"
+ M1 4
+ P1 4
+ P2 4
+Net 12 "/ROW8" "ROW8"
+ P2 5
+ M1 5
+ P1 5
+Net 13 "/COL13" "COL13"
+ P2 6
+ M1 6
+ P1 6
+Net 14 "/ROW6" "ROW6"
+ P2 7
+ M1 7
+ P1 7
+Net 15 "/ROW3" "ROW3"
+ M1 8
+ P1 8
+ P2 8
+Net 16 "/ROW1" "ROW1"
+ P1 9
+ M1 9
+ P2 9
+}
+#End

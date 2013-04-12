@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 12 Apr 2013 10:26:16 AM PDT
+PCBNEW-BOARD Version 1 date Fri 12 Apr 2013 03:37:57 PM PDT
 
 # Created by Pcbnew(2011-aug-04)-testing
 
@@ -740,9 +740,9 @@ Po 26280 21350 400 600 80 0
 De 20 0 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
-Te "BOTTOM"
+Te "BOT"
 Po 31230 44640 400 600 80 0
-De 20 0 0 Normal C
+De 20 0 0 Normal R
 $EndTEXTPCB
 $TEXTPCB
 Te "TOP"
