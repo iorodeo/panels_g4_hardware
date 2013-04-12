@@ -1,0 +1,515 @@
+EESchema Schematic File Version 2  date Fri 12 Apr 2013 03:57:46 PM PDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:led-matrix-8x8
+LIBS:one_panel_adapter-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "12 apr 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2300 5650 1950 5650
+Wire Wire Line
+	3750 5350 2700 5350
+Connection ~ 3650 4750
+Wire Wire Line
+	3650 2050 3650 5050
+Wire Wire Line
+	3650 4750 2700 4750
+Wire Wire Line
+	3550 4150 2700 4150
+Wire Wire Line
+	2700 3250 3350 3250
+Wire Wire Line
+	3350 2950 2700 2950
+Wire Wire Line
+	3250 2350 2700 2350
+Connection ~ 3150 1750
+Wire Wire Line
+	3150 1300 3150 2050
+Wire Wire Line
+	3050 1150 3050 1450
+Wire Wire Line
+	3050 1450 2700 1450
+Wire Wire Line
+	2300 5350 1950 5350
+Wire Wire Line
+	2300 4750 1950 4750
+Wire Wire Line
+	2300 4150 1950 4150
+Wire Wire Line
+	2300 3550 1950 3550
+Wire Wire Line
+	2300 2950 1950 2950
+Wire Wire Line
+	2300 2350 1950 2350
+Wire Notes Line
+	2500 7750 2550 7750
+Wire Wire Line
+	2300 1750 1950 1750
+Wire Wire Line
+	2300 1150 1950 1150
+Connection ~ 3050 1150
+Wire Wire Line
+	8450 2950 8800 2950
+Wire Wire Line
+	8450 2750 8800 2750
+Wire Wire Line
+	8450 2550 8800 2550
+Wire Wire Line
+	8450 2350 8800 2350
+Wire Wire Line
+	7650 2950 7350 2950
+Wire Wire Line
+	7650 2750 7350 2750
+Wire Wire Line
+	7650 2550 7350 2550
+Wire Wire Line
+	7650 2350 7350 2350
+Wire Wire Line
+	7650 2450 7350 2450
+Wire Wire Line
+	7650 2650 7350 2650
+Wire Wire Line
+	7650 2850 7350 2850
+Wire Wire Line
+	7650 3050 7350 3050
+Wire Wire Line
+	8450 2450 8800 2450
+Wire Wire Line
+	8450 2650 8800 2650
+Wire Wire Line
+	8450 2850 8800 2850
+Wire Wire Line
+	8450 3050 8800 3050
+Wire Wire Line
+	8450 1900 8800 1900
+Wire Wire Line
+	8450 1700 8800 1700
+Wire Wire Line
+	8450 1500 8800 1500
+Wire Wire Line
+	8450 1300 8800 1300
+Wire Wire Line
+	7650 1900 7350 1900
+Wire Wire Line
+	7650 1700 7350 1700
+Wire Wire Line
+	7650 1500 7350 1500
+Wire Wire Line
+	7650 1300 7350 1300
+Wire Wire Line
+	5550 2200 5900 2200
+Wire Wire Line
+	5550 1900 5900 1900
+Wire Wire Line
+	5550 1600 5900 1600
+Wire Wire Line
+	5550 1300 5900 1300
+Wire Wire Line
+	5550 1150 5900 1150
+Wire Wire Line
+	5550 1450 5900 1450
+Wire Wire Line
+	5550 1750 5900 1750
+Wire Wire Line
+	5550 2050 5900 2050
+Wire Wire Line
+	7650 1200 7350 1200
+Wire Wire Line
+	7650 1400 7350 1400
+Wire Wire Line
+	7650 1600 7350 1600
+Wire Wire Line
+	7650 1800 7350 1800
+Wire Wire Line
+	8450 1200 8800 1200
+Wire Wire Line
+	8450 1400 8800 1400
+Wire Wire Line
+	8450 1600 8800 1600
+Wire Wire Line
+	8450 1800 8800 1800
+Wire Wire Line
+	4200 1150 2700 1150
+Wire Wire Line
+	3150 1300 4200 1300
+Wire Wire Line
+	4200 1450 3250 1450
+Wire Wire Line
+	4200 1600 3350 1600
+Wire Wire Line
+	4200 1750 3450 1750
+Wire Wire Line
+	4200 1900 3550 1900
+Wire Wire Line
+	3650 2050 4200 2050
+Wire Wire Line
+	4200 2200 3750 2200
+Wire Wire Line
+	1950 1450 2300 1450
+Wire Wire Line
+	2300 2050 1950 2050
+Wire Wire Line
+	2300 2650 1950 2650
+Wire Wire Line
+	2300 3250 1950 3250
+Wire Wire Line
+	2300 3850 1950 3850
+Wire Wire Line
+	2300 4450 1950 4450
+Wire Wire Line
+	2300 5050 1950 5050
+Wire Wire Line
+	3150 1750 2700 1750
+Wire Wire Line
+	3150 2050 2700 2050
+Wire Wire Line
+	2700 2650 3250 2650
+Wire Wire Line
+	3250 2650 3250 1450
+Connection ~ 3250 2350
+Wire Wire Line
+	3350 1600 3350 3250
+Connection ~ 3350 2950
+Wire Wire Line
+	3450 3550 2700 3550
+Wire Wire Line
+	2700 3850 3450 3850
+Wire Wire Line
+	3450 3850 3450 1750
+Connection ~ 3450 3550
+Wire Wire Line
+	2700 4450 3550 4450
+Wire Wire Line
+	3550 4450 3550 1900
+Connection ~ 3550 4150
+Wire Wire Line
+	3650 5050 2700 5050
+Wire Wire Line
+	2700 5650 3750 5650
+Wire Wire Line
+	3750 5650 3750 2200
+Connection ~ 3750 5350
+$Comp
+L DIODE D?
+U 1 1 51689109
+P 2500 5650
+F 0 "D?" H 2500 5750 40  0000 C CNN
+F 1 "DIODE" H 2500 5550 40  0000 C CNN
+	1    2500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51689026
+P 2500 5350
+F 0 "D?" H 2500 5450 40  0000 C CNN
+F 1 "DIODE" H 2500 5250 40  0000 C CNN
+	1    2500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51689024
+P 2500 5050
+F 0 "D?" H 2500 5150 40  0000 C CNN
+F 1 "DIODE" H 2500 4950 40  0000 C CNN
+	1    2500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51689022
+P 2500 4750
+F 0 "D?" H 2500 4850 40  0000 C CNN
+F 1 "DIODE" H 2500 4650 40  0000 C CNN
+	1    2500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51689021
+P 2500 4450
+F 0 "D?" H 2500 4550 40  0000 C CNN
+F 1 "DIODE" H 2500 4350 40  0000 C CNN
+	1    2500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688FB2
+P 2500 4150
+F 0 "D?" H 2500 4250 40  0000 C CNN
+F 1 "DIODE" H 2500 4050 40  0000 C CNN
+	1    2500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688F97
+P 2500 3850
+F 0 "D?" H 2500 3950 40  0000 C CNN
+F 1 "DIODE" H 2500 3750 40  0000 C CNN
+	1    2500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688F96
+P 2500 3550
+F 0 "D?" H 2500 3650 40  0000 C CNN
+F 1 "DIODE" H 2500 3450 40  0000 C CNN
+	1    2500 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688F94
+P 2500 3250
+F 0 "D?" H 2500 3350 40  0000 C CNN
+F 1 "DIODE" H 2500 3150 40  0000 C CNN
+	1    2500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688ECF
+P 2500 2950
+F 0 "D?" H 2500 3050 40  0000 C CNN
+F 1 "DIODE" H 2500 2850 40  0000 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688ECD
+P 2500 2650
+F 0 "D?" H 2500 2750 40  0000 C CNN
+F 1 "DIODE" H 2500 2550 40  0000 C CNN
+	1    2500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688ECC
+P 2500 2350
+F 0 "D?" H 2500 2450 40  0000 C CNN
+F 1 "DIODE" H 2500 2250 40  0000 C CNN
+	1    2500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688EC9
+P 2500 2050
+F 0 "D?" H 2500 2150 40  0000 C CNN
+F 1 "DIODE" H 2500 1950 40  0000 C CNN
+	1    2500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688EC6
+P 2500 1750
+F 0 "D?" H 2500 1850 40  0000 C CNN
+F 1 "DIODE" H 2500 1650 40  0000 C CNN
+	1    2500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688EBB
+P 2500 1450
+F 0 "D?" H 2500 1550 40  0000 C CNN
+F 1 "DIODE" H 2500 1350 40  0000 C CNN
+	1    2500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 51688E93
+P 2500 1150
+F 0 "D?" H 2500 1250 40  0000 C CNN
+F 1 "DIODE" H 2500 1050 40  0000 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_8X2 P2
+U 1 1 5161BB2B
+P 8050 2700
+F 0 "P2" H 8050 3150 60  0000 C CNN
+F 1 "CONN_8X2" V 8050 2700 50  0000 C CNN
+	1    8050 2700
+	1    0    0    -1  
+$EndComp
+Text Label 1950 1450 2    60   ~ 0
+COL9
+Text Label 1950 2050 2    60   ~ 0
+COL10
+Text Label 1950 2650 2    60   ~ 0
+COL11
+Text Label 1950 3250 2    60   ~ 0
+COL12
+Text Label 1950 3850 2    60   ~ 0
+COL13
+Text Label 1950 4450 2    60   ~ 0
+COL14
+Text Label 1950 5050 2    60   ~ 0
+COL15
+Text Label 1950 5650 2    60   ~ 0
+COL16
+Text Label 7350 2350 2    60   ~ 0
+ROW5
+Text Label 7350 2450 2    60   ~ 0
+COL10
+Text Label 7350 2550 2    60   ~ 0
+ROW8
+Text Label 7350 2650 2    60   ~ 0
+ROW6
+Text Label 7350 2750 2    60   ~ 0
+ROW1
+Text Label 7350 2850 2    60   ~ 0
+COL14
+Text Label 7350 2950 2    60   ~ 0
+COL9
+Text Label 7350 3050 2    60   ~ 0
+COL15
+Text Label 8800 2350 0    60   ~ 0
+ROW7
+Text Label 8800 2450 0    60   ~ 0
+COL11
+Text Label 8800 2550 0    60   ~ 0
+COL13
+Text Label 8800 2650 0    60   ~ 0
+ROW3
+Text Label 8800 2750 0    60   ~ 0
+COL12
+Text Label 8800 2850 0    60   ~ 0
+ROW4
+Text Label 8800 2950 0    60   ~ 0
+ROW2
+Text Label 8800 3050 0    60   ~ 0
+COL16
+Text Label 8800 1900 0    60   ~ 0
+COL8
+Text Label 8800 1800 0    60   ~ 0
+ROW2
+Text Label 8800 1700 0    60   ~ 0
+ROW4
+Text Label 8800 1600 0    60   ~ 0
+COL4
+Text Label 8800 1500 0    60   ~ 0
+ROW3
+Text Label 8800 1400 0    60   ~ 0
+COL5
+Text Label 8800 1300 0    60   ~ 0
+COL3
+Text Label 8800 1200 0    60   ~ 0
+ROW7
+Text Label 7350 1900 2    60   ~ 0
+COL7
+Text Label 7350 1800 2    60   ~ 0
+COL1
+Text Label 7350 1700 2    60   ~ 0
+COL6
+Text Label 7350 1600 2    60   ~ 0
+ROW1
+Text Label 7350 1500 2    60   ~ 0
+ROW6
+Text Label 7350 1400 2    60   ~ 0
+ROW8
+Text Label 7350 1300 2    60   ~ 0
+COL2
+Text Label 7350 1200 2    60   ~ 0
+ROW5
+Text Label 5900 2200 0    60   ~ 0
+ROW8
+Text Label 5900 2050 0    60   ~ 0
+ROW7
+Text Label 5900 1900 0    60   ~ 0
+ROW6
+Text Label 5900 1750 0    60   ~ 0
+ROW5
+Text Label 5900 1600 0    60   ~ 0
+ROW4
+Text Label 5900 1450 0    60   ~ 0
+ROW3
+Text Label 5900 1300 0    60   ~ 0
+ROW2
+Text Label 5900 1150 0    60   ~ 0
+ROW1
+Text Label 1950 5350 2    60   ~ 0
+COL8
+Text Label 1950 4750 2    60   ~ 0
+COL7
+Text Label 1950 4150 2    60   ~ 0
+COL6
+Text Label 1950 3550 2    60   ~ 0
+COL5
+Text Label 1950 2950 2    60   ~ 0
+COL4
+Text Label 1950 2350 2    60   ~ 0
+COL3
+Text Label 1950 1750 2    60   ~ 0
+COL2
+Text Label 1950 1150 2    60   ~ 0
+COL1
+$Comp
+L CONN_8X2 P1
+U 1 1 5161B211
+P 8050 1550
+F 0 "P1" H 8050 2000 60  0000 C CNN
+F 1 "CONN_8X2" V 8050 1550 50  0000 C CNN
+	1    8050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-MATRIX-8X8 M1
+U 1 1 5161B1D4
+P 4900 1650
+F 0 "M1" H 4600 2350 60  0000 C CNN
+F 1 "LED-MATRIX-8X8" H 4900 900 60  0000 C CNN
+	1    4900 1650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = Fri 12 Apr 2013 04:00:06 PM PDT
+
+BeginCmp
+TimeStamp = /51688E93;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688EBB;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688EC6;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688EC9;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688ECC;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688ECD;
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688ECF;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688F94;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688F96;
+Reference = D9;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688F97;
+Reference = D10;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51688FB2;
+Reference = D11;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51689021;
+Reference = D12;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51689022;
+Reference = D13;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51689024;
+Reference = D14;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51689026;
+Reference = D15;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51689109;
+Reference = D16;
+ValeurCmp = DIODE;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5161B1D4;
+Reference = M1;
+ValeurCmp = LED-MATRIX-8X8;
+IdModule  = LED_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5161B211;
+Reference = P1;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2_custom;
+EndCmp
+
+BeginCmp
+TimeStamp = /5161BB2B;
+Reference = P2;
+ValeurCmp = CONN_8X2;
+IdModule  = pin_array_8x2_custom;
+EndCmp
+
+EndListe
