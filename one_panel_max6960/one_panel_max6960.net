@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 09 Apr 2013 06:06:04 PM PDT
+# EESchema Netlist Version 1.1 created  Thu 11 Apr 2013 06:10:53 PM PDT
 (
  ( /516115A2 SM0603 C1 47uF
   ( 1 /V+ )
@@ -7,36 +7,6 @@
  ( /516115D7 SM0603 C2 0.1uF
   ( 1 /V+ )
   ( 2 GND )
- )
- ( /516115DC SM0603 C3 0.1uF
-  ( 1 /V+ )
-  ( 2 GND )
- )
- ( /516115E0 SM0603 C4 0.1uF
-  ( 1 /V+ )
-  ( 2 GND )
- )
- ( /516115E4 SM0603 C5 0.1uF
-  ( 1 /V+ )
-  ( 2 GND )
- )
- ( /5161217C $noname$ M1 LED-MATRIX-8X8
-  ( 1 /ROW5 )
-  ( 2 /ROW7 )
-  ( 3 /COL10 )
-  ( 4 /COL11 )
-  ( 5 /ROW8 )
-  ( 6 /COL13 )
-  ( 7 /ROW6 )
-  ( 8 /ROW3 )
-  ( 9 /ROW1 )
-  ( 10 /COL12 )
-  ( 11 /COL14 )
-  ( 12 /ROW4 )
-  ( 13 /COL1 )
-  ( 14 /ROW2 )
-  ( 15 /COL15 )
-  ( 16 /COL16 )
  )
  ( /5161268D HEADER_BOT P1 CONN_12
   ( 1 /V+ )
@@ -70,6 +40,24 @@
   ( 1 /V+ )
   ( 2 /ADDIN )
  )
+ ( /51673048 SMD_HEADER_8X2 P4 CONN_8X2
+  ( 1 /COL1 )
+  ( 2 /ROW1 )
+  ( 3 /COL10 )
+  ( 4 /ROW2 )
+  ( 5 /COL11 )
+  ( 6 /ROW3 )
+  ( 7 /COL12 )
+  ( 8 /ROW4 )
+  ( 9 /COL13 )
+  ( 10 /ROW5 )
+  ( 11 /COL14 )
+  ( 12 /ROW6 )
+  ( 13 /COL15 )
+  ( 14 /ROW7 )
+  ( 15 /COL16 )
+  ( 16 /ROW8 )
+ )
  ( /5164B996 SM0603 R1 R
   ( 1 N-000032 )
   ( 2 GND )
@@ -78,7 +66,7 @@
   ( 1 N-000031 )
   ( 2 GND )
  )
- ( /516112AF MQFP44 U1 MAX6960
+ ( /516112AF T4477-3 U1 MAX6960
   ( 1 GND )
   ( 2 /ROW1 )
   ( 3 /ROW2 )
@@ -123,6 +111,7 @@
   ( 42 N-000032 )
   ( 43 N-000031 )
   ( 44 GND )
+  ( 45 GND )
  )
 )
 *
@@ -132,21 +121,6 @@ $component C1
  SM*
 $endlist
 $component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
  SM*
  C?
  C1-1

@@ -1,4 +1,4 @@
-update=Thu 11 Apr 2013 05:16:27 PM PDT
+update=Fri 12 Apr 2013 09:45:04 AM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -75,13 +75,12 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=max6960
-LibName32=led-matrix-8x8
+LibName31=led-matrix-8x8
 [pcbnew]
 version=1
-PadDrlX=0
-PadDimH=500
-PadDimV=1450
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -93,7 +92,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=one_panel_max6960.net
+LastNetListRead=adapter.net
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -106,9 +105,5 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=MQFP44
-LibName12=HEADER_BOT
-LibName13=HEADER_TOP
-LibName14=header_8x1
-LibName15=T4477-3
-LibName16=SMD_HEADER_8X2
+LibName11=LED_8X8
+LibName12=pin_array_8x2_BACK

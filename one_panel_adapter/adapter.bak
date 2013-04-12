@@ -1,0 +1,130 @@
+EESchema Schematic File Version 2  date Fri 12 Apr 2013 09:23:59 AM PDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:led-matrix-8x8
+LIBS:adapter-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "12 apr 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 6700 3350 0    60   ~ 0
+ROW8
+Text Label 6700 3200 0    60   ~ 0
+ROW7
+Text Label 6700 3050 0    60   ~ 0
+ROW6
+Text Label 6700 2900 0    60   ~ 0
+ROW5
+Text Label 6700 2750 0    60   ~ 0
+ROW4
+Text Label 6700 2600 0    60   ~ 0
+ROW3
+Text Label 6700 2450 0    60   ~ 0
+ROW2
+Text Label 6700 2300 0    60   ~ 0
+ROW1
+Text Label 4500 3350 2    60   ~ 0
+COL8
+Text Label 4500 3200 2    60   ~ 0
+COL7
+Text Label 4500 3050 2    60   ~ 0
+COL6
+Text Label 4500 2900 2    60   ~ 0
+COL5
+Text Label 4500 2750 2    60   ~ 0
+COL4
+Text Label 4500 2600 2    60   ~ 0
+COL3
+Text Label 4500 2450 2    60   ~ 0
+COL2
+Text Label 4500 2300 2    60   ~ 0
+COL1
+Wire Wire Line
+	6250 2300 6700 2300
+Wire Wire Line
+	6250 3200 6700 3200
+Wire Wire Line
+	6250 2900 6700 2900
+Wire Wire Line
+	6250 2600 6700 2600
+Wire Wire Line
+	4900 3200 4500 3200
+Wire Wire Line
+	4900 2900 4500 2900
+Wire Wire Line
+	4900 2600 4500 2600
+Wire Wire Line
+	4900 2300 4500 2300
+Wire Wire Line
+	4900 2450 4500 2450
+Wire Wire Line
+	4900 2750 4500 2750
+Wire Wire Line
+	4900 3050 4500 3050
+Wire Wire Line
+	4900 3350 4500 3350
+Wire Wire Line
+	6250 2450 6700 2450
+Wire Wire Line
+	6250 2750 6700 2750
+Wire Wire Line
+	6250 3050 6700 3050
+Wire Wire Line
+	6250 3350 6700 3350
+$Comp
+L CONN_8X2 P?
+U 1 1 516833F3
+P 5550 4500
+F 0 "P?" H 5550 4950 60  0000 C CNN
+F 1 "CONN_8X2" V 5550 4500 50  0000 C CNN
+	1    5550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-MATRIX-8X8 M?
+U 1 1 516833D2
+P 5600 2800
+F 0 "M?" H 5300 3500 60  0000 C CNN
+F 1 "LED-MATRIX-8X8" H 5600 2050 60  0000 C CNN
+	1    5600 2800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

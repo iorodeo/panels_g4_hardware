@@ -1,0 +1,371 @@
+(pcb /home/wbd/work/iorodeo/products/panels_g4_hardware/one_panel_max6960/one_panel_max6960.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(2011-aug-04)-testing")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Inner3
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (layer Inner2
+      (type signal)
+      (property
+        (index 2)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (boundary
+      (path pcb 0  3259.8 -2000  3259.8 -3259.8  2000 -3259.8  2000 -2000
+            3259.8 -2000)
+    )
+    (via "Via[0-3]_35:25_mil" "Via[0-3]_35:0_mil")
+    (rule
+      (width 8)
+      (clearance 8.1)
+      (clearance 8.1 (type default_smd))
+      (clearance 2 (type smd_smd))
+    )
+  )
+  (placement
+    (component SM0603
+      (place C1 2107.5 -2940 back 180 (PN 47uF))
+      (place C2 2107.5 -2855 back 180 (PN 0.1uF))
+      (place R1 3160 -2422.5 back 180 (PN R))
+      (place R2 3160 -2497.5 back 180 (PN R))
+    )
+    (component PIN_ARRAY_2X1
+      (place P3 3190 -2700 back 90 (PN CONN_2))
+    )
+    (component HEADER_TOP
+      (place P2 2629.9 -2320 front 0 (PN CONN_12))
+    )
+    (component HEADER_BOT
+      (place P1 2629.9 -3059.8 front 0 (PN CONN_12))
+    )
+    (component "T4477-3"
+      (place U1 2629.9 -2700 back 0 (PN MAX6960))
+    )
+    (component SMD_HEADER_8X2
+      (place P4 2629.9 -2680 front 0 (PN CONN_8X2))
+    )
+  )
+  (library
+    (image SM0603
+      (outline (path signal 5  -45 25  45 25))
+      (outline (path signal 5  45 25  45 -25))
+      (outline (path signal 5  45 -25  -45 -25))
+      (outline (path signal 5  -45 -25  -45 25))
+      (pin Rect[T]Pad_25x45_mil 1 -30 0)
+      (pin Rect[T]Pad_25x45_mil 2 30 0)
+    )
+    (image PIN_ARRAY_2X1
+      (outline (path signal 6  -100 -50  -100 50))
+      (outline (path signal 6  -100 50  100 50))
+      (outline (path signal 6  100 50  100 -50))
+      (outline (path signal 6  100 -50  -100 -50))
+      (pin Rect[A]Pad_60x60_mil 1 -50 0)
+      (pin Round[A]Pad_60_mil 2 50 0)
+    )
+    (image HEADER_TOP
+      (outline (path signal 15  600 0  600 -50))
+      (outline (path signal 15  600 -50  -600 -50))
+      (outline (path signal 15  -600 -50  -600 10))
+      (outline (path signal 15  -600 0  -600 320))
+      (outline (path signal 15  -600 320  600 320))
+      (outline (path signal 15  600 320  600 0))
+      (pin Rect[A]Pad_60x60_mil 1 -550 0)
+      (pin Round[A]Pad_60_mil 2 -450 0)
+      (pin Round[A]Pad_60_mil 3 -350 0)
+      (pin Round[A]Pad_60_mil 4 -250 0)
+      (pin Round[A]Pad_60_mil 5 -150 0)
+      (pin Round[A]Pad_60_mil 6 -50 0)
+      (pin Round[A]Pad_60_mil 7 50 0)
+      (pin Round[A]Pad_60_mil 8 150 0)
+      (pin Round[A]Pad_60_mil 9 250 0)
+      (pin Round[A]Pad_60_mil 10 350 0)
+      (pin Round[A]Pad_60_mil 11 450 0)
+      (pin Round[A]Pad_60_mil 12 550 0)
+    )
+    (image HEADER_BOT
+      (outline (path signal 15  -600 0  -600 50))
+      (outline (path signal 15  -600 50  600 50))
+      (outline (path signal 15  600 50  600 0))
+      (outline (path signal 15  -600 0  -600 -200))
+      (outline (path signal 15  -600 -200  600 -200))
+      (outline (path signal 15  600 -200  600 0))
+      (pin Rect[A]Pad_60x60_mil 1 -550 0)
+      (pin Round[A]Pad_60_mil 2 -450 0)
+      (pin Round[A]Pad_60_mil 3 -350 0)
+      (pin Round[A]Pad_60_mil 4 -250 0)
+      (pin Round[A]Pad_60_mil 5 -150 0)
+      (pin Round[A]Pad_60_mil 6 -50 0)
+      (pin Round[A]Pad_60_mil 7 50 0)
+      (pin Round[A]Pad_60_mil 8 150 0)
+      (pin Round[A]Pad_60_mil 9 250 0)
+      (pin Round[A]Pad_60_mil 10 350 0)
+      (pin Round[A]Pad_60_mil 11 450 0)
+      (pin Round[A]Pad_60_mil 12 550 0)
+    )
+    (image "T4477-3"
+      (outline (path signal 15  -165 115  -165 -165))
+      (outline (path signal 15  -165 -165  165 -165))
+      (outline (path signal 15  165 -165  165 165))
+      (outline (path signal 15  165 165  -110 165))
+      (outline (path signal 15  -110 165  -165 115))
+      (pin Rect[T]Pad_37.4x11.8_mil 1 -130.9 98.4)
+      (pin Rect[T]Pad_37.4x11.8_mil 2 -130.9 78.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 3 -130.9 59.1)
+      (pin Rect[T]Pad_37.4x11.8_mil 4 -130.9 39.4)
+      (pin Rect[T]Pad_37.4x11.8_mil 5 -130.9 19.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 6 -130.9 0)
+      (pin Rect[T]Pad_37.4x11.8_mil 7 -130.9 -19.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 8 -130.9 -39.4)
+      (pin Rect[T]Pad_37.4x11.8_mil 9 -130.9 -59.1)
+      (pin Rect[T]Pad_37.4x11.8_mil 10 -130.9 -78.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 11 -130.9 -98.4)
+      (pin Rect[T]Pad_188.2x188.2_mil 45 0 0)
+      (pin Rect[T]Pad_11.8x37.4_mil 12 -98.4 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 13 -78.7 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 14 -59.1 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 15 -39.4 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 16 -19.7 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 17 0 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 18 19.7 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 19 39.4 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 20 59.1 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 21 78.7 -130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 22 98.4 -130.9)
+      (pin Rect[T]Pad_37.4x11.8_mil 23 130.9 -98.4)
+      (pin Rect[T]Pad_37.4x11.8_mil 24 130.9 -78.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 25 130.9 -59.1)
+      (pin Rect[T]Pad_37.4x11.8_mil 26 130.9 -39.4)
+      (pin Rect[T]Pad_37.4x11.8_mil 27 130.9 -19.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 28 130.9 0)
+      (pin Rect[T]Pad_37.4x11.8_mil 29 130.9 19.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 30 130.9 39.4)
+      (pin Rect[T]Pad_37.4x11.8_mil 31 130.9 59.1)
+      (pin Rect[T]Pad_37.4x11.8_mil 32 130.9 78.7)
+      (pin Rect[T]Pad_37.4x11.8_mil 33 130.9 98.4)
+      (pin Rect[T]Pad_11.8x37.4_mil 34 98.4 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 35 78.7 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 36 59.1 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 37 39.4 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 38 19.7 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 39 0 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 40 -19.7 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 41 -39.4 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 42 -59.1 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 43 -78.7 130.9)
+      (pin Rect[T]Pad_11.8x37.4_mil 44 -98.4 130.9)
+    )
+    (image SMD_HEADER_8X2
+      (outline (path signal 15  -395 0  -395 180))
+      (outline (path signal 15  -395 180  390 180))
+      (outline (path signal 15  390 180  395 180))
+      (outline (path signal 15  395 180  395 -180))
+      (outline (path signal 15  395 -180  -395 -180))
+      (outline (path signal 15  -395 -180  -395 10))
+      (pin Rect[T]Pad_50x145_mil 1 -350 -87.5)
+      (pin Rect[T]Pad_50x145_mil 2 -350 87.5)
+      (pin Rect[T]Pad_50x145_mil 3 -250 -87.5)
+      (pin Rect[T]Pad_50x145_mil 4 -250 87.5)
+      (pin Rect[T]Pad_50x145_mil 5 -150 -87.5)
+      (pin Rect[T]Pad_50x145_mil 6 -150 87.5)
+      (pin Rect[T]Pad_50x145_mil 7 -50 -87.5)
+      (pin Rect[T]Pad_50x145_mil 8 -50 87.5)
+      (pin Rect[T]Pad_50x145_mil 9 50 -87.5)
+      (pin Rect[T]Pad_50x145_mil 10 50 87.5)
+      (pin Rect[T]Pad_50x145_mil 11 150 -87.5)
+      (pin Rect[T]Pad_50x145_mil 12 150 87.5)
+      (pin Rect[T]Pad_50x145_mil 13 250 -87.5)
+      (pin Rect[T]Pad_50x145_mil 14 250 87.5)
+      (pin Rect[T]Pad_50x145_mil 15 350 -87.5)
+      (pin Rect[T]Pad_50x145_mil 16 350 87.5)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Front 60))
+      (shape (circle Inner3 60))
+      (shape (circle Inner2 60))
+      (shape (circle Back 60))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_25x45_mil
+      (shape (rect Front -12.5 -22.5 12.5 22.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_37.4x11.8_mil
+      (shape (rect Front -18.7 -5.9 18.7 5.9))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_50x145_mil
+      (shape (rect Front -25 -72.5 25 72.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x60_mil
+      (shape (rect Front -30 -30 30 30))
+      (shape (rect Inner3 -30 -30 30 30))
+      (shape (rect Inner2 -30 -30 30 30))
+      (shape (rect Back -30 -30 30 30))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_11.8x37.4_mil
+      (shape (rect Front -5.9 -18.7 5.9 18.7))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_188.2x188.2_mil
+      (shape (rect Front -94.1 -94.1 94.1 94.1))
+      (attach off)
+    )
+    (padstack "Via[0-3]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Inner3 35))
+      (shape (circle Inner2 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-3]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Inner3 35))
+      (shape (circle Inner2 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net /ADDCLK
+      (pins P2-8 P1-8 U1-41)
+    )
+    (net /ADDIN
+      (pins P3-2 P1-10 U1-40)
+    )
+    (net /ADDOUT
+      (pins P2-10 P1-9 U1-39)
+    )
+    (net /CLK
+      (pins P2-4 P1-4 U1-17)
+    )
+    (net /COL1
+      (pins U1-19 U1-29 P4-1)
+    )
+    (net /COL10
+      (pins U1-20 U1-30 P4-3)
+    )
+    (net /COL11
+      (pins U1-21 U1-31 P4-5)
+    )
+    (net /COL12
+      (pins U1-23 U1-32 P4-7)
+    )
+    (net /COL13
+      (pins U1-24 U1-33 P4-9)
+    )
+    (net /COL14
+      (pins U1-25 U1-35 P4-11)
+    )
+    (net /COL15
+      (pins U1-26 U1-36 P4-13)
+    )
+    (net /COL16
+      (pins U1-27 U1-37 P4-15)
+    )
+    (net /CS
+      (pins P2-7 P1-7 U1-14)
+    )
+    (net /MISO
+      (pins P2-6 P1-6 U1-16)
+    )
+    (net /MOSI
+      (pins P2-5 P1-5 U1-15)
+    )
+    (net /OSC
+      (pins P2-11 P1-11 U1-13)
+    )
+    (net /ROW1
+      (pins U1-2 P4-2)
+    )
+    (net /ROW2
+      (pins U1-3 P4-4)
+    )
+    (net /ROW3
+      (pins U1-4 P4-6)
+    )
+    (net /ROW4
+      (pins U1-5 P4-8)
+    )
+    (net /ROW5
+      (pins U1-7 P4-10)
+    )
+    (net /ROW6
+      (pins U1-8 P4-12)
+    )
+    (net /ROW7
+      (pins U1-9 P4-14)
+    )
+    (net /ROW8
+      (pins U1-10 P4-16)
+    )
+    (net /RST
+      (pins P2-3 P1-3 U1-18)
+    )
+    (net /V+
+      (pins C1-1 C2-1 P3-1 P2-1 P1-1 U1-22 U1-28 U1-34 U1-38)
+    )
+    (net GND
+      (pins C1-2 C2-2 R1-2 R2-2 P2-2 P1-2 U1-1 U1-6 U1-11 U1-45 U1-12 U1-44)
+    )
+    (net "N-000031"
+      (pins R2-1 U1-43)
+    )
+    (net "N-000032"
+      (pins R1-1 U1-42)
+    )
+    (class kicad_default "" /ADDCLK /ADDIN /ADDOUT /CLK /COL1 /COL10 /COL11
+      /COL12 /COL13 /COL14 /COL15 /COL16 /CS /MISO /MOSI /OSC /ROW1 /ROW2
+      /ROW3 /ROW4 /ROW5 /ROW6 /ROW7 /ROW8 /RST "N-000031" "N-000032"
+      (circuit
+        (use_via Via[0-3]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 8.1)
+      )
+    )
+    (class PWR /V+ GND
+      (circuit
+        (use_via Via[0-3]_35:25_mil)
+      )
+      (rule
+        (width 8)
+        (clearance 8.1)
+      )
+    )
+  )
+  (wiring
+    (wire (path Back 30  2079.9 -3059.8  2079.9 -2942.4  2077.5 -2940  2077.5 -2855
+            2079.9 -2852.6  2079.9 -2320)(net /V+)(type protect))
+    (wire (path Back 30  2137.5 -2940  2137.5 -2855  2137.5 -2420)(net GND)(type protect))
+    (wire (path Back 30  2179.9 -2377.6  2179.9 -2320)(net GND)(type protect))
+    (wire (path Back 30  2137.5 -2420  2179.9 -2377.6)(net GND)(type protect))
+    (wire (path Back 30  2179.9 -3059.8  2179.9 -3024.9)(net GND)(type protect))
+    (wire (path Back 30  2137.5 -2982.5  2137.5 -2940)(net GND)(type protect))
+    (wire (path Back 30  2179.9 -3024.9  2137.5 -2982.5)(net GND)(type protect))
+  )
+)

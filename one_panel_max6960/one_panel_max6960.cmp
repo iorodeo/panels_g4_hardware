@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = Tue 09 Apr 2013 06:06:04 PM PDT
+Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = Thu 11 Apr 2013 06:10:53 PM PDT
 
 BeginCmp
 TimeStamp = /516115A2;
@@ -12,34 +12,6 @@ TimeStamp = /516115D7;
 Reference = C2;
 ValeurCmp = 0.1uF;
 IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /516115DC;
-Reference = C3;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /516115E0;
-Reference = C4;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /516115E4;
-Reference = C5;
-ValeurCmp = 0.1uF;
-IdModule  = SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5161217C;
-Reference = M1;
-ValeurCmp = LED-MATRIX-8X8;
-IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -64,6 +36,13 @@ IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
+TimeStamp = /51673048;
+Reference = P4;
+ValeurCmp = CONN_8X2;
+IdModule  = SMD_HEADER_8X2;
+EndCmp
+
+BeginCmp
 TimeStamp = /5164B996;
 Reference = R1;
 ValeurCmp = R;
@@ -81,7 +60,7 @@ BeginCmp
 TimeStamp = /516112AF;
 Reference = U1;
 ValeurCmp = MAX6960;
-IdModule  = MQFP44;
+IdModule  = T4477-3;
 EndCmp
 
 EndListe

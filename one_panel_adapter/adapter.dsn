@@ -1,0 +1,179 @@
+(pcb /home/wbd/work/iorodeo/products/panels_g4_hardware/one_panel_adapter/adapter.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "Kicad's PCBNEW")
+    (host_version "(2011-aug-04)-testing")
+  )
+  (resolution mil 10)
+  (unit mil)
+  (structure
+    (layer Front
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Back
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  2000 -2000  3259.8 -2000  3259.8 -3259.8  2000 -3259.8
+            2000 -2000)
+    )
+    (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
+    (rule
+      (width 10)
+      (clearance 10.1)
+      (clearance 10.1 (type default_smd))
+      (clearance 2.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component pin_array_8x2_BACK
+      (place P1 2629.9 -2680 front 0 (PN CONN_8X2))
+    )
+    (component LED_8x8
+      (place M1 2629.9 -2629.9 front 0 (PN "LED-MATRIX-8X8"))
+    )
+  )
+  (library
+    (image pin_array_8x2_BACK
+      (outline (path signal 12  -390 -90  -390 90))
+      (outline (path signal 12  -390 90  390 90))
+      (outline (path signal 12  390 90  390 -90))
+      (outline (path signal 12  390 -90  -390 -90))
+      (pin Rect[A]Pad_60x60_mil 1 -350 -50)
+      (pin Round[A]Pad_60_mil 2 -350 50)
+      (pin Round[A]Pad_60_mil 3 -250 -50)
+      (pin Round[A]Pad_60_mil 4 -250 50)
+      (pin Round[A]Pad_60_mil 5 -150 -50)
+      (pin Round[A]Pad_60_mil 6 -150 50)
+      (pin Round[A]Pad_60_mil 7 -50 -50)
+      (pin Round[A]Pad_60_mil 8 -50 50)
+      (pin Round[A]Pad_60_mil 9 50 -50)
+      (pin Round[A]Pad_60_mil 10 50 50)
+      (pin Round[A]Pad_60_mil 11 150 -50)
+      (pin Round[A]Pad_60_mil 12 150 50)
+      (pin Round[A]Pad_60_mil 13 250 -50)
+      (pin Round[A]Pad_60_mil 14 250 50)
+      (pin Round[A]Pad_60_mil 15 350 -50)
+      (pin Round[A]Pad_60_mil 16 350 50)
+    )
+    (image LED_8x8
+      (outline (path signal 12  629.9 -629.9  -629.9 -629.9))
+      (outline (path signal 12  -629.9 -629.9  -629.9 629.9))
+      (outline (path signal 12  -629.9 629.9  629.9 629.9))
+      (outline (path signal 12  629.9 629.9  629.9 -629.9))
+      (outline (path signal 12  422.4 -390.1  422.4 389.9))
+      (outline (path signal 12  522.4 389.9  522.4 -390.1))
+      (outline (path signal 12  522.4 389.9  422.4 389.9))
+      (outline (path signal 12  522.4 -390.1  422.4 -390.1))
+      (outline (path signal 12  -422.5 -390.1  -522.5 -390.1))
+      (outline (path signal 12  -422.5 389.9  -522.5 389.9))
+      (outline (path signal 12  -422.5 389.9  -422.5 -390.1))
+      (outline (path signal 12  -522.5 -390.1  -522.5 389.9))
+      (pin Round[A]Pad_60_mil (rotate 270) 9 472.4 -350.1)
+      (pin Round[A]Pad_60_mil (rotate 270) 10 472.4 -250.1)
+      (pin Round[A]Pad_60_mil (rotate 270) 11 472.4 -150.1)
+      (pin Round[A]Pad_60_mil (rotate 270) 12 472.4 -50.1)
+      (pin Round[A]Pad_60_mil (rotate 270) 13 472.4 49.9)
+      (pin Round[A]Pad_60_mil (rotate 270) 14 472.4 149.9)
+      (pin Round[A]Pad_60_mil (rotate 270) 15 472.4 249.9)
+      (pin Round[A]Pad_60_mil (rotate 180) 16 472.4 349.9)
+      (pin Rect[A]Pad_60x60_mil (rotate 180) 1 -472.5 349.9)
+      (pin Round[A]Pad_60_mil (rotate 270) 2 -472.5 249.9)
+      (pin Round[A]Pad_60_mil (rotate 270) 3 -472.5 149.9)
+      (pin Round[A]Pad_60_mil (rotate 270) 4 -472.5 49.9)
+      (pin Round[A]Pad_60_mil (rotate 270) 5 -472.5 -50.1)
+      (pin Round[A]Pad_60_mil (rotate 270) 6 -472.5 -150.1)
+      (pin Round[A]Pad_60_mil (rotate 270) 7 -472.5 -250.1)
+      (pin Round[A]Pad_60_mil (rotate 270) 8 -472.5 -350.1)
+    )
+    (padstack Round[A]Pad_60_mil
+      (shape (circle Front 60))
+      (shape (circle Back 60))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_60x60_mil
+      (shape (rect Front -30 -30 30 30))
+      (shape (rect Back -30 -30 30 30))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:25_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+    (padstack "Via[0-1]_35:0_mil"
+      (shape (circle Front 35))
+      (shape (circle Back 35))
+      (attach off)
+    )
+  )
+  (network
+    (net /COL1
+      (pins P1-1 M1-13)
+    )
+    (net /COL2
+      (pins P1-3 M1-3)
+    )
+    (net /COL3
+      (pins P1-5 M1-4)
+    )
+    (net /COL4
+      (pins P1-7 M1-10)
+    )
+    (net /COL5
+      (pins P1-9 M1-6)
+    )
+    (net /COL6
+      (pins P1-11 M1-11)
+    )
+    (net /COL7
+      (pins P1-13 M1-15)
+    )
+    (net /COL8
+      (pins P1-15 M1-16)
+    )
+    (net /ROW1
+      (pins P1-2 M1-9)
+    )
+    (net /ROW2
+      (pins P1-4 M1-14)
+    )
+    (net /ROW3
+      (pins P1-6 M1-8)
+    )
+    (net /ROW4
+      (pins P1-8 M1-12)
+    )
+    (net /ROW5
+      (pins P1-10 M1-1)
+    )
+    (net /ROW6
+      (pins P1-12 M1-7)
+    )
+    (net /ROW7
+      (pins P1-14 M1-2)
+    )
+    (net /ROW8
+      (pins P1-16 M1-5)
+    )
+    (class kicad_default "" /COL1 /COL2 /COL3 /COL4 /COL5 /COL6 /COL7 /COL8
+      /ROW1 /ROW2 /ROW3 /ROW4 /ROW5 /ROW6 /ROW7 /ROW8
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 10)
+        (clearance 10.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

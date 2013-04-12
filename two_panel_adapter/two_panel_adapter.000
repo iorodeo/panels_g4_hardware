@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sun 07 Apr 2013 12:29:03 PM PDT
+PCBNEW-BOARD Version 1 date Fri 12 Apr 2013 10:21:53 AM PDT
 
 # Created by Pcbnew(2011-aug-04)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 40
 NoConn 0
 Di 19779 19779 32819 45418
-Ndraw 6
+Ndraw 8
 Ntrack 209
 Nzone 0
 BoardThickness 630
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "7 apr 2013"
+Date "12 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -59,7 +59,7 @@ PadSize 600 600
 PadDrill 320
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
 
 $EQUIPOT
@@ -734,14 +734,24 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  pin_array_8x2_custom
 $TEXTPCB
+Te "IO Rodeo Inc."
+Po 26560 33500 400 600 80 0
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "Two Panel Adpapter V0.1"
+Po 26350 31890 400 600 80 0
+De 21 1 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
 Te "BOTTOM"
-Po 26299 44600 600 800 120 0
-De 20 1 0 Normal C
+Po 31230 44640 400 600 80 0
+De 20 0 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
 Te "TOP"
-Po 26299 20700 600 800 120 0
-De 20 1 0 Normal C
+Po 31690 20670 400 600 80 0
+De 20 0 0 Normal C
 $EndTEXTPCB
 $DRAWSEGMENT
 Po 0 32598 20000 20000 20000 150
