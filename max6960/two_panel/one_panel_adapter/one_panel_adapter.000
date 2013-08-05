@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Fri 12 Apr 2013 03:37:24 PM PDT
+PCBNEW-BOARD Version 1 date Fri 12 Apr 2013 03:41:50 PM PDT
 
 # Created by Pcbnew(2011-aug-04)-testing
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 32
 NoConn 0
 Di 19779 19779 32819 45273
-Ndraw 5
+Ndraw 8
 Ntrack 119
 Nzone 0
 BoardThickness 630
@@ -50,8 +50,8 @@ MicroViaDrill 50
 MicroViasAllowed 0
 MicroViaMinSize 200
 MicroViaMinDrill 50
-TextPcbWidth 80
-TextPcbSize 400 600
+TextPcbWidth 120
+TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
@@ -424,15 +424,15 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  pin_array_8x2_custom
 $MODULE LED_8x8
-Po 26299 26299 0 15 51687A1B 516879BD ~~
+Po 26299 26299 0 15 51688D76 516879BD ~~
 Li LED_8x8
 Cd LED 8x8 Matrix w/ 8x1 Peel-A-Way connectors (terminal type 210)
 Kw LED
 Sc 516879BD
 AR /5161B1D4
 Op 0 0 0
-T0 21 -3219 400 400 0 80 N I 21 N "M1"
-T1 21 -2679 400 400 0 80 N V 21 N "LED-MATRIX-8X8"
+T0 -5699 -3409 400 400 0 80 N I 21 N "M1"
+T1 51 -2179 400 400 0 80 N V 21 N "LED-MATRIX-8X8"
 DS 6299 6299 -6299 6299 120 24
 DS -6299 6299 -6299 -6299 120 24
 DS -6299 -6299 6299 -6299 120 24
@@ -559,7 +559,22 @@ Po -4725 3501
 $EndPAD
 $EndMODULE  LED_8x8
 $TEXTPCB
-Te "Top"
+Te "IO Rodeo Inc"
+Po 26210 43270 400 600 80 0
+De 20 0 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "Two Panel, One Matrix Adapter V0.1"
+Po 26140 42220 400 600 80 0
+De 20 0 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "BOT"
+Po 31640 44460 400 600 80 0
+De 20 0 0 Normal C
+$EndTEXTPCB
+$TEXTPCB
+Te "TOP"
 Po 31540 20690 400 600 80 0
 De 20 0 0 Normal C
 $EndTEXTPCB
