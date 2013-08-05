@@ -1,0 +1,305 @@
+# EESchema Netlist Version 1.1 created  Fri 26 Jul 2013 11:46:39 AM PDT
+(
+ ( /516115A2 SM0603 C1 47uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /516115D7 SM0603 C2 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /516115DC SM0603 C3 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /516115E0 SM0603 C4 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /516115E4 SM0603 C5 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /51F29642 SM0603 C6 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /51F29641 SM0603 C7 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /51F29640 SM0603 C8 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /51F2963F SM0603 C9 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /51F2B258 SM0603 C10 0.1uF
+  ( 1 /V+ )
+  ( 2 GND )
+ )
+ ( /5161217C pin_array_8x2 M1 LED-MATRIX-8X8
+  ( 1 /ROW_A5 )
+  ( 2 /ROW_A7 )
+  ( 3 /COL_A2 )
+  ( 4 /COL_A3 )
+  ( 5 /ROW_A8 )
+  ( 6 /COL_A5 )
+  ( 7 /ROW_A6 )
+  ( 8 /ROW_A3 )
+  ( 9 /ROW_A1 )
+  ( 10 /COL_A4 )
+  ( 11 /COL_A6 )
+  ( 12 /ROW_A4 )
+  ( 13 /COL_A1 )
+  ( 14 /ROW_A2 )
+  ( 15 /COL_A7 )
+  ( 16 /COL_A8 )
+ )
+ ( /51612464 pin_array_8x2 M2 LED-MATRIX-8X8
+  ( 1 /ROW_A5 )
+  ( 2 /ROW_A7 )
+  ( 3 /COL_A10 )
+  ( 4 /COL_A11 )
+  ( 5 /ROW_A8 )
+  ( 6 /COL_A13 )
+  ( 7 /ROW_A6 )
+  ( 8 /ROW_A3 )
+  ( 9 /ROW_A1 )
+  ( 10 /COL_A12 )
+  ( 11 /COL_A14 )
+  ( 12 /ROW_A4 )
+  ( 13 /COL_A9 )
+  ( 14 /ROW_A2 )
+  ( 15 /COL_A15 )
+  ( 16 /COL_A16 )
+ )
+ ( /51F2A6FB pin_array_8x2 M3 LED-MATRIX-8X8
+  ( 1 /ROW_B5 )
+  ( 2 /ROW_B7 )
+  ( 3 /COL_B2 )
+  ( 4 /COL_B3 )
+  ( 5 /ROW_B8 )
+  ( 6 /COL_B5 )
+  ( 7 /ROW_B6 )
+  ( 8 /ROW_B3 )
+  ( 9 /ROW_B1 )
+  ( 10 /COL_B4 )
+  ( 11 /COL_B6 )
+  ( 12 /ROW_B4 )
+  ( 13 /COL_B1 )
+  ( 14 /ROW_B2 )
+  ( 15 /COL_B7 )
+  ( 16 /COL_B8 )
+ )
+ ( /51F2A6FA pin_array_8x2 M4 LED-MATRIX-8X8
+  ( 1 /ROW_B5 )
+  ( 2 /ROW_B7 )
+  ( 3 /COL_B10 )
+  ( 4 /COL_B11 )
+  ( 5 /ROW_B8 )
+  ( 6 /COL_B13 )
+  ( 7 /ROW_B6 )
+  ( 8 /ROW_B3 )
+  ( 9 /ROW_B1 )
+  ( 10 /COL_B12 )
+  ( 11 /COL_B14 )
+  ( 12 /ROW_B4 )
+  ( 13 /COL_B9 )
+  ( 14 /ROW_B2 )
+  ( 15 /COL_B15 )
+  ( 16 /COL_B16 )
+ )
+ ( /51F2C00D PIN_ARRAY_2X2 P1 CONN_2X2
+  ( 1 /VAUX )
+  ( 2 GND )
+  ( 3 /VAUX )
+  ( 4 GND )
+ )
+ ( /516112AF MQFP44 U1 MAX6960
+  ( 1 GND )
+  ( 2 /ROW_A1 )
+  ( 3 /ROW_A2 )
+  ( 4 /ROW_A3 )
+  ( 5 /ROW_A4 )
+  ( 6 GND )
+  ( 7 /ROW_A5 )
+  ( 8 /ROW_A6 )
+  ( 9 /ROW_A7 )
+  ( 10 /ROW_A8 )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 /OSC_BUF )
+  ( 14 /CS1 )
+  ( 15 /MOSI )
+  ( 16 /MISO )
+  ( 17 /CLK )
+  ( 18 /RST )
+  ( 19 /COL_A1 )
+  ( 20 /COL_A2 )
+  ( 21 /COL_A3 )
+  ( 22 /V+ )
+  ( 23 /COL_A4 )
+  ( 24 /COL_A5 )
+  ( 25 /COL_A6 )
+  ( 26 /COL_A7 )
+  ( 27 /COL_A8 )
+  ( 28 /V+ )
+  ( 29 /COL_A9 )
+  ( 30 /COL_A10 )
+  ( 31 /COL_A11 )
+  ( 32 /COL_A12 )
+  ( 33 /COL_A13 )
+  ( 34 /V+ )
+  ( 35 /COL_A14 )
+  ( 36 /COL_A15 )
+  ( 37 /COL_A16 )
+  ( 38 /V+ )
+  ( 39 /ADDOUT_A )
+  ( 40 /V+ )
+  ( 41 /ADDCLK )
+  ( 42 GND )
+  ( 43 GND )
+  ( 44 GND )
+ )
+ ( /51F2B1B1 SOT353 U2 74AHC1G126
+  ( 1 /V+ )
+  ( 2 /OSC )
+  ( 3 GND )
+  ( 4 /OSC_BUF )
+  ( 5 /V+ )
+ )
+ ( /51F292FC MQFP44 U3 MAX6960
+  ( 1 GND )
+  ( 2 /ROW_B1 )
+  ( 3 /ROW_B2 )
+  ( 4 /ROW_B3 )
+  ( 5 /ROW_B4 )
+  ( 6 GND )
+  ( 7 /ROW_B5 )
+  ( 8 /ROW_B6 )
+  ( 9 /ROW_B7 )
+  ( 10 /ROW_B8 )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 /OSC_BUF )
+  ( 14 /CS1 )
+  ( 15 /MOSI )
+  ( 16 /MISO )
+  ( 17 /CLK )
+  ( 18 /RST )
+  ( 19 /COL_B1 )
+  ( 20 /COL_B2 )
+  ( 21 /COL_B3 )
+  ( 22 /V+ )
+  ( 23 /COL_B4 )
+  ( 24 /COL_B5 )
+  ( 25 /COL_B6 )
+  ( 26 /COL_B7 )
+  ( 27 /COL_B8 )
+  ( 28 /V+ )
+  ( 29 /COL_B9 )
+  ( 30 /COL_B10 )
+  ( 31 /COL_B11 )
+  ( 32 /COL_B12 )
+  ( 33 /COL_B13 )
+  ( 34 /V+ )
+  ( 35 /COL_B14 )
+  ( 36 /COL_B15 )
+  ( 37 /COL_B16 )
+  ( 38 /V+ )
+  ( 39 ? )
+  ( 40 /ADDOUT_A )
+  ( 41 /ADDCLK )
+  ( 42 GND )
+  ( 43 GND )
+  ( 44 GND )
+ )
+ ( /51F2AC1D HEADER_BOT U4 CONN15
+  ( 1 /V+ )
+  ( 2 GND )
+  ( 3 /RST )
+  ( 4 /CLK )
+  ( 5 /MOSI )
+  ( 6 /MISO )
+  ( 7 /CS1 )
+  ( 8 /CS2 )
+  ( 9 /CS3 )
+  ( 10 /CS4 )
+  ( 11 /CS5 )
+  ( 13 /CS6 )
+  ( 14 /OSC )
+  ( 15 /VAUX )
+ )
+ ( /51F2AD2B HEADER_TOP U5 CONN15
+  ( 1 /V+ )
+  ( 2 GND )
+  ( 3 /RST )
+  ( 4 /CLK )
+  ( 5 /MOSI )
+  ( 6 /MISO )
+  ( 7 /CS2 )
+  ( 8 /CS3 )
+  ( 9 /CS4 )
+  ( 10 /CS5 )
+  ( 11 /CS6 )
+  ( 13 ? )
+  ( 14 /OSC )
+  ( 15 /VAUX )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
