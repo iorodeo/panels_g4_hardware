@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 05 Aug 2013 05:38:30 PM PDT
+
+BeginCmp
+TimeStamp = /52004052;
+Reference = M1;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52004061;
+Reference = M2;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52004070;
+Reference = M3;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5200407F;
+Reference = M4;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /520049BE;
+Reference = P1;
+ValeurCmp = LED-MATRIX-2X-8X8-FEMALE;
+IdModule  = SMD_HEADER_18X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /520049CD;
+Reference = P2;
+ValeurCmp = LED-MATRIX-2X-8X8-FEMALE;
+IdModule  = SMD_HEADER_18X2;
+EndCmp
+
+EndListe
