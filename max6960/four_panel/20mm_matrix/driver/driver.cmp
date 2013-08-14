@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 05 Aug 2013 01:10:37 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 14 Aug 2013 12:04:26 AM PDT
 
 BeginCmp
 TimeStamp = /516115A2;
@@ -22,17 +22,17 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FFE658;
+TimeStamp = /520B1D66;
 Reference = P1;
-ValeurCmp = LED-MATRIX-2X-8X8;
-IdModule  = SMD_HEADER_18X2;
+ValeurCmp = CONN15X2;
+IdModule  = SMD_PIN_ARRAY_M_0P5IN_15X2;
 EndCmp
 
 BeginCmp
-TimeStamp = /51FFE667;
+TimeStamp = /520B1D75;
 Reference = P2;
-ValeurCmp = LED-MATRIX-2X-8X8;
-IdModule  = SMD_HEADER_18X2;
+ValeurCmp = CONN15X2;
+IdModule  = SMD_PIN_ARRAY_M_0P5IN_15X2;
 EndCmp
 
 BeginCmp

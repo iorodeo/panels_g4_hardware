@@ -1,6 +1,6 @@
-update=Mon 05 Aug 2013 05:35:33 PM PDT
+update=Wed 14 Aug 2013 02:23:15 PM PDT
 version=1
-last_client=eeschema
+last_client=pcbnew
 [cvpcb]
 version=1
 NetITyp=0
@@ -13,39 +13,6 @@ NetType=0
 EquName1=devcms
 [general]
 version=1
-[pcbnew]
-version=1
-LastNetListRead=
-UseCmpFile=1
-PadDrill="    1.016000"
-PadDrillOvalY="    1.016000"
-PadSizeH="    1.651000"
-PadSizeV="    1.651000"
-PcbTextSizeV="    1.500000"
-PcbTextSizeH="    1.500000"
-PcbTextThickness="    0.300000"
-ModuleTextSizeV="    1.500000"
-ModuleTextSizeH="    1.500000"
-ModuleTextSizeThickness="    0.150000"
-SolderMaskClearance="    0.200000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.200000"
-BoardOutlineThickness="    0.150000"
-ModuleOutlineThickness="    0.150000"
-[pcbnew/libraries]
-LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=LED_MATRIX_20MM_8X8
-LibName12=SMD_HEADER_18x2
 [eeschema]
 version=1
 LibDir=
@@ -89,3 +56,38 @@ LibName31=adapter-cache
 LibName32=led-matrix-8x8
 LibName33=betlux-led-8x8_c
 LibName34=led-matrix-2x-8x8-female
+LibName35=conn15x2
+[pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill="    1.016000"
+PadDrillOvalY="    1.016000"
+PadSizeH="    1.651000"
+PadSizeV="    1.651000"
+PcbTextSizeV="    1.016000"
+PcbTextSizeH="    1.016000"
+PcbTextThickness="    0.203200"
+ModuleTextSizeV="    1.500000"
+ModuleTextSizeH="    1.500000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.200000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.250000"
+ModuleOutlineThickness="    0.200000"
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=LED_MATRIX_20MM_8X8
+LibName12=SMD_HEADER_18x2
+LibName13=SMD_PIN_ARRAY_F_0P5IN_15X2
