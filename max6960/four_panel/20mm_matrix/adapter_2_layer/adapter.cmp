@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 14 Aug 2013 02:38:03 PM PDT
+
+BeginCmp
+TimeStamp = /52004052;
+Reference = M1;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52004061;
+Reference = M2;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52004070;
+Reference = M3;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5200407F;
+Reference = M4;
+ValeurCmp = BETLUX-LED-8X8_C;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /520BF30D;
+Reference = P1;
+ValeurCmp = CONN15X2;
+IdModule  = SMD_PIN_ARRAY_F_0P5IN_15X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /520BF31C;
+Reference = P2;
+ValeurCmp = CONN15X2;
+IdModule  = SMD_PIN_ARRAY_F_0P5IN_15X2;
+EndCmp
+
+EndListe
