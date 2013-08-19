@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 19 Aug 2013 10:35:27 AM PDT
+
+BeginCmp
+TimeStamp = /504E3A3D;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504FBC27;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /521254CA;
+Reference = IC1;
+ValeurCmp = ATMEGA328-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A5C6B;
+Reference = MATRIX1;
+ValeurCmp = LED_8X8;
+IdModule  = LED_8X8;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A999C;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = CONN_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A9C94;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = CONN_8x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A848F;
+Reference = R1;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A8490;
+Reference = R2;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A61B8;
+Reference = R3;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A61B7;
+Reference = R4;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A61B3;
+Reference = R5;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A61B4;
+Reference = R6;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A6174;
+Reference = R7;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A6150;
+Reference = R8;
+ValeurCmp = 150;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504A9F2F;
+Reference = R9;
+ValeurCmp = 10K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /504E3C39;
+Reference = X1;
+ValeurCmp = CER_RESO;
+IdModule  = XZL_CR;
+EndCmp
+
+EndListe
