@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 20 Aug 2013 01:13:13 AM PDT
+
+BeginCmp
+TimeStamp = /521309B9;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /521309C8;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /521285C1;
+Reference = IC1;
+ValeurCmp = ATMEGA328-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /521296D4;
+Reference = IC2;
+ValeurCmp = ATMEGA328-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /5213039D;
+Reference = IC3;
+ValeurCmp = ATMEGA328-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /521303AC;
+Reference = IC4;
+ValeurCmp = ATMEGA328-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /52131F30;
+Reference = MATRIX1;
+ValeurCmp = LED_8X8;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52131A8E;
+Reference = MATRIX2;
+ValeurCmp = LED_8X8;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52131AB4;
+Reference = MATRIX3;
+ValeurCmp = LED_8X8;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /52131ADA;
+Reference = MATRIX4;
+ValeurCmp = LED_8X8;
+IdModule  = LED_MATRIX_20MM_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5213131F;
+Reference = P1;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5213132E;
+Reference = P2;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52129528;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52129739;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /521299B6;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52129A43;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52128695;
+Reference = X1;
+ValeurCmp = CER_RESO;
+IdModule  = CER_RESO;
+EndCmp
+
+BeginCmp
+TimeStamp = /521296DA;
+Reference = X2;
+ValeurCmp = CER_RESO;
+IdModule  = CER_RESO;
+EndCmp
+
+BeginCmp
+TimeStamp = /52129957;
+Reference = X3;
+ValeurCmp = CER_RESO;
+IdModule  = CER_RESO;
+EndCmp
+
+BeginCmp
+TimeStamp = /521299E4;
+Reference = X4;
+ValeurCmp = CER_RESO;
+IdModule  = CER_RESO;
+EndCmp
+
+EndListe

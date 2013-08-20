@@ -536,13 +536,13 @@
     )
   )
 
-  (module SMD_PIN_ARRAY_F_0P5IN_15X2 (layer B.Cu) (tedit 520B2BBC) (tstamp 520BF9EB)
+  (module SMD_PIN_ARRAY_F_0P5IN_15X2 (layer B.Cu) (tedit 5213A8F5) (tstamp 520BF9EB)
     (at 60 71.6 180)
     (path /520BF30D)
     (fp_text reference P1 (at 5.08 0.254 450) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
-    (fp_text value CONN15X2 (at -5.207 0.127 450) (layer B.SilkS)
+    (fp_text value CONN15X2 (at -5.207 0.127 270) (layer B.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_line (start 1.397 -9.906) (end 3.556 -9.906) (layer B.SilkS) (width 0.381))
@@ -692,13 +692,13 @@
     )
   )
 
-  (module SMD_PIN_ARRAY_F_0P5IN_15X2 (layer B.Cu) (tedit 520B2BBC) (tstamp 520BFA22)
+  (module SMD_PIN_ARRAY_F_0P5IN_15X2 (layer B.Cu) (tedit 5213A8FD) (tstamp 520BFA22)
     (at 80 71.6 180)
     (path /520BF31C)
     (fp_text reference P2 (at 5.08 0.254 450) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
-    (fp_text value CONN15X2 (at -5.207 0.127 450) (layer B.SilkS)
+    (fp_text value CONN15X2 (at -5.207 0.127 270) (layer B.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_line (start 1.397 -9.906) (end 3.556 -9.906) (layer B.SilkS) (width 0.381))
