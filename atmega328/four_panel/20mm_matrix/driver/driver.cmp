@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 20 Aug 2013 01:13:13 AM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 21 Aug 2013 12:30:54 PM PDT
 
 BeginCmp
 TimeStamp = /521309B9;
@@ -15,31 +15,45 @@ IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
-TimeStamp = /521285C1;
+TimeStamp = /521514DE;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /521514E4;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /521524F8;
 Reference = IC1;
-ValeurCmp = ATMEGA328-A;
-IdModule  = TQFP32;
+ValeurCmp = ATMEGA328P-M;
+IdModule  = QFN32;
 EndCmp
 
 BeginCmp
-TimeStamp = /521296D4;
+TimeStamp = /521527DA;
 Reference = IC2;
-ValeurCmp = ATMEGA328-A;
-IdModule  = TQFP32;
+ValeurCmp = ATMEGA328P-M;
+IdModule  = QFN32;
 EndCmp
 
 BeginCmp
-TimeStamp = /5213039D;
+TimeStamp = /52152A7F;
 Reference = IC3;
-ValeurCmp = ATMEGA328-A;
-IdModule  = TQFP32;
+ValeurCmp = ATMEGA328P-M;
+IdModule  = QFN32;
 EndCmp
 
 BeginCmp
-TimeStamp = /521303AC;
+TimeStamp = /52152D26;
 Reference = IC4;
-ValeurCmp = ATMEGA328-A;
-IdModule  = TQFP32;
+ValeurCmp = ATMEGA328P-M;
+IdModule  = QFN32;
 EndCmp
 
 BeginCmp
@@ -74,14 +88,14 @@ BeginCmp
 TimeStamp = /5213131F;
 Reference = P1;
 ValeurCmp = CONN_2X2;
-IdModule  = PIN_ARRAY_2X2;
+IdModule  = PIN_ARRAY_F_2X2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5213132E;
 Reference = P2;
 ValeurCmp = CONN_2X2;
-IdModule  = PIN_ARRAY_2X2;
+IdModule  = PIN_ARRAY_F_2X2;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=Tue 20 Aug 2013 12:37:42 AM PDT
+update=Wed 21 Aug 2013 12:17:43 PM PDT
 version=1
 last_client=pcbnew
 [general]
@@ -55,10 +55,10 @@ LibName34=conn15
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
+PadDrill="    1.016000"
+PadDrillOvalY="    1.016000"
+PadSizeH="    1.524000"
+PadSizeV="    1.524000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -91,3 +91,4 @@ LibName16=HEADER_TOP
 LibName17=HEADER_BOT
 LibName18=CER_RESO
 LibName19=LED_MATRIX_20MM_8X8
+LibName20=PIN_ARRAY_F_2X2
