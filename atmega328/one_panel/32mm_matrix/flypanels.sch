@@ -32,6 +32,7 @@ LIBS:atmel2
 LIBS:cer_reso
 LIBS:led_8x8
 LIBS:uln2804a
+LIBS:flypanels-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
