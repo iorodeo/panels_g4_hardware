@@ -14,34 +14,22 @@
         (index 0)
       )
     )
-    (layer Inner2.Cu
-      (type signal)
-      (property
-        (index 1)
-      )
-    )
-    (layer Inner1.Cu
-      (type signal)
-      (property
-        (index 2)
-      )
-    )
     (layer B.Cu
       (type signal)
       (property
-        (index 3)
+        (index 1)
       )
     )
     (boundary
       (path pcb 0  90000 -90000  50000 -90000  50000 -50000  90000 -50000
             90000 -90000)
     )
-    (via "Via[0-3]_762:508_um" "Via[0-3]_762:0_um")
+    (via "Via[0-1]_762:508_um" "Via[0-1]_762:0_um")
     (rule
-      (width 203.2)
-      (clearance 203.3)
-      (clearance 203.3 (type default_smd))
-      (clearance 50.8 (type smd_smd))
+      (width 177.8)
+      (clearance 177.9)
+      (clearance 177.9 (type default_smd))
+      (clearance 44.45 (type smd_smd))
     )
   )
   (placement
@@ -57,49 +45,11 @@
       (place MATRIX3 80000 -60000 front 0 (PN LED_8X8))
       (place MATRIX4 80000 -80000 front 0 (PN LED_8X8))
     )
-    (component SM0603_Resistor
-      (place R1 64000 -68800 front 0 (PN 1k))
-      (place R2 64000 -71200 front 0 (PN 1k))
-      (place R3 77600 -68800 front 180 (PN 1k))
-      (place R4 77600 -71200 front 180 (PN 1k))
-      (place R5 69600 -58800 front 90 (PN R))
-      (place R6 56500 -51800 front 180 (PN R))
-      (place R7 56500 -53700 front 180 (PN R))
-      (place R8 69600 -68000 front 270 (PN R))
-      (place R9 62900 -66200 front 180 (PN R))
-      (place R10 65400 -62900 front 270 (PN R))
-      (place R11 64800 -53700 front 0 (PN R))
-      (place R12 64800 -51100 front 0 (PN R))
-      (place R13 56600 -88400 front 0 (PN R))
-      (place R14 55000 -75200 front 270 (PN R))
-      (place R15 61400 -87200 front 270 (PN R))
-      (place R16 69600 -86800 front 270 (PN R))
-      (place R17 64200 -87200 front 270 (PN R))
-      (place R18 59800 -74000 front 0 (PN R))
-      (place R19 69600 -76200 front 90 (PN R))
-      (place R20 69600 -71800 front 90 (PN R))
-      (place R21 85400 -58800 front 270 (PN R))
-      (place R22 75600 -51600 front 180 (PN R))
-      (place R23 75600 -53600 front 180 (PN R))
-      (place R24 85400 -67200 front 270 (PN R))
-      (place R25 70400 -64200 front 90 (PN R))
-      (place R26 85400 -63600 front 270 (PN R))
-      (place R27 84400 -53800 front 0 (PN R))
-      (place R28 84400 -51200 front 0 (PN R))
-      (place R29 85400 -78600 front 90 (PN R))
-      (place R30 74800 -74600 front 270 (PN R))
-      (place R31 70400 -80200 front 90 (PN R))
-      (place R32 85000 -86400 front 0 (PN R))
-      (place R33 79600 -87200 front 180 (PN R))
-      (place R34 85000 -83200 front 0 (PN R))
-      (place R35 83400 -74000 front 0 (PN R))
-      (place R36 85400 -71000 front 90 (PN R))
-    )
     (component CER_RESO
       (place X1 55000 -65000 front 270 (PN CER_RESO))
       (place X2 55000 -85000 front 270 (PN CER_RESO))
       (place X3 75000 -65000 front 270 (PN CER_RESO))
-      (place X4 75000 -85000 front 270 (PN CER_RESO))
+      (place X4 74866.5 -85039.2 front 270 (PN CER_RESO))
     )
     (component QFN32
       (place IC1 60000 -60000 front 0 (PN "ATMEGA328P-M"))
@@ -107,9 +57,47 @@
       (place IC3 80000 -60000 front 0 (PN "ATMEGA328P-M"))
       (place IC4 80000 -80000 front 0 (PN "ATMEGA328P-M"))
     )
-    (component PIN_ARRAY_F_2X2
-      (place P1 58000 -70000 back 180 (PN CONN_2X2))
-      (place P2 82000 -70000 back 180 (PN CONN_2X2))
+    (component PIN_ARRAY_F_3X2
+      (place P1 58000 -70000 back 180 (PN CONN_3X2))
+      (place P2 82000 -70000 back 180 (PN CONN_3X2))
+    )
+    (component SM0603_Resistor
+      (place R36 80340.2 -73685.4 front 0 (PN 180))
+      (place R35 84937.6 -73787 front 0 (PN 180))
+      (place R34 85636.1 -83870.8 front 270 (PN 180))
+      (place R33 75514.2 -88798.4 front 180 (PN 180))
+      (place R32 84988.4 -87299.8 front 0 (PN 180))
+      (place R31 70400 -80200 front 90 (PN 180))
+      (place R30 74472.8 -75844.4 front 270 (PN 180))
+      (place R29 85636.1 -78816.2 front 90 (PN 180))
+      (place R28 85013.8 -51028.6 front 0 (PN 180))
+      (place R27 85013.8 -53568.6 front 0 (PN 180))
+      (place R26 85572.6 -63804.8 front 270 (PN 180))
+      (place R25 70400 -64200 front 90 (PN 180))
+      (place R24 84810.6 -66725.8 front 0 (PN 180))
+      (place R23 79705.2 -51079.4 front 180 (PN 180))
+      (place R22 75653.9 -51066.7 front 180 (PN 180))
+      (place R21 85572.6 -58724.8 front 270 (PN 180))
+      (place R20 69596 -71374 front 90 (PN 180))
+      (place R19 69697.6 -75412.6 front 90 (PN 180))
+      (place R18 69596 -83553.3 front 270 (PN 180))
+      (place R17 64439.8 -87909.4 front 270 (PN 180))
+      (place R16 69600 -86800 front 270 (PN 180))
+      (place R15 61696.6 -87884 front 270 (PN 180))
+      (place R14 54432.2 -75387.2 front 270 (PN 180))
+      (place R13 56600 -88400 front 0 (PN 180))
+      (place R12 65074.8 -51155.6 front 0 (PN 180))
+      (place R11 65087.5 -53657.5 front 0 (PN 180))
+      (place R10 65659 -63601.6 front 270 (PN 180))
+      (place R9 63258.7 -66789.3 front 180 (PN 180))
+      (place R8 69600 -68000 front 90 (PN 180))
+      (place R7 59829.7 -51231.8 front 180 (PN 180))
+      (place R6 55600.6 -51231.8 front 180 (PN 180))
+      (place R5 69600 -58800 front 90 (PN 180))
+      (place R4 76695.3 -71386.7 front 180 (PN 1k))
+      (place R3 76669.9 -68707 front 180 (PN 1k))
+      (place R2 63322.2 -71196.2 front 0 (PN 1k))
+      (place R1 63296.8 -68719.7 front 0 (PN 1k))
     )
   )
   (library
@@ -145,16 +133,6 @@
       (pin Round[A]Pad_1651_um 14 7500 3810)
       (pin Round[A]Pad_1651_um 15 7500 6350)
       (pin Round[A]Pad_1651_um 16 7500 8890)
-    )
-    (image SM0603_Resistor
-      (outline (path signal 127  -500.38 698.5  -1206.5 698.5))
-      (outline (path signal 127  -1206.5 698.5  -1206.5 -698.5))
-      (outline (path signal 127  -1206.5 -698.5  -500.38 -698.5))
-      (outline (path signal 127  1206.5 698.5  500.38 698.5))
-      (outline (path signal 127  1206.5 698.5  1206.5 -698.5))
-      (outline (path signal 127  1206.5 -698.5  500.38 -698.5))
-      (pin Rect[T]Pad_635x1143_um 1 -762 0)
-      (pin Rect[T]Pad_635x1143_um 2 762 0)
     )
     (image CER_RESO
       (outline (path signal 203.2  -1699.26 899.16  1699.26 899.16))
@@ -206,27 +184,39 @@
       (pin Rect[T]Pad_254x762_um 28 248.92 2499.36)
       (pin Rect[T]Pad_2999.74x2999.74_um 33 0 0)
     )
-    (image PIN_ARRAY_F_2X2
-      (outline (path signal 304.8  -2540 2540  2540 2540))
-      (outline (path signal 304.8  2540 2540  2540 -2540))
-      (outline (path signal 304.8  2540 -2540  -2540 -2540))
-      (outline (path signal 304.8  -2540 -2540  -2540 2540))
-      (pin Rect[A]Pad_1524x1524_um 2 -1270 -1270)
-      (pin Round[A]Pad_1524_um 1 -1270 1270)
-      (pin Round[A]Pad_1524_um 4 1270 -1270)
-      (pin Round[A]Pad_1524_um 3 1270 1270)
+    (image PIN_ARRAY_F_3X2
+      (outline (path signal 304.8  3048 2540  3683 2540))
+      (outline (path signal 304.8  3683 2540  3810 2540))
+      (outline (path signal 304.8  3810 2540  3810 -2540))
+      (outline (path signal 304.8  3810 -2540  1270 -2540))
+      (outline (path signal 304.8  1270 2540  3048 2540))
+      (outline (path signal 304.8  -3810 2540  1270 2540))
+      (outline (path signal 304.8  1270 -2540  -3810 -2540))
+      (outline (path signal 304.8  -3810 -2540  -3810 2540))
+      (pin Rect[A]Pad_1524x1524_um 2 -2540 -1270)
+      (pin Round[A]Pad_1524_um 1 -2540 1270)
+      (pin Round[A]Pad_1524_um 4 0 -1270)
+      (pin Round[A]Pad_1524_um 3 0 1270)
+      (pin Round[A]Pad_1524_um 6 2540 -1270)
+      (pin Round[A]Pad_1524_um 5 2540 1270)
+    )
+    (image SM0603_Resistor
+      (outline (path signal 127  -500.38 698.5  -1206.5 698.5))
+      (outline (path signal 127  -1206.5 698.5  -1206.5 -698.5))
+      (outline (path signal 127  -1206.5 -698.5  -500.38 -698.5))
+      (outline (path signal 127  1206.5 698.5  500.38 698.5))
+      (outline (path signal 127  1206.5 698.5  1206.5 -698.5))
+      (outline (path signal 127  1206.5 -698.5  500.38 -698.5))
+      (pin Rect[T]Pad_635x1143_um 1 -762 0)
+      (pin Rect[T]Pad_635x1143_um 2 762 0)
     )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
-      (shape (circle Inner2.Cu 1524))
-      (shape (circle Inner1.Cu 1524))
       (shape (circle B.Cu 1524))
       (attach off)
     )
     (padstack Round[A]Pad_1651_um
       (shape (circle F.Cu 1651))
-      (shape (circle Inner2.Cu 1651))
-      (shape (circle Inner1.Cu 1651))
       (shape (circle B.Cu 1651))
       (attach off)
     )
@@ -248,30 +238,24 @@
     )
     (padstack Rect[A]Pad_1524x1524_um
       (shape (rect F.Cu -762 -762 762 762))
-      (shape (rect Inner2.Cu -762 -762 762 762))
-      (shape (rect Inner1.Cu -762 -762 762 762))
       (shape (rect B.Cu -762 -762 762 762))
       (attach off)
     )
-    (padstack "Via[0-3]_762:508_um"
+    (padstack "Via[0-1]_762:508_um"
       (shape (circle F.Cu 762))
-      (shape (circle Inner2.Cu 762))
-      (shape (circle Inner1.Cu 762))
       (shape (circle B.Cu 762))
       (attach off)
     )
-    (padstack "Via[0-3]_762:0_um"
+    (padstack "Via[0-1]_762:0_um"
       (shape (circle F.Cu 762))
-      (shape (circle Inner2.Cu 762))
-      (shape (circle Inner1.Cu 762))
       (shape (circle B.Cu 762))
       (attach off)
     )
   )
   (network
     (net +5V
-      (pins C1-1 R1-2 R2-2 R3-2 R4-2 C2-1 IC1-4 IC1-6 IC1-18 IC1-20 IC2-4 IC2-6 IC2-18
-        IC2-20 IC3-4 IC3-6 IC3-18 IC3-20 IC4-4 IC4-6 IC4-18 IC4-20 P1-1 C3-1 C4-1)
+      (pins C1-1 C2-1 IC1-4 IC1-6 IC1-18 IC1-20 IC2-4 IC2-6 IC2-18 IC2-20 IC3-4 IC3-6
+        IC3-18 IC3-20 IC4-4 IC4-6 IC4-18 IC4-20 C3-1 C4-1 P1-1 R4-2 R3-2 R2-2 R1-2)
     )
     (net /COL1_DRV1
       (pins MATRIX1-9 IC1-30)
@@ -369,17 +353,23 @@
     (net /COL8_DRV4
       (pins MATRIX4-5 IC4-11)
     )
+    (net /PCINT10/PC2
+      (pins IC1-25 IC2-25 IC3-25 IC4-25 P1-6)
+    )
+    (net /PCINT11/PC3
+      (pins IC1-26 IC2-26 IC3-26 IC4-26 P2-5)
+    )
     (net /RESET_DRV1
-      (pins R1-1 IC1-29 P1-2)
+      (pins IC1-29 P1-2 R1-1)
     )
     (net /RESET_DRV2
-      (pins R2-1 IC2-29 P1-4)
+      (pins IC2-29 P1-4 R2-1)
     )
     (net /RESET_DRV3
-      (pins R3-1 IC3-29 P2-2)
+      (pins IC3-29 P2-2 R3-1)
     )
     (net /RESET_DRV4
-      (pins R4-1 IC4-29 P2-4)
+      (pins IC4-29 P2-4 R4-1)
     )
     (net /ROW1_DRV1
       (pins IC1-12 R5-1)
@@ -509,178 +499,160 @@
     )
     (net GND
       (pins C1-2 X1-2 X2-2 X3-2 X4-2 C2-2 IC1-3 IC1-5 IC1-21 IC1-33 IC2-3 IC2-5 IC2-21
-        IC2-33 IC3-3 IC3-5 IC3-21 IC3-33 IC4-3 IC4-5 IC4-21 IC4-33 P1-3 C3-2 C4-2)
+        IC2-33 IC3-3 IC3-5 IC3-21 IC3-33 IC4-3 IC4-5 IC4-21 IC4-33 C3-2 C4-2 P1-3)
     )
     (net "N-00000100"
-      (pins MATRIX4-10 R32-2)
-    )
-    (net "N-00000101"
-      (pins IC4-25)
-    )
-    (net "N-00000102"
-      (pins IC4-26)
-    )
-    (net "N-00000103"
-      (pins IC4-19)
-    )
-    (net "N-00000106"
-      (pins IC3-25)
-    )
-    (net "N-00000107"
-      (pins IC3-26)
-    )
-    (net "N-00000108"
-      (pins IC3-19)
-    )
-    (net "N-0000011"
-      (pins IC1-25)
-    )
-    (net "N-00000112"
-      (pins IC4-22)
-    )
-    (net "N-00000113"
-      (pins MATRIX1-4 R7-2)
-    )
-    (net "N-00000114"
-      (pins MATRIX1-10 R8-2)
-    )
-    (net "N-00000115"
-      (pins MATRIX1-6 R9-2)
-    )
-    (net "N-00000116"
-      (pins MATRIX1-11 R10-2)
-    )
-    (net "N-00000117"
-      (pins MATRIX1-15 R11-2)
-    )
-    (net "N-00000118"
-      (pins MATRIX1-16 R12-2)
-    )
-    (net "N-00000119"
-      (pins MATRIX1-3 R6-2)
-    )
-    (net "N-00000120"
-      (pins MATRIX1-13 R5-2)
-    )
-    (net "N-0000013"
-      (pins IC1-26)
-    )
-    (net "N-0000015"
-      (pins IC1-19)
-    )
-    (net "N-0000034"
-      (pins IC3-22)
-    )
-    (net "N-0000035"
-      (pins IC2-22)
-    )
-    (net "N-0000036"
-      (pins IC2-25)
-    )
-    (net "N-0000037"
-      (pins IC2-26)
-    )
-    (net "N-0000038"
-      (pins IC2-19)
-    )
-    (net "N-000004"
-      (pins IC1-22)
-    )
-    (net "N-0000044"
-      (pins MATRIX3-6 R25-2)
-    )
-    (net "N-0000048"
-      (pins MATRIX3-11 R26-2)
-    )
-    (net "N-0000051"
-      (pins MATRIX3-15 R27-2)
-    )
-    (net "N-0000052"
-      (pins MATRIX3-16 R28-2)
-    )
-    (net "N-0000075"
-      (pins MATRIX4-6 R33-2)
-    )
-    (net "N-0000079"
-      (pins MATRIX4-11 R34-2)
-    )
-    (net "N-0000082"
-      (pins MATRIX4-15 R35-2)
-    )
-    (net "N-0000083"
-      (pins MATRIX4-16 R36-2)
-    )
-    (net "N-0000084"
-      (pins MATRIX2-16 R20-2)
-    )
-    (net "N-0000085"
-      (pins MATRIX3-3 R22-2)
-    )
-    (net "N-0000086"
-      (pins MATRIX3-4 R23-2)
-    )
-    (net "N-0000087"
-      (pins MATRIX3-13 R21-2)
-    )
-    (net "N-0000088"
-      (pins MATRIX3-10 R24-2)
-    )
-    (net "N-0000090"
-      (pins MATRIX2-13 R13-2)
-    )
-    (net "N-0000091"
-      (pins MATRIX2-3 R14-2)
-    )
-    (net "N-0000092"
-      (pins MATRIX2-4 R15-2)
-    )
-    (net "N-0000093"
-      (pins MATRIX2-10 R16-2)
-    )
-    (net "N-0000094"
-      (pins MATRIX2-6 R17-2)
-    )
-    (net "N-0000095"
       (pins MATRIX2-11 R18-2)
     )
-    (net "N-0000096"
+    (net "N-00000101"
       (pins MATRIX2-15 R19-2)
     )
-    (net "N-0000097"
-      (pins MATRIX4-13 R29-2)
+    (net "N-00000102"
+      (pins MATRIX2-16 R20-2)
     )
-    (net "N-0000098"
+    (net "N-00000103"
+      (pins MATRIX1-6 R9-2)
+    )
+    (net "N-00000104"
+      (pins MATRIX1-11 R10-2)
+    )
+    (net "N-00000105"
+      (pins MATRIX1-15 R11-2)
+    )
+    (net "N-00000106"
+      (pins MATRIX1-16 R12-2)
+    )
+    (net "N-0000018"
+      (pins IC1-19)
+    )
+    (net "N-000002"
+      (pins IC2-22)
+    )
+    (net "N-0000020"
+      (pins IC3-19)
+    )
+    (net "N-0000024"
+      (pins IC4-22)
+    )
+    (net "N-0000027"
+      (pins IC3-22)
+    )
+    (net "N-000004"
+      (pins IC2-19)
+    )
+    (net "N-0000044"
+      (pins MATRIX3-11 R26-2)
+    )
+    (net "N-0000045"
+      (pins MATRIX3-15 R27-2)
+    )
+    (net "N-0000046"
+      (pins MATRIX3-16 R28-2)
+    )
+    (net "N-0000065"
+      (pins MATRIX4-6 R33-2)
+    )
+    (net "N-0000068"
+      (pins MATRIX4-11 R34-2)
+    )
+    (net "N-0000071"
+      (pins MATRIX4-15 R35-2)
+    )
+    (net "N-0000072"
+      (pins MATRIX4-16 R36-2)
+    )
+    (net "N-0000073"
+      (pins MATRIX3-6 R25-2)
+    )
+    (net "N-0000074"
       (pins MATRIX4-3 R30-2)
     )
-    (net "N-0000099"
+    (net "N-0000075"
       (pins MATRIX4-4 R31-2)
+    )
+    (net "N-0000076"
+      (pins MATRIX4-13 R29-2)
+    )
+    (net "N-0000077"
+      (pins MATRIX4-10 R32-2)
+    )
+    (net "N-0000078"
+      (pins MATRIX3-3 R22-2)
+    )
+    (net "N-0000079"
+      (pins MATRIX3-4 R23-2)
+    )
+    (net "N-0000080"
+      (pins MATRIX3-13 R21-2)
+    )
+    (net "N-0000081"
+      (pins MATRIX3-10 R24-2)
+    )
+    (net "N-0000084"
+      (pins P1-5)
+    )
+    (net "N-0000086"
+      (pins P2-6)
+    )
+    (net "N-0000089"
+      (pins MATRIX1-3 R6-2)
+    )
+    (net "N-000009"
+      (pins IC1-22)
+    )
+    (net "N-0000090"
+      (pins MATRIX1-4 R7-2)
+    )
+    (net "N-0000091"
+      (pins MATRIX1-13 R5-2)
+    )
+    (net "N-0000092"
+      (pins MATRIX1-10 R8-2)
+    )
+    (net "N-0000093"
+      (pins IC4-19)
+    )
+    (net "N-0000095"
+      (pins MATRIX2-13 R13-2)
+    )
+    (net "N-0000096"
+      (pins MATRIX2-3 R14-2)
+    )
+    (net "N-0000097"
+      (pins MATRIX2-4 R15-2)
+    )
+    (net "N-0000098"
+      (pins MATRIX2-10 R16-2)
+    )
+    (net "N-0000099"
+      (pins MATRIX2-6 R17-2)
     )
     (class kicad_default "" +5V /COL1_DRV1 /COL1_DRV2 /COL1_DRV3 /COL1_DRV4
       /COL2_DRV1 /COL2_DRV2 /COL2_DRV3 /COL2_DRV4 /COL3_DRV1 /COL3_DRV2 /COL3_DRV3
       /COL3_DRV4 /COL4_DRV1 /COL4_DRV2 /COL4_DRV3 /COL4_DRV4 /COL5_DRV1 /COL5_DRV2
       /COL5_DRV3 /COL5_DRV4 /COL6_DRV1 /COL6_DRV2 /COL6_DRV3 /COL6_DRV4 /COL7_DRV1
       /COL7_DRV2 /COL7_DRV3 /COL7_DRV4 /COL8_DRV1 /COL8_DRV2 /COL8_DRV3 /COL8_DRV4
-      /RESET_DRV1 /RESET_DRV2 /RESET_DRV3 /RESET_DRV4 /ROW1_DRV1 /ROW1_DRV2
-      /ROW1_DRV3 /ROW1_DRV4 /ROW2_DRV1 /ROW2_DRV2 /ROW2_DRV3 /ROW2_DRV4 /ROW3_DRV1
-      /ROW3_DRV2 /ROW3_DRV3 /ROW3_DRV4 /ROW4_DRV1 /ROW4_DRV2 /ROW4_DRV3 /ROW4_DRV4
-      /ROW5_DRV1 /ROW5_DRV2 /ROW5_DRV3 /ROW5_DRV4 /ROW6_DRV1 /ROW6_DRV2 /ROW6_DRV3
-      /ROW6_DRV4 /ROW7_DRV1 /ROW7_DRV2 /ROW7_DRV3 /ROW7_DRV4 /ROW8_DRV1 /ROW8_DRV2
-      /ROW8_DRV3 /ROW8_DRV4 /SCL /SDA /XTAL1_DRV1 /XTAL1_DRV2 /XTAL1_DRV3
-      /XTAL1_DRV4 /XTAL2_DRV1 /XTAL2_DRV2 /XTAL2_DRV3 /XTAL2_DRV4 GND "N-00000100"
-      "N-00000101" "N-00000102" "N-00000103" "N-00000106" "N-00000107" "N-00000108"
-      "N-0000011" "N-00000112" "N-00000113" "N-00000114" "N-00000115" "N-00000116"
-      "N-00000117" "N-00000118" "N-00000119" "N-00000120" "N-0000013" "N-0000015"
-      "N-0000034" "N-0000035" "N-0000036" "N-0000037" "N-0000038" "N-000004"
-      "N-0000044" "N-0000048" "N-0000051" "N-0000052" "N-0000075" "N-0000079"
-      "N-0000082" "N-0000083" "N-0000084" "N-0000085" "N-0000086" "N-0000087"
-      "N-0000088" "N-0000090" "N-0000091" "N-0000092" "N-0000093" "N-0000094"
-      "N-0000095" "N-0000096" "N-0000097" "N-0000098" "N-0000099"
+      /PCINT10/PC2 /PCINT11/PC3 /RESET_DRV1 /RESET_DRV2 /RESET_DRV3 /RESET_DRV4
+      /ROW1_DRV1 /ROW1_DRV2 /ROW1_DRV3 /ROW1_DRV4 /ROW2_DRV1 /ROW2_DRV2 /ROW2_DRV3
+      /ROW2_DRV4 /ROW3_DRV1 /ROW3_DRV2 /ROW3_DRV3 /ROW3_DRV4 /ROW4_DRV1 /ROW4_DRV2
+      /ROW4_DRV3 /ROW4_DRV4 /ROW5_DRV1 /ROW5_DRV2 /ROW5_DRV3 /ROW5_DRV4 /ROW6_DRV1
+      /ROW6_DRV2 /ROW6_DRV3 /ROW6_DRV4 /ROW7_DRV1 /ROW7_DRV2 /ROW7_DRV3 /ROW7_DRV4
+      /ROW8_DRV1 /ROW8_DRV2 /ROW8_DRV3 /ROW8_DRV4 /SCL /SDA /XTAL1_DRV1 /XTAL1_DRV2
+      /XTAL1_DRV3 /XTAL1_DRV4 /XTAL2_DRV1 /XTAL2_DRV2 /XTAL2_DRV3 /XTAL2_DRV4
+      GND "N-00000100" "N-00000101" "N-00000102" "N-00000103" "N-00000104"
+      "N-00000105" "N-00000106" "N-0000018" "N-000002" "N-0000020" "N-0000024"
+      "N-0000027" "N-000004" "N-0000044" "N-0000045" "N-0000046" "N-0000065"
+      "N-0000068" "N-0000071" "N-0000072" "N-0000073" "N-0000074" "N-0000075"
+      "N-0000076" "N-0000077" "N-0000078" "N-0000079" "N-0000080" "N-0000081"
+      "N-0000084" "N-0000086" "N-0000089" "N-000009" "N-0000090" "N-0000091"
+      "N-0000092" "N-0000093" "N-0000095" "N-0000096" "N-0000097" "N-0000098"
+      "N-0000099"
       (circuit
-        (use_via Via[0-3]_762:508_um)
+        (use_via Via[0-1]_762:508_um)
       )
       (rule
-        (width 203.2)
-        (clearance 203.3)
+        (width 177.8)
+        (clearance 177.9)
       )
     )
   )
