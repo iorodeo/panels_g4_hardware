@@ -1,0 +1,124 @@
+
+(session programmer.ses
+  (base_design programmer.dsn)
+  (placement
+    (resolution um 10)
+    (component DCJACK_2PIN
+      (place P1 560500 -762000 front 270)
+    )
+    (component 3X2_SHRD_HEADER
+      (place P2 773000 -734000 front 180)
+    )
+    (component HEADER_TOP
+      (place P3 700000 -582000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "(2013-mar-13)-testing")
+    )
+    (library_out 
+      (padstack "Via[0-1]_889:635_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_889:0_um"
+        (shape
+          (circle F.Cu 8890 0 0)
+        )
+        (shape
+          (circle B.Cu 8890 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net +5V
+        (wire
+          (path F.Cu 6350
+            798400 -746700
+            723105 -821995
+            560500 -821995
+          )
+        )
+        (wire
+          (path B.Cu 6350
+            522200 -582000
+            522200 -783695
+            560500 -821995
+          )
+        )
+      )
+      (net /MISO
+        (wire
+          (path F.Cu 6350
+            649200 -582000
+            730343 -663143
+            740243 -663143
+            798400 -721300
+          )
+        )
+      )
+      (net /MOSI
+        (wire
+          (path B.Cu 6350
+            623800 -582000
+            623800 -643561
+            741848 -761609
+            758091 -761609
+            773000 -746700
+          )
+        )
+      )
+      (net /SCK
+        (wire
+          (path F.Cu 6350
+            773000 -721300
+            744827 -693127
+            709527 -693127
+            598400 -582000
+          )
+        )
+      )
+      (net /~RST
+        (wire
+          (path F.Cu 6350
+            573000 -582000
+            712300 -721300
+            747600 -721300
+          )
+        )
+      )
+      (net GND
+        (wire
+          (path F.Cu 6350
+            575800 -746700
+            560500 -762000
+          )
+        )
+        (wire
+          (path F.Cu 6350
+            747600 -746700
+            575800 -746700
+          )
+        )
+        (wire
+          (path F.Cu 6350
+            547600 -582000
+            547600 -718500
+            575800 -746700
+          )
+        )
+      )
+    )
+  )
+)

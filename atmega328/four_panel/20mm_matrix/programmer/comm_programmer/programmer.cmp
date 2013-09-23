@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 23 Sep 2013 03:21:17 PM PDT
+
+BeginCmp
+TimeStamp = /5240B8CC;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = DCJACK_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5240BA0F;
+Reference = P2;
+ValeurCmp = CONN_3X2;
+IdModule  = 3X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /5240B882;
+Reference = P3;
+ValeurCmp = CONN15;
+IdModule  = HEADER_TOP;
+EndCmp
+
+EndListe
