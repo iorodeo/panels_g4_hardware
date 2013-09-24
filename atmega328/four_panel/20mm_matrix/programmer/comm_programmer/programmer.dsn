@@ -34,13 +34,19 @@
   )
   (placement
     (component DCJACK_2PIN
-      (place P1 56050 -76200 front 270 (PN CONN_2))
+      (place P1 55600.6 -76161.9 front 270 (PN CONN_2))
     )
     (component 3X2_SHRD_HEADER
-      (place P2 77300 -73400 front 180 (PN CONN_3X2))
+      (place P2 69761.1 -74549 front 90 (PN CONN_3X2))
     )
     (component HEADER_TOP
       (place P3 70000 -58200 front 0 (PN CONN15))
+    )
+    (component PIN_ARRAY_2X1
+      (place P4 85775.8 -82702.4 front 90 (PN CONN_2))
+    )
+    (component "PIN_ARRAY-6X1"
+      (place P5 85877.4 -69875.4 front 90 (PN CONN_6))
     )
   )
   (library
@@ -96,6 +102,27 @@
       (pin Round[A]Pad_1524_um 14 15240 0)
       (pin Round[A]Pad_1524_um 15 17780 0)
     )
+    (image PIN_ARRAY_2X1
+      (outline (path signal 152.4  -2540 -1270  -2540 1270))
+      (outline (path signal 152.4  -2540 1270  2540 1270))
+      (outline (path signal 152.4  2540 1270  2540 -1270))
+      (outline (path signal 152.4  2540 -1270  -2540 -1270))
+      (pin Rect[A]Pad_1524x1524_um 1 -1270 0)
+      (pin Round[A]Pad_1524_um 2 1270 0)
+    )
+    (image "PIN_ARRAY-6X1"
+      (outline (path signal 304.8  -7620 -1270  -7620 1270))
+      (outline (path signal 304.8  -7620 1270  7620 1270))
+      (outline (path signal 304.8  7620 1270  7620 -1270))
+      (outline (path signal 304.8  7620 -1270  -7620 -1270))
+      (outline (path signal 304.8  -5080 -1270  -5080 1270))
+      (pin Rect[A]Pad_1524x1524_um 1 -6350 0)
+      (pin Round[A]Pad_1524_um 2 -3810 0)
+      (pin Round[A]Pad_1524_um 3 -1270 0)
+      (pin Round[A]Pad_1524_um 4 1270 0)
+      (pin Round[A]Pad_1524_um 5 3810 0)
+      (pin Round[A]Pad_1524_um 6 6350 0)
+    )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
       (shape (circle B.Cu 1524))
@@ -139,7 +166,7 @@
   )
   (network
     (net +5V
-      (pins P1-2 P2-2 P3-1)
+      (pins P1-2 P2-2 P3-1 P4-1)
     )
     (net /MISO
       (pins P2-1 P3-6)
@@ -147,44 +174,47 @@
     (net /MOSI
       (pins P2-4 P3-5)
     )
+    (net /RX
+      (pins P3-13 P5-4)
+    )
     (net /SCK
       (pins P2-3 P3-4)
     )
+    (net /TX
+      (pins P3-14 P5-5)
+    )
     (net /~RST
-      (pins P2-5 P3-3)
+      (pins P2-5 P3-3 P5-6)
     )
     (net GND
-      (pins P1-1 P2-6 P3-2)
+      (pins P1-1 P2-6 P3-2 P5-1 P5-2)
     )
     (net "N-0000010"
-      (pins P3-13)
-    )
-    (net "N-0000011"
-      (pins P3-12)
-    )
-    (net "N-0000012"
-      (pins P3-11)
-    )
-    (net "N-0000013"
-      (pins P3-10)
-    )
-    (net "N-0000014"
-      (pins P3-9)
-    )
-    (net "N-0000015"
       (pins P3-8)
     )
-    (net "N-0000016"
+    (net "N-0000011"
       (pins P3-7)
     )
-    (net "N-000008"
+    (net "N-0000014"
+      (pins P4-2 P5-3)
+    )
+    (net "N-000005"
       (pins P3-15)
     )
-    (net "N-000009"
-      (pins P3-14)
+    (net "N-000006"
+      (pins P3-12)
     )
-    (class kicad_default "" +5V /MISO /MOSI /SCK /~RST GND "N-0000010" "N-0000011"
-      "N-0000012" "N-0000013" "N-0000014" "N-0000015" "N-0000016" "N-000008"
+    (net "N-000007"
+      (pins P3-11)
+    )
+    (net "N-000008"
+      (pins P3-10)
+    )
+    (net "N-000009"
+      (pins P3-9)
+    )
+    (class kicad_default "" +5V /MISO /MOSI /RX /SCK /TX /~RST GND "N-0000010"
+      "N-0000011" "N-0000014" "N-000005" "N-000006" "N-000007" "N-000008"
       "N-000009"
       (circuit
         (use_via Via[0-1]_889:635_um)

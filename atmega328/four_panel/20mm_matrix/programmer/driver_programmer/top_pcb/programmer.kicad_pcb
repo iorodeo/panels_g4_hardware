@@ -3,7 +3,7 @@
   (general
     (links 116)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 43.837667 44.131 96.162333 186.631)
     (thickness 1.6)
     (drawings 27)
     (tracks 664)
@@ -1504,7 +1504,7 @@
   (gr_text www.iorodeo.com (at 69.8754 47.117) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (gr_text "FOUR PANEL PROGRAMMER - TOP PCB" (at 70.0786 182.6768) (layer F.SilkS)
+  (gr_text "4x20mm atmega328 \nDriver Programmer - Top v0.1" (at 71.3613 181.3941) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (gr_text AVRISP (at 69.9389 93.345) (layer F.SilkS)
