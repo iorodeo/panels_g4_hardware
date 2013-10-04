@@ -3,9 +3,9 @@
   (general
     (links 181)
     (no_connects 0)
-    (area 39.749999 49.527499 311.349571 100.444321)
+    (area 39.749999 49.527499 310.381952 100.444321)
     (thickness 1.6)
-    (drawings 56)
+    (drawings 57)
     (tracks 912)
     (zones 0)
     (modules 39)
@@ -2295,6 +2295,9 @@
     )
   )
 
+  (gr_text "SPI 1X" (at 116.1796 97.5868) (layer F.SilkS) (tstamp 524F0FA7)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
   (gr_text INT (at 55.7276 65.3796 90) (layer F.SilkS) (tstamp 524E03BB)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

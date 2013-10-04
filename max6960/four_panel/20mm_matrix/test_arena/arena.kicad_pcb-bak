@@ -2307,7 +2307,7 @@
   (gr_text VAUX (at 67.2592 92.6592 90) (layer F.SilkS) (tstamp 524E0340)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (gr_text "4x 20mm Atmega328 Test Arena v0.1\nwww.iorodeo.com" (at 292.989 77.343 90) (layer F.SilkS) (tstamp 524CF257)
+  (gr_text "4x 20mm MAX6960 Test Arena v0.1\nwww.iorodeo.com" (at 292.989 77.343 90) (layer F.SilkS) (tstamp 524CF257)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (gr_text "SPI 6X" (at 236.982 97.155) (layer F.SilkS) (tstamp 524CF23D)
