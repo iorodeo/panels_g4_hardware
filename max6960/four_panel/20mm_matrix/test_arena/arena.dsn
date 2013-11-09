@@ -34,39 +34,40 @@
   )
   (placement
     (component Capacitor_Polarized
-      (place C1 89000 -76000 front 0 (PN 10uF))
-      (place C2 130000 -76000 front 0 (PN 10uF))
-      (place C3 170000 -76000 front 0 (PN 10uF))
-      (place C4 211000 -76000 front 0 (PN 10uF))
-      (place C5 250000 -76000 front 0 (PN 10uF))
+      (place C1 89000 -73000 front 0 (PN 10uF))
+      (place C2 130000 -73000 front 0 (PN 10uF))
+      (place C3 170000 -73000 front 0 (PN 10uF))
+      (place C4 211000 -73000 front 0 (PN 10uF))
+      (place C5 250000 -73000 front 0 (PN 10uF))
     )
     (component PIN_ARRAY_2X2
-      (place P7 102350 -70000 front 0 (PN CONN_2X2))
-      (place P8 142450 -70000 front 0 (PN CONN_2X2))
-      (place P9 182550 -70000 front 0 (PN CONN_2X2))
-      (place P10 222650 -70000 front 0 (PN CONN_2X2))
-      (place P11 262750 -70000 front 0 (PN CONN_2X2))
-      (place P12 109850 -70000 front 0 (PN CONN_2X2))
-      (place P13 149950 -70000 front 0 (PN CONN_2X2))
-      (place P14 190050 -70000 front 0 (PN CONN_2X2))
-      (place P15 230150 -70000 front 0 (PN CONN_2X2))
-      (place P16 270250 -70000 front 0 (PN CONN_2X2))
-      (place P17 117350 -70000 front 0 (PN CONN_2X2))
-      (place P18 157450 -70000 front 0 (PN CONN_2X2))
-      (place P19 197550 -70000 front 0 (PN CONN_2X2))
-      (place P20 237650 -70000 front 0 (PN CONN_2X2))
-      (place P21 277750 -70000 front 0 (PN CONN_2X2))
+      (place P7 102350 -66000 front 0 (PN CONN_2X2))
+      (place P8 142450 -66000 front 0 (PN CONN_2X2))
+      (place P9 182550 -66000 front 0 (PN CONN_2X2))
+      (place P10 222650 -66000 front 0 (PN CONN_2X2))
+      (place P11 262750 -66000 front 0 (PN CONN_2X2))
+      (place P12 109850 -66000 front 0 (PN CONN_2X2))
+      (place P13 149950 -66000 front 0 (PN CONN_2X2))
+      (place P14 190050 -66000 front 0 (PN CONN_2X2))
+      (place P15 230150 -66000 front 0 (PN CONN_2X2))
+      (place P16 270250 -66000 front 0 (PN CONN_2X2))
+      (place P17 117350 -66000 front 0 (PN CONN_2X2))
+      (place P18 157450 -66000 front 0 (PN CONN_2X2))
+      (place P19 197550 -66000 front 0 (PN CONN_2X2))
+      (place P20 237650 -66000 front 0 (PN CONN_2X2))
+      (place P21 277750 -66000 front 0 (PN CONN_2X2))
       (place P25 54356 -70000 front 0 (PN CONN_2X2))
     )
     (component PIN_ARRAY_SHRD_20X2
-      (place P22 117000 -91000 front 0 (PN CONN_20X2))
+      (place P22 110000 -89000 front 0 (PN CONN_20X2))
+      (place P32 174000 -89000 front 0 (PN CONN_20X2))
     )
     (component PIN_ARRAY_SHRD_30X2
-      (place P23 237000 -91000 front 0 (PN CONN_30X2))
+      (place P23 250000 -89000 front 0 (PN CONN_30X2))
     )
     (component DCJACK_2PIN
       (place P24 55829.2 -86200 front 270 (PN CONN_2))
-      (place P26 73507.6 -86200 front 270 (PN CONN_2))
+      (place P26 69850 -86200 front 270 (PN CONN_2))
     )
     (component HEADER_TOP
       (place P1 69750 -58100 front 0 (PN CONN15))
@@ -77,18 +78,27 @@
       (place P6 270250 -58100 front 0 (PN CONN15))
     )
     (component MOUNT_HOLE_4_40
-      (place M3 297000 -65000 front 0 (PN VAL**))
-      (place M6 43000 -95000 front 0 (PN VAL**))
-      (place M4 297000 -95000 front 0 (PN VAL**))
+      (place M3 297500 -65000 front 0 (PN VAL**))
+      (place M4 297500 -97500 front 0 (PN VAL**))
       (place M2 170000 -65000 front 0 (PN VAL**))
-      (place M5 170000 -95000 front 0 (PN VAL**))
-      (place M1 43000 -65000 front 0 (PN VAL**))
+      (place M5 170000 -97500 front 0 (PN VAL**))
+      (place M1 42500 -65000 front 0 (PN VAL**))
+    )
+    (component MOUNT_HOLE_4_40::1
+      (place M6 43000 -95000 front 0 (PN VAL**))
     )
     (component SM0603_Capa
       (place C6 70662.8 -68935.6 front 0 (PN 0.1uF))
     )
     (component SOT323
       (place U1 66446.4 -69900.8 front 0 (PN MAX7375))
+    )
+    (component PIN_ARRAY_5x2
+      (place P27 109850 -77000 front 0 (PN CONN_5X2))
+      (place P28 149950 -77000 front 0 (PN CONN_5X2))
+      (place P29 190050 -77000 front 0 (PN CONN_5X2))
+      (place P30 230150 -77000 front 0 (PN CONN_5X2))
+      (place P31 270250 -77000 front 0 (PN CONN_5X2))
     )
   )
   (library
@@ -301,6 +311,9 @@
     (image MOUNT_HOLE_4_40
       (pin Round[A]Pad_3302_um @1 0 0)
     )
+    (image MOUNT_HOLE_4_40::1
+      (pin Round[A]Pad_3302_um @1 -500 -2500)
+    )
     (image SM0603_Capa
       (outline (path signal 119.38  500.38 -650.24  1198.88 -650.24))
       (outline (path signal 119.38  -500.38 -650.24  -1198.88 -650.24))
@@ -323,6 +336,22 @@
       (pin Rect[T]Pad_599.44x1000.76_um 2 -650.24 949.96)
       (pin Rect[T]Pad_599.44x1000.76_um 1 650.24 949.96)
       (pin Rect[T]Pad_599.44x1000.76_um 3 0 -949.96)
+    )
+    (image PIN_ARRAY_5x2
+      (outline (path signal 304.8  -6350 2540  6350 2540))
+      (outline (path signal 304.8  6350 2540  6350 -2540))
+      (outline (path signal 304.8  6350 -2540  -6350 -2540))
+      (outline (path signal 304.8  -6350 -2540  -6350 2540))
+      (pin Rect[A]Pad_1524x1524_um 1 -5080 -1270)
+      (pin Round[A]Pad_1524_um 2 -5080 1270)
+      (pin Round[A]Pad_1524_um 3 -2540 -1270)
+      (pin Round[A]Pad_1524_um 4 -2540 1270)
+      (pin Round[A]Pad_1524_um 5 0 -1270)
+      (pin Round[A]Pad_1524_um 6 0 1270)
+      (pin Round[A]Pad_1524_um 7 2540 -1270)
+      (pin Round[A]Pad_1524_um 8 2540 1270)
+      (pin Round[A]Pad_1524_um 9 5080 -1270)
+      (pin Round[A]Pad_1524_um 10 5080 1270)
     )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
@@ -376,196 +405,193 @@
   (network
     (net +3.3V
       (pins C1-1 C2-1 C3-1 C4-1 C5-1 P22-38 P23-58 P23-60 P24-1 P1-1 P2-1 P3-1 P4-1
-        P5-1 P6-1 C6-1 U1-1)
+        P5-1 P6-1 C6-1 U1-1 P32-38 P32-40)
     )
     (net /CLK_0
-      (pins P7-1 P8-1 P9-1 P10-1 P11-1 P22-7 P23-7 P1-4)
+      (pins P7-1 P8-1 P9-1 P10-1 P11-1 P22-7 P23-7 P1-4 P32-5)
     )
     (net /CLK_1
-      (pins P7-3 P23-23)
+      (pins P7-3 P23-23 P32-13)
     )
     (net /CLK_11
       (pins P7-2 P7-4 P2-4)
     )
     (net /CLK_2
-      (pins P8-3 P23-39)
+      (pins P8-3 P23-39 P32-21)
     )
     (net /CLK_22
       (pins P8-2 P8-4 P3-4)
     )
     (net /CLK_3
-      (pins P9-3 P23-6)
+      (pins P9-3 P23-6 P32-33)
     )
     (net /CLK_33
       (pins P9-2 P9-4 P4-4)
     )
     (net /CLK_4
-      (pins P10-3 P23-22)
+      (pins P10-3 P23-22 P32-6)
     )
     (net /CLK_44
       (pins P10-2 P10-4 P5-4)
     )
     (net /CLK_5
-      (pins P11-3 P23-38)
+      (pins P11-3 P23-38 P32-14)
     )
     (net /CLK_55
       (pins P11-2 P11-4 P6-4)
     )
     (net /CS1_0
-      (pins P22-13 P23-13 P1-7)
+      (pins P22-13 P23-13 P1-7 P27-1 P28-1 P29-1 P30-1 P31-1 P32-22)
     )
     (net /CS1_1
-      (pins P22-23 P23-29 P2-7)
+      (pins P22-23 P23-29 P2-7 P27-2)
     )
     (net /CS1_2
-      (pins P22-33 P23-45 P3-7)
+      (pins P22-33 P23-45 P3-7 P28-2)
     )
     (net /CS1_3
-      (pins P22-8 P23-12 P4-7)
+      (pins P22-8 P23-12 P4-7 P29-2)
     )
     (net /CS1_4
-      (pins P22-18 P23-28 P5-7)
+      (pins P22-18 P23-28 P5-7 P30-2)
     )
     (net /CS1_5
-      (pins P22-28 P23-44 P6-7)
+      (pins P22-28 P23-44 P6-7 P31-2)
     )
     (net /CS2_0
-      (pins P22-15 P23-15 P1-8)
+      (pins P22-15 P23-15 P1-8 P27-3 P28-3 P29-3 P30-3 P31-3 P32-24)
     )
     (net /CS2_1
-      (pins P22-25 P23-31 P2-8)
+      (pins P22-25 P23-31 P2-8 P27-4)
     )
     (net /CS2_2
-      (pins P22-35 P23-47 P3-8)
+      (pins P22-35 P23-47 P3-8 P28-4)
     )
     (net /CS2_3
-      (pins P22-10 P23-14 P4-8)
+      (pins P22-10 P23-14 P4-8 P29-4)
     )
     (net /CS2_4
-      (pins P22-20 P23-30 P5-8)
+      (pins P22-20 P23-30 P5-8 P30-4)
     )
     (net /CS2_5
-      (pins P22-30 P23-46 P6-8)
+      (pins P22-30 P23-46 P6-8 P31-4)
     )
     (net /CS3_0
-      (pins P22-17 P23-17 P1-9)
+      (pins P22-17 P23-17 P1-9 P27-5 P28-5 P29-5 P30-5 P31-5 P32-26)
     )
     (net /CS3_1
-      (pins P22-27 P23-33 P2-9)
+      (pins P22-27 P23-33 P2-9 P27-6)
     )
     (net /CS3_2
-      (pins P22-37 P23-49 P3-9)
+      (pins P22-37 P23-49 P3-9 P28-6)
     )
     (net /CS3_3
-      (pins P22-12 P23-16 P4-9)
+      (pins P22-12 P23-16 P4-9 P29-6)
     )
     (net /CS3_4
-      (pins P22-22 P23-32 P5-9)
+      (pins P22-22 P23-32 P5-9 P30-6)
     )
     (net /CS3_5
-      (pins P22-32 P23-48 P6-9)
+      (pins P22-32 P23-48 P6-9 P31-6)
     )
     (net /CS4_0
-      (pins P22-19 P23-19 P1-10)
+      (pins P22-19 P23-19 P1-10 P27-7 P28-7 P29-7 P30-7 P31-7 P32-28)
     )
     (net /CS4_1
-      (pins P22-29 P23-35 P2-10)
+      (pins P22-29 P23-35 P2-10 P27-8)
     )
     (net /CS4_2
-      (pins P22-39 P23-51 P3-10)
+      (pins P22-39 P23-51 P3-10 P28-8)
     )
     (net /CS4_3
-      (pins P22-14 P23-18 P4-10)
+      (pins P22-14 P23-18 P4-10 P29-8)
     )
     (net /CS4_4
-      (pins P22-24 P23-34 P5-10)
+      (pins P22-24 P23-34 P5-10 P30-8)
     )
     (net /CS4_5
-      (pins P22-34 P23-50 P6-10)
+      (pins P22-34 P23-50 P6-10 P31-8)
     )
     (net /CS5_0
-      (pins P22-21 P23-21 P1-11)
+      (pins P22-21 P23-21 P1-11 P27-9 P28-9 P29-9 P30-9 P31-9 P32-30)
     )
     (net /CS5_1
-      (pins P22-31 P23-37 P2-11)
+      (pins P22-31 P23-37 P2-11 P27-10)
     )
     (net /CS5_2
-      (pins P22-6 P23-53 P3-11)
+      (pins P22-6 P23-53 P3-11 P28-10)
     )
     (net /CS5_3
-      (pins P22-16 P23-20 P4-11)
+      (pins P22-16 P23-20 P4-11 P29-10)
     )
     (net /CS5_4
-      (pins P22-26 P23-36 P5-11)
+      (pins P22-26 P23-36 P5-11 P30-10)
     )
     (net /CS5_5
-      (pins P22-36 P23-52 P6-11)
-    )
-    (net /INT_OSC
-      (pins U1-2)
+      (pins P22-36 P23-52 P6-11 P31-10)
     )
     (net /MISO_0
-      (pins P17-1 P18-1 P19-1 P20-1 P21-1 P22-11 P23-11 P1-6)
+      (pins P17-1 P18-1 P19-1 P20-1 P21-1 P22-11 P23-11 P1-6 P32-9)
     )
     (net /MISO_1
-      (pins P17-3 P23-27)
+      (pins P17-3 P23-27 P32-17)
     )
     (net /MISO_11
       (pins P17-2 P17-4 P2-6)
     )
     (net /MISO_2
-      (pins P18-3 P23-43)
+      (pins P18-3 P23-43 P32-25)
     )
     (net /MISO_22
       (pins P18-2 P18-4 P3-6)
     )
     (net /MISO_3
-      (pins P19-3 P23-10)
+      (pins P19-3 P23-10 P32-29)
     )
     (net /MISO_33
       (pins P19-2 P19-4 P4-6)
     )
     (net /MISO_4
-      (pins P20-3 P23-26)
+      (pins P20-3 P23-26 P32-10)
     )
     (net /MISO_44
       (pins P20-2 P20-4 P5-6)
     )
     (net /MISO_5
-      (pins P21-3 P23-42)
+      (pins P21-3 P23-42 P32-18)
     )
     (net /MISO_55
       (pins P21-2 P21-4 P6-6)
     )
     (net /MOSI_0
-      (pins P12-1 P13-1 P14-1 P15-1 P16-1 P22-9 P23-9 P1-5)
+      (pins P12-1 P13-1 P14-1 P15-1 P16-1 P22-9 P23-9 P1-5 P32-7)
     )
     (net /MOSI_1
-      (pins P12-3 P23-25)
+      (pins P12-3 P23-25 P32-15)
     )
     (net /MOSI_11
       (pins P12-2 P12-4 P2-5)
     )
     (net /MOSI_2
-      (pins P13-3 P23-41)
+      (pins P13-3 P23-41 P32-23)
     )
     (net /MOSI_22
       (pins P13-2 P13-4 P3-5)
     )
     (net /MOSI_3
-      (pins P14-3 P23-8)
+      (pins P14-3 P23-8 P32-31)
     )
     (net /MOSI_33
       (pins P14-2 P14-4 P4-5)
     )
     (net /MOSI_4
-      (pins P15-3 P23-24)
+      (pins P15-3 P23-24 P32-8)
     )
     (net /MOSI_44
       (pins P15-2 P15-4 P5-5)
     )
     (net /MOSI_5
-      (pins P16-3 P23-40)
+      (pins P16-3 P23-40 P32-16)
     )
     (net /MOSI_55
       (pins P16-2 P16-4 P6-5)
@@ -574,96 +600,130 @@
       (pins P1-13 P2-13 P3-13 P4-13 P5-13 P6-13 P25-2 P25-4)
     )
     (net /OSC_EXT
-      (pins P22-2 P23-2 P25-1)
+      (pins P22-2 P23-2 P25-1 P32-2)
     )
     (net /OSC_INT
-      (pins P25-3)
+      (pins P25-3 U1-2)
     )
     (net /RST
-      (pins P22-1 P23-1 P1-3 P2-3 P3-3 P4-3 P5-3 P6-3)
+      (pins P22-1 P23-1 P1-3 P2-3 P3-3 P4-3 P5-3 P6-3 P32-1)
     )
     (net /VAUX
       (pins P1-14 P2-14 P3-14 P4-14 P5-14 P6-14 P26-1)
     )
     (net GND
       (pins C1-2 C2-2 C3-2 C4-2 C5-2 P22-40 P23-57 P23-59 P24-2 P1-2 P2-2 P3-2 P4-2
-        P5-2 P6-2 C6-2 P26-2 U1-3)
+        P5-2 P6-2 C6-2 P26-2 U1-3 P32-37 P32-39)
     )
-    (net "N-0000040"
-      (pins P22-3)
+    (net "N-00000100"
+      (pins P23-55)
     )
-    (net "N-0000041"
-      (pins P22-4)
-    )
-    (net "N-0000042"
-      (pins P22-5)
-    )
-    (net "N-0000062"
-      (pins P1-12)
-    )
-    (net "N-0000063"
-      (pins P2-12)
-    )
-    (net "N-0000064"
-      (pins P3-12)
-    )
-    (net "N-0000065"
-      (pins P4-12)
-    )
-    (net "N-0000066"
-      (pins P5-12)
-    )
-    (net "N-0000067"
-      (pins P6-12)
-    )
-    (net "N-0000068"
-      (pins P1-15)
-    )
-    (net "N-0000069"
-      (pins P2-15)
-    )
-    (net "N-0000070"
-      (pins P3-15)
-    )
-    (net "N-0000071"
-      (pins P4-15)
-    )
-    (net "N-0000072"
-      (pins P5-15)
-    )
-    (net "N-0000073"
-      (pins P6-15)
-    )
-    (net "N-0000075"
-      (pins P23-4)
-    )
-    (net "N-0000076"
-      (pins P23-3)
-    )
-    (net "N-0000077"
-      (pins P23-5)
-    )
-    (net "N-0000090"
+    (net "N-00000101"
       (pins P23-54)
     )
-    (net "N-0000091"
+    (net "N-00000102"
       (pins P23-56)
     )
-    (net "N-0000092"
-      (pins P23-55)
+    (net "N-000002"
+      (pins P6-12)
+    )
+    (net "N-0000023"
+      (pins P6-15)
+    )
+    (net "N-0000024"
+      (pins P5-15)
+    )
+    (net "N-0000025"
+      (pins P4-15)
+    )
+    (net "N-0000026"
+      (pins P3-15)
+    )
+    (net "N-0000027"
+      (pins P2-15)
+    )
+    (net "N-0000028"
+      (pins P1-15)
+    )
+    (net "N-000003"
+      (pins P5-12)
+    )
+    (net "N-000004"
+      (pins P4-12)
+    )
+    (net "N-000005"
+      (pins P3-12)
+    )
+    (net "N-0000057"
+      (pins P32-35)
+    )
+    (net "N-0000058"
+      (pins P32-27)
+    )
+    (net "N-0000059"
+      (pins P32-36)
+    )
+    (net "N-000006"
+      (pins P2-12)
+    )
+    (net "N-0000060"
+      (pins P32-34)
+    )
+    (net "N-0000061"
+      (pins P32-32)
+    )
+    (net "N-0000062"
+      (pins P32-19)
+    )
+    (net "N-000007"
+      (pins P1-12)
+    )
+    (net "N-0000072"
+      (pins P32-20)
+    )
+    (net "N-0000073"
+      (pins P32-11)
+    )
+    (net "N-0000074"
+      (pins P32-12)
+    )
+    (net "N-0000075"
+      (pins P32-3)
+    )
+    (net "N-0000076"
+      (pins P32-4)
+    )
+    (net "N-0000084"
+      (pins P23-5)
+    )
+    (net "N-0000085"
+      (pins P23-3)
+    )
+    (net "N-0000086"
+      (pins P23-4)
+    )
+    (net "N-0000087"
+      (pins P22-5)
+    )
+    (net "N-0000088"
+      (pins P22-3)
+    )
+    (net "N-0000089"
+      (pins P22-4)
     )
     (class kicad_default "" /CLK_0 /CLK_1 /CLK_11 /CLK_2 /CLK_22 /CLK_3 /CLK_33
       /CLK_4 /CLK_44 /CLK_5 /CLK_55 /CS1_0 /CS1_1 /CS1_2 /CS1_3 /CS1_4 /CS1_5
       /CS2_0 /CS2_1 /CS2_2 /CS2_3 /CS2_4 /CS2_5 /CS3_0 /CS3_1 /CS3_2 /CS3_3
       /CS3_4 /CS3_5 /CS4_0 /CS4_1 /CS4_2 /CS4_3 /CS4_4 /CS4_5 /CS5_0 /CS5_1
-      /CS5_2 /CS5_3 /CS5_4 /CS5_5 /INT_OSC /MISO_0 /MISO_1 /MISO_11 /MISO_2
-      /MISO_22 /MISO_3 /MISO_33 /MISO_4 /MISO_44 /MISO_5 /MISO_55 /MOSI_0
-      /MOSI_1 /MOSI_11 /MOSI_2 /MOSI_22 /MOSI_3 /MOSI_33 /MOSI_4 /MOSI_44
-      /MOSI_5 /MOSI_55 /OSC /OSC_EXT /OSC_INT /RST "N-0000040" "N-0000041"
-      "N-0000042" "N-0000062" "N-0000063" "N-0000064" "N-0000065" "N-0000066"
-      "N-0000067" "N-0000068" "N-0000069" "N-0000070" "N-0000071" "N-0000072"
-      "N-0000073" "N-0000075" "N-0000076" "N-0000077" "N-0000090" "N-0000091"
-      "N-0000092"
+      /CS5_2 /CS5_3 /CS5_4 /CS5_5 /MISO_0 /MISO_1 /MISO_11 /MISO_2 /MISO_22
+      /MISO_3 /MISO_33 /MISO_4 /MISO_44 /MISO_5 /MISO_55 /MOSI_0 /MOSI_1 /MOSI_11
+      /MOSI_2 /MOSI_22 /MOSI_3 /MOSI_33 /MOSI_4 /MOSI_44 /MOSI_5 /MOSI_55
+      /OSC /OSC_EXT /OSC_INT /RST "N-00000100" "N-00000101" "N-00000102" "N-000002"
+      "N-0000023" "N-0000024" "N-0000025" "N-0000026" "N-0000027" "N-0000028"
+      "N-000003" "N-000004" "N-000005" "N-0000057" "N-0000058" "N-0000059"
+      "N-000006" "N-0000060" "N-0000061" "N-0000062" "N-000007" "N-0000072"
+      "N-0000073" "N-0000074" "N-0000075" "N-0000076" "N-0000084" "N-0000085"
+      "N-0000086" "N-0000087" "N-0000088" "N-0000089"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )

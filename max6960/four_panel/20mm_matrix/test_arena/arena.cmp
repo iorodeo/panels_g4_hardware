@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 03 Oct 2013 04:38:13 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 05 Nov 2013 02:23:33 PM PST
 
 BeginCmp
 TimeStamp = /524BBC24;
@@ -222,6 +222,48 @@ TimeStamp = /524DD36B;
 Reference = P26;
 ValeurCmp = CONN_2;
 IdModule  = DCJACK_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /52745D6C;
+Reference = P27;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52745D7B;
+Reference = P28;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52745D8A;
+Reference = P29;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52745D99;
+Reference = P30;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52745DA8;
+Reference = P31;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52745EFE;
+Reference = P32;
+ValeurCmp = CONN_20X2;
+IdModule  = PIN_ARRAY_SHRD_20X2;
 EndCmp
 
 BeginCmp
