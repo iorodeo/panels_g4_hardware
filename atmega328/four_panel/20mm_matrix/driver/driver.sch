@@ -2042,4 +2042,6 @@ Text Label 2500 13050 0    60   ~ 0
 PCINT10/PC2
 Text Label 3850 13050 2    60   ~ 0
 PCINT11/PC3
+Text Notes 150  3850 0    60   ~ 0
+two lines to set address
 $EndSCHEMATC
