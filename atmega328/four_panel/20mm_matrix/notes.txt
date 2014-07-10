@@ -1,0 +1,21 @@
+Hardware modifications for 2nd verssion:
+
+1.) Match resistor to LED matrix type so that we are sourcing from many pins
+and sinking into one pin. 
+
+2.) Change board-to-board communications to SPI. 
+
+3.) Beef up board-to-board headers so that mechanical connection is better.
+This will happen a bit by switching to SPI as we will require more pins.
+
+lower profile.  wider
+
+
+4.) Self identification - of position. No longer an issue w/ SPI instead of I2C as
+this is done with the chip select line.
+
+5.) Need new driver programmer PCB  - simpiler w/ SPI. 
+
+6.) get dir of rx tx relace with chip select
+
+7.) gnd on back of comm. header for gnd connection to gnd plane board on driver.
