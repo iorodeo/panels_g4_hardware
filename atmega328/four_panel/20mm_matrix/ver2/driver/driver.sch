@@ -2083,4 +2083,6 @@ Text Label 2950 12400 0    60   ~ 0
 RESET_DRV2
 NoConn ~ 5500 12300
 NoConn ~ 7500 12400
+Text Notes 7000 11200 0    300  ~ 0
+Check matrix pinout !!!!
 $EndSCHEMATC
