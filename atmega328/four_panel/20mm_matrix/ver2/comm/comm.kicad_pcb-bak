@@ -2,11 +2,11 @@
 
   (general
     (links 49)
-    (no_connects 47)
-    (area 49.874999 49.874999 90.125001 90.125001)
+    (no_connects 49)
+    (area 49.874999 49.577499 90.125001 90.424501)
     (thickness 1.6)
     (drawings 7)
-    (tracks 8)
+    (tracks 0)
     (zones 0)
     (modules 12)
     (nets 41)
@@ -816,14 +816,5 @@
   (gr_line (start 50 90) (end 90 90) (angle 90) (layer Edge.Cuts) (width 0.25))
   (gr_line (start 50 50) (end 50 90) (angle 90) (layer Edge.Cuts) (width 0.25))
   (gr_line (start 90 50) (end 50 50) (angle 90) (layer Edge.Cuts) (width 0.25))
-
-  (segment (start 52.22 84.9) (end 52.22 84.47) (width 0.762) (layer F.Cu) (net 1) (status C00000))
-  (segment (start 50.75 59.62) (end 52.22 58.15) (width 0.762) (layer F.Cu) (net 1) (tstamp 53BF2AD3) (status 800000))
-  (segment (start 50.75 83) (end 50.75 59.62) (width 0.762) (layer F.Cu) (net 1) (tstamp 53BF2AD2))
-  (segment (start 52.22 84.47) (end 50.75 83) (width 0.762) (layer F.Cu) (net 1) (tstamp 53BF2AD1) (status 400000))
-  (segment (start 54.76 84.9) (end 54.76 84.76) (width 0.762) (layer F.Cu) (net 29) (status C00000))
-  (segment (start 52 60.91) (end 54.76 58.15) (width 0.762) (layer F.Cu) (net 29) (tstamp 53BF2AD8) (status 800000))
-  (segment (start 52 82) (end 52 60.91) (width 0.762) (layer F.Cu) (net 29) (tstamp 53BF2AD7))
-  (segment (start 54.76 84.76) (end 52 82) (width 0.762) (layer F.Cu) (net 29) (tstamp 53BF2AD6) (status 400000))
 
 )

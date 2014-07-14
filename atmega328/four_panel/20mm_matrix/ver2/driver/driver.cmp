@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 25 Aug 2013 05:16:00 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Sun 13 Jul 2014 08:14:36 PM PDT
 
 BeginCmp
 TimeStamp = /521309B9;
@@ -85,17 +85,31 @@ IdModule  = LED_MATRIX_20MM_8x8;
 EndCmp
 
 BeginCmp
-TimeStamp = /521A98BD;
+TimeStamp = /53C31324;
 Reference = P1;
-ValeurCmp = CONN_3X2;
-IdModule  = PIN_ARRAY_F_3X2;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
-TimeStamp = /521A98CC;
+TimeStamp = /53C31333;
 Reference = P2;
-ValeurCmp = CONN_3X2;
-IdModule  = PIN_ARRAY_F_3X2;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C31342;
+Reference = P3;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C31351;
+Reference = P4;
+ValeurCmp = CONN_2X2;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 BeginCmp
