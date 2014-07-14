@@ -40,26 +40,26 @@
       (place P2 70000 -58150 front 0 (PN CONN15))
     )
     (component SM0603_Capa
-      (place C1 58420 -69850 front 0 (PN 0.1uF))
-      (place C2 58420 -72390 front 0 (PN 0.1uF))
-    )
-    (component SM0603
-      (place D1 67800 -61800 front 270 (PN DIODE))
+      (place C1 58250 -69250 front 180 (PN 0.1uF))
+      (place C2 58200 -71800 front 180 (PN 0.1uF))
     )
     (component TQFP32
       (place IC5 71000 -71500 front 0 (PN "ATMEGA328-A"))
     )
     (component SM0603_Resistor
-      (place R5 82550 -71120 front 270 (PN 1k))
+      (place R5 84900 -71100 front 270 (PN 1k))
     )
     (component CER_RESO
-      (place X5 62250 -78500 front 90 (PN CER_RESO))
+      (place X5 61500 -76000 front 270 (PN CER_RESO))
     )
     (component PIN_ARRAY_2X2
-      (place P4 56000 -64000 front 270 (PN CONN_2X2))
-      (place P5 56000 -79000 front 270 (PN CONN_2X2))
-      (place P6 84000 -64000 front 270 (PN CONN_2X2))
-      (place P7 84000 -79000 front 270 (PN CONN_2X2))
+      (place P4 56500 -63500 front 270 (PN CONN_2X2))
+      (place P5 56500 -79500 front 270 (PN CONN_2X2))
+      (place P6 83500 -63500 front 270 (PN CONN_2X2))
+      (place P7 83500 -79500 front 270 (PN CONN_2X2))
+    )
+    (component RT_ANG_2PIN
+      (place P8 81300 -70000 back 90 (PN CONN_2))
     )
   )
   (library
@@ -123,14 +123,6 @@
       (outline (path signal 119.38  -1198.88 650.24  -500.38 650.24))
       (outline (path signal 119.38  1198.88 635  1198.88 -635))
       (outline (path signal 119.38  -1198.88 -635  -1198.88 635))
-      (pin Rect[T]Pad_635x1143_um 1 -762 0)
-      (pin Rect[T]Pad_635x1143_um 2 762 0)
-    )
-    (image SM0603
-      (outline (path signal 127  -1143 635  1143 635))
-      (outline (path signal 127  1143 635  1143 -635))
-      (outline (path signal 127  1143 -635  -1143 -635))
-      (outline (path signal 127  -1143 -635  -1143 635))
       (pin Rect[T]Pad_635x1143_um 1 -762 0)
       (pin Rect[T]Pad_635x1143_um 2 762 0)
     )
@@ -218,6 +210,14 @@
       (pin Round[A]Pad_1524_um 2 -1270 1270)
       (pin Round[A]Pad_1524_um 3 1270 -1270)
       (pin Round[A]Pad_1524_um 4 1270 1270)
+    )
+    (image RT_ANG_2PIN
+      (outline (path signal 150  -2540 -1143  2540 -1143))
+      (outline (path signal 150  2540 -1143  2540 10033))
+      (outline (path signal 150  2540 10033  -2540 10033))
+      (outline (path signal 150  -2540 10033  -2540 -1143))
+      (pin Rect[A]Pad_1524x1524_um 1 -1270 0)
+      (pin Round[A]Pad_1524_um 2 1270 0)
     )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
@@ -332,9 +332,6 @@
     (net /RESET_MSTR
       (pins P1-3 P2-3 IC5-29 R5-1)
     )
-    (net /TX
-      (pins D1-1)
-    )
     (net /XTAL1
       (pins IC5-7 X5-1)
     )
@@ -342,47 +339,44 @@
       (pins IC5-8 X5-3)
     )
     (net GND
-      (pins P1-2 P2-2 C1-2 C2-2 IC5-5 IC5-3 IC5-21 X5-2 P7-3)
+      (pins P1-2 P2-2 C1-2 C2-2 IC5-5 IC5-3 IC5-21 X5-2 P7-3 P8-1 P8-2)
     )
-    (net "N-0000015"
-      (pins P6-2)
-    )
-    (net "N-0000020"
-      (pins P7-4)
-    )
-    (net "N-0000021"
+    (net "N-0000018"
       (pins P5-3)
     )
-    (net "N-0000028"
-      (pins D1-2)
+    (net "N-0000020"
+      (pins P6-2)
     )
-    (net "N-0000033"
+    (net "N-0000023"
+      (pins P7-4)
+    )
+    (net "N-0000028"
       (pins IC5-28)
     )
-    (net "N-0000034"
+    (net "N-0000029"
       (pins IC5-27)
     )
-    (net "N-0000035"
-      (pins IC5-13)
-    )
-    (net "N-0000036"
-      (pins IC5-12)
-    )
-    (net "N-0000037"
+    (net "N-0000034"
       (pins IC5-22)
     )
-    (net "N-0000038"
+    (net "N-0000035"
       (pins IC5-19)
     )
-    (net "N-000008"
+    (net "N-0000036"
+      (pins IC5-13)
+    )
+    (net "N-0000037"
+      (pins IC5-12)
+    )
+    (net "N-0000038"
       (pins P2-14)
     )
     (class kicad_default "" +5V /B0_CS0 /B0_CS1 /B0_CS2 /B0_CS3 /B0_CS4 /B0_CS5
       /B0_CS6 /B0_CS7 /B0_MISO /B0_MOSI /B0_SCK /B1_CS0 /B1_CS1 /B1_CS2 /B1_MISO
       /B1_MOSI /B1_SCK /B2_CS3 /EXT_INT0 /RESET_DRV0 /RESET_DRV1 /RESET_DRV2
-      /RESET_DRV3 /RESET_MSTR /TX /XTAL1 /XTAL2 GND "N-0000015" "N-0000020"
-      "N-0000021" "N-0000028" "N-0000033" "N-0000034" "N-0000035" "N-0000036"
-      "N-0000037" "N-0000038" "N-000008"
+      /RESET_DRV3 /RESET_MSTR /XTAL1 /XTAL2 GND "N-0000018" "N-0000020" "N-0000023"
+      "N-0000028" "N-0000029" "N-0000034" "N-0000035" "N-0000036" "N-0000037"
+      "N-0000038"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -393,13 +387,13 @@
     )
   )
   (wiring
-    (wire (path F.Cu 762  52220 -84900  52220 -84470)(net +5V)(type protect))
-    (wire (path F.Cu 762  50750 -59620  52220 -58150)(net +5V)(type protect))
-    (wire (path F.Cu 762  50750 -83000  50750 -59620)(net +5V)(type protect))
-    (wire (path F.Cu 762  52220 -84470  50750 -83000)(net +5V)(type protect))
-    (wire (path F.Cu 762  54760 -84900  54760 -84760)(net GND)(type protect))
-    (wire (path F.Cu 762  52000 -60910  54760 -58150)(net GND)(type protect))
-    (wire (path F.Cu 762  52000 -82000  52000 -60910)(net GND)(type protect))
-    (wire (path F.Cu 762  54760 -84760  52000 -82000)(net GND)(type protect))
+    (wire (path B.Cu 762  52220 -84900  52100 -84900)(net +5V)(type protect))
+    (wire (path B.Cu 762  50900 -59470  52220 -58150)(net +5V)(type protect))
+    (wire (path B.Cu 762  50900 -83700  50900 -59470)(net +5V)(type protect))
+    (wire (path B.Cu 762  52100 -84900  50900 -83700)(net +5V)(type protect))
+    (wire (path B.Cu 762  54760 -84900  54760 -84860)(net GND)(type protect))
+    (wire (path B.Cu 762  52200 -60710  54760 -58150)(net GND)(type protect))
+    (wire (path B.Cu 762  52200 -82300  52200 -60710)(net GND)(type protect))
+    (wire (path B.Cu 762  54760 -84860  52200 -82300)(net GND)(type protect))
   )
 )
