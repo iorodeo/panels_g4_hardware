@@ -47,7 +47,7 @@
       (place IC5 71000 -71500 front 0 (PN "ATMEGA328-A"))
     )
     (component SM0603_Resistor
-      (place R5 84900 -71100 front 270 (PN 1k))
+      (place R5 74750 -61750 front 0 (PN 1k))
     )
     (component CER_RESO
       (place X5 61500 -76000 front 270 (PN CER_RESO))
@@ -60,6 +60,10 @@
     )
     (component RT_ANG_2PIN
       (place P8 81300 -70000 back 90 (PN CONN_2))
+    )
+    (component "2-56 Mount Holes"
+      (place M1 54000 -70000 front 0 (PN CONN_1))
+      (place M2 86000 -70000 front 0 (PN CONN_1))
     )
   )
   (library
@@ -219,9 +223,17 @@
       (pin Rect[A]Pad_1524x1524_um 1 -1270 0)
       (pin Round[A]Pad_1524_um 2 1270 0)
     )
+    (image "2-56 Mount Holes"
+      (pin Round[A]Pad_3401.06_um 1 0 0)
+    )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
       (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3401.06_um
+      (shape (circle F.Cu 3401.06))
+      (shape (circle B.Cu 3401.06))
       (attach off)
     )
     (padstack Rect[T]Pad_449.58x1998.98_um
@@ -339,22 +351,25 @@
       (pins IC5-8 X5-3)
     )
     (net GND
-      (pins P1-2 P2-2 C1-2 C2-2 IC5-5 IC5-3 IC5-21 X5-2 P7-3 P8-1 P8-2)
+      (pins P1-2 P2-2 C1-2 C2-2 IC5-5 IC5-3 IC5-21 X5-2 P7-3 P8-1 P8-2 M1-1 M2-1)
     )
-    (net "N-0000018"
-      (pins P5-3)
-    )
-    (net "N-0000020"
-      (pins P6-2)
-    )
-    (net "N-0000023"
+    (net "N-0000017"
       (pins P7-4)
     )
-    (net "N-0000028"
+    (net "N-0000020"
+      (pins P5-3)
+    )
+    (net "N-0000022"
+      (pins P6-2)
+    )
+    (net "N-0000031"
       (pins IC5-28)
     )
-    (net "N-0000029"
+    (net "N-0000032"
       (pins IC5-27)
+    )
+    (net "N-0000033"
+      (pins IC5-12)
     )
     (net "N-0000034"
       (pins IC5-22)
@@ -365,17 +380,14 @@
     (net "N-0000036"
       (pins IC5-13)
     )
-    (net "N-0000037"
-      (pins IC5-12)
-    )
     (net "N-0000038"
       (pins P2-14)
     )
     (class kicad_default "" +5V /B0_CS0 /B0_CS1 /B0_CS2 /B0_CS3 /B0_CS4 /B0_CS5
       /B0_CS6 /B0_CS7 /B0_MISO /B0_MOSI /B0_SCK /B1_CS0 /B1_CS1 /B1_CS2 /B1_MISO
       /B1_MOSI /B1_SCK /B2_CS3 /EXT_INT0 /RESET_DRV0 /RESET_DRV1 /RESET_DRV2
-      /RESET_DRV3 /RESET_MSTR /XTAL1 /XTAL2 GND "N-0000018" "N-0000020" "N-0000023"
-      "N-0000028" "N-0000029" "N-0000034" "N-0000035" "N-0000036" "N-0000037"
+      /RESET_DRV3 /RESET_MSTR /XTAL1 /XTAL2 GND "N-0000017" "N-0000020" "N-0000022"
+      "N-0000031" "N-0000032" "N-0000033" "N-0000034" "N-0000035" "N-0000036"
       "N-0000038"
       (circuit
         (use_via Via[0-1]_889:635_um)
@@ -387,13 +399,13 @@
     )
   )
   (wiring
-    (wire (path B.Cu 762  52220 -84900  52100 -84900)(net +5V)(type protect))
-    (wire (path B.Cu 762  50900 -59470  52220 -58150)(net +5V)(type protect))
-    (wire (path B.Cu 762  50900 -83700  50900 -59470)(net +5V)(type protect))
-    (wire (path B.Cu 762  52100 -84900  50900 -83700)(net +5V)(type protect))
-    (wire (path B.Cu 762  54760 -84900  54760 -84860)(net GND)(type protect))
-    (wire (path B.Cu 762  52200 -60710  54760 -58150)(net GND)(type protect))
-    (wire (path B.Cu 762  52200 -82300  52200 -60710)(net GND)(type protect))
-    (wire (path B.Cu 762  54760 -84860  52200 -82300)(net GND)(type protect))
+    (wire (path B.Cu 762  52220 -84900  52220 -84720)(net +5V)(type protect))
+    (wire (path B.Cu 762  50750 -59620  52220 -58150)(net +5V)(type protect))
+    (wire (path B.Cu 762  50750 -83250  50750 -59620)(net +5V)(type protect))
+    (wire (path B.Cu 762  52220 -84720  50750 -83250)(net +5V)(type protect))
+    (wire (path F.Cu 762  54760 -58150  54760 -58240)(net GND)(type protect))
+    (wire (path F.Cu 762  50750 -80890  54760 -84900)(net GND)(type protect))
+    (wire (path F.Cu 762  50750 -62250  50750 -80890)(net GND)(type protect))
+    (wire (path F.Cu 762  54760 -58240  50750 -62250)(net GND)(type protect))
   )
 )

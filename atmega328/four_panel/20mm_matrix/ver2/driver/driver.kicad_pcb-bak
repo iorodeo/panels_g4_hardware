@@ -3,7 +3,7 @@
   (general
     (links 176)
     (no_connects 176)
-    (area 49.874999 49.874999 90.125001 90.125001)
+    (area 49.747199 49.747199 90.252801 90.252801)
     (thickness 1.6)
     (drawings 15)
     (tracks 0)
@@ -849,7 +849,7 @@
   )
 
   (module QFN32 (layer F.Cu) (tedit 52151403) (tstamp 52150A42)
-    (at 61.5 57.25 90)
+    (at 61.5 56.75 90)
     (descr "Support CMS Plcc 32 pins")
     (tags "CMS Plcc")
     (path /521524F8)
@@ -1001,7 +1001,7 @@
   )
 
   (module QFN32 (layer F.Cu) (tedit 5215142A) (tstamp 5215381A)
-    (at 61.5 73.25 90)
+    (at 61.5 72.75 90)
     (descr "Support CMS Plcc 32 pins")
     (tags "CMS Plcc")
     (path /521527DA)
@@ -1153,7 +1153,7 @@
   )
 
   (module QFN32 (layer F.Cu) (tedit 52151467) (tstamp 52153845)
-    (at 79.5 57.25 90)
+    (at 79.5 56.75 90)
     (descr "Support CMS Plcc 32 pins")
     (tags "CMS Plcc")
     (path /52152A7F)
@@ -1305,7 +1305,7 @@
   )
 
   (module QFN32 (layer F.Cu) (tedit 521514A7) (tstamp 52153870)
-    (at 79.5 73.25 90)
+    (at 79.5 72.75 90)
     (descr "Support CMS Plcc 32 pins")
     (tags "CMS Plcc")
     (path /52152D26)
@@ -1829,7 +1829,7 @@
   )
 
   (module SM0603_Resistor (layer F.Cu) (tedit 53C35CC5) (tstamp 52155CD6)
-    (at 85.5 52.5 270)
+    (at 85.5 51.5 270)
     (path /52156997)
     (attr smd)
     (fp_text reference R26 (at 0.0635 -0.0635 360) (layer F.SilkS)
@@ -2542,7 +2542,7 @@
   )
 
   (module SM0603_Resistor (layer F.Cu) (tedit 53C44F95) (tstamp 5213207E)
-    (at 80.25 51)
+    (at 82.5 51)
     (path /521299B6)
     (attr smd)
     (fp_text reference R3 (at 0.0635 -0.0635 90) (layer F.SilkS)

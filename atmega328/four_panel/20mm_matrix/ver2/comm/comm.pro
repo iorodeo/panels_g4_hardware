@@ -1,4 +1,4 @@
-update=Mon 14 Jul 2014 03:26:39 PM PDT
+update=Tue 22 Jul 2014 08:18:02 PM PDT
 version=1
 last_client=pcbnew
 [general]
@@ -91,3 +91,4 @@ LibName16=HEADER_TOP
 LibName17=HEADER_BOT
 LibName18=CER_RESO
 LibName19=RT_ANG_2PIN
+LibName20=mount_holes

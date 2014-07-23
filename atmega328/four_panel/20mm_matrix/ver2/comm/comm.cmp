@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 14 Jul 2014 03:29:05 PM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 22 Jul 2014 08:30:58 PM PDT
 
 BeginCmp
 TimeStamp = /521309B9;
@@ -19,6 +19,20 @@ TimeStamp = /52129B63;
 Reference = IC5;
 ValeurCmp = ATMEGA328-A;
 IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CF2CE7;
+Reference = M1;
+ValeurCmp = CONN_1;
+IdModule  = 2-56 Mount Holes;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CF2CF6;
+Reference = M2;
+ValeurCmp = CONN_1;
+IdModule  = 2-56 Mount Holes;
 EndCmp
 
 BeginCmp
