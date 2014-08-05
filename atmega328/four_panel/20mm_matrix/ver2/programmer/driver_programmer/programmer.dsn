@@ -45,11 +45,11 @@
     (component DCJACK_2PIN
       (place P5 83500 -116000 front 270 (PN CONN_2))
     )
-    (component "DIP-6__300_ELL"
-      (place S1 57500 -104000 front 180 (PN DIP_SWITCH_4))
-    )
     (component "DIP-16__300_ELL"
-      (place RP1 77000 -104000 front 180 (PN R_PACK8))
+      (place RP1 77500 -104000 front 180 (PN R_PACK8))
+    )
+    (component "DIP-8__300_ELL"
+      (place S1 57500 -104000 front 180 (PN DIP_SWITCH_4))
     )
   )
   (library
@@ -88,21 +88,6 @@
       (pin Round[A]Pad_5080_um 1 0 0)
       (pin Round[A]Pad_4599.94_um 2 5999.48 0)
     )
-    (image "DIP-6__300_ELL"
-      (outline (path signal 381  -4445 2540  4445 2540))
-      (outline (path signal 381  4445 2540  4445 -2540))
-      (outline (path signal 381  4445 -2540  -4445 -2540))
-      (outline (path signal 381  -4445 -2540  -4445 2540))
-      (outline (path signal 381  -4445 635  -3175 635))
-      (outline (path signal 381  -3175 635  -3175 -635))
-      (outline (path signal 381  -3175 -635  -4445 -635))
-      (pin Rect[A]Pad_1574.8x2286_um 1 -2540 -3810)
-      (pin Oval[A]Pad_1574.8x2286_um 2 0 -3810)
-      (pin Oval[A]Pad_1574.8x2286_um 3 2540 -3810)
-      (pin Oval[A]Pad_1574.8x2286_um 4 2540 3810)
-      (pin Oval[A]Pad_1574.8x2286_um 5 0 3810)
-      (pin Oval[A]Pad_1574.8x2286_um 6 -2540 3810)
-    )
     (image "DIP-16__300_ELL"
       (outline (path signal 381  -11430 1270  -11430 1270))
       (outline (path signal 381  -11430 1270  -10160 1270))
@@ -128,6 +113,23 @@
       (pin Oval[A]Pad_1574.8x2286_um 14 -3810 3810)
       (pin Oval[A]Pad_1574.8x2286_um 15 -6350 3810)
       (pin Oval[A]Pad_1574.8x2286_um 16 -8890 3810)
+    )
+    (image "DIP-8__300_ELL"
+      (outline (path signal 381  -5080 1270  -3810 1270))
+      (outline (path signal 381  -3810 1270  -3810 -1270))
+      (outline (path signal 381  -3810 -1270  -5080 -1270))
+      (outline (path signal 381  -5080 2540  5080 2540))
+      (outline (path signal 381  5080 2540  5080 -2540))
+      (outline (path signal 381  5080 -2540  -5080 -2540))
+      (outline (path signal 381  -5080 -2540  -5080 2540))
+      (pin Rect[A]Pad_1574.8x2286_um 1 -3810 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 2 -1270 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 3 1270 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 4 3810 -3810)
+      (pin Oval[A]Pad_1574.8x2286_um 5 3810 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 6 1270 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 7 -1270 3810)
+      (pin Oval[A]Pad_1574.8x2286_um 8 -3810 3810)
     )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
@@ -206,16 +208,16 @@
       (pins P4-5 S1-1 S1-2 S1-3 S1-4)
     )
     (net /RESET_DRV0
-      (pins P0-4 RP1-1)
+      (pins P0-4 RP1-1 S1-8)
     )
     (net /RESET_DRV1
-      (pins P1-4 RP1-2)
+      (pins P1-4 RP1-2 S1-7)
     )
     (net /RESET_DRV2
-      (pins P2-4 S1-6 RP1-3)
+      (pins P2-4 RP1-3 S1-6)
     )
     (net /RESET_DRV3
-      (pins P3-1 S1-5 RP1-4)
+      (pins P3-1 RP1-4 S1-5)
     )
     (net /SCK
       (pins P0-3 P4-3)

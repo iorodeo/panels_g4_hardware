@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 16 Jul 2014 10:09:24 AM PDT
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 05 Aug 2014 03:50:57 PM PDT
 
 BeginCmp
 TimeStamp = /53C5CAE7;
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /53C5F128;
 Reference = S1;
 ValeurCmp = DIP_SWITCH_4;
-IdModule  = DIP-6__300_ELL;
+IdModule  = DIP-8__300_ELL;
 EndCmp
 
 EndListe
