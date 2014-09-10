@@ -2083,4 +2083,6 @@ Text Label 2950 12400 0    60   ~ 0
 RESET_DRV2
 NoConn ~ 5500 12300
 NoConn ~ 7500 12400
+Text Notes 550  650  0    100  ~ 20
+Note, seem to have rows and cols mislabeld, but actual wiring is what we \nwant - lucky.
 $EndSCHEMATC
