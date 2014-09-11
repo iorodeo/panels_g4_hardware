@@ -154,21 +154,21 @@ Wire Wire Line
 Wire Wire Line
 	7700 4050 7950 4050
 Text Label 7950 4150 0    60   ~ 0
-ROW1_DRV1
+COL1_DRV1
 Text Label 7950 4250 0    60   ~ 0
-ROW2_DRV1
+COL2_DRV1
 Text Label 7950 4350 0    60   ~ 0
-ROW3_DRV1
+COL3_DRV1
 Text Label 7950 4450 0    60   ~ 0
-ROW4_DRV1
+COL4_DRV1
 Text Label 7950 4550 0    60   ~ 0
-ROW5_DRV1
+COL5_DRV1
 Text Label 7950 4650 0    60   ~ 0
-ROW6_DRV1
+COL6_DRV1
 Text Label 7950 4750 0    60   ~ 0
-ROW7_DRV1
+COL7_DRV1
 Text Label 7950 4050 0    60   ~ 0
-ROW0_DRV1
+COL0_DRV1
 Wire Wire Line
 	7700 3400 7950 3400
 Wire Wire Line
@@ -188,21 +188,21 @@ Wire Wire Line
 NoConn ~ 1500 3800
 NoConn ~ 1500 3900
 Text Label 7950 3400 0    60   ~ 0
-COL1_DRV1
+ROW1_DRV1
 Text Label 7950 3500 0    60   ~ 0
-COL2_DRV1
+ROW2_DRV1
 Text Label 7950 3600 0    60   ~ 0
-COL3_DRV1
+ROW3_DRV1
 Text Label 7950 3700 0    60   ~ 0
-COL4_DRV1
+ROW4_DRV1
 Text Label 7950 3800 0    60   ~ 0
-COL5_DRV1
+ROW5_DRV1
 Text Label 7950 2450 0    60   ~ 0
-COL6_DRV1
+ROW6_DRV1
 Text Label 7950 2550 0    60   ~ 0
-COL7_DRV1
+ROW7_DRV1
 Text Label 7950 3300 0    60   ~ 0
-COL0_DRV1
+ROW0_DRV1
 $Comp
 L +5V #PWR04
 U 1 1 52129514
@@ -337,21 +337,21 @@ Wire Wire Line
 Wire Wire Line
 	12100 4150 12350 4150
 Text Label 12350 4050 0    60   ~ 0
-ROW0_DRV2
+COL0_DRV2
 Text Label 12350 4250 0    60   ~ 0
-ROW2_DRV2
+COL2_DRV2
 Text Label 12350 4350 0    60   ~ 0
-ROW3_DRV2
+COL3_DRV2
 Text Label 12350 4450 0    60   ~ 0
-ROW4_DRV2
+COL4_DRV2
 Text Label 12350 4550 0    60   ~ 0
-ROW5_DRV2
+COL5_DRV2
 Text Label 12350 4650 0    60   ~ 0
-ROW6_DRV2
+COL6_DRV2
 Text Label 12350 4750 0    60   ~ 0
-ROW7_DRV2
+COL7_DRV2
 Text Label 12350 4150 0    60   ~ 0
-ROW1_DRV2
+COL1_DRV2
 Wire Wire Line
 	12100 3400 12350 3400
 Wire Wire Line
@@ -371,21 +371,21 @@ Wire Wire Line
 NoConn ~ 5800 3800
 NoConn ~ 5800 3900
 Text Label 12350 3400 0    60   ~ 0
-COL1_DRV2
+ROW1_DRV2
 Text Label 12350 3500 0    60   ~ 0
-COL2_DRV2
+ROW2_DRV2
 Text Label 12350 3600 0    60   ~ 0
-COL3_DRV2
+ROW3_DRV2
 Text Label 12350 3700 0    60   ~ 0
-COL4_DRV2
+ROW4_DRV2
 Text Label 12350 3800 0    60   ~ 0
-COL5_DRV2
+ROW5_DRV2
 Text Label 12350 3300 0    60   ~ 0
-COL0_DRV2
+ROW0_DRV2
 Text Label 12350 2450 0    60   ~ 0
-COL6_DRV2
+ROW6_DRV2
 Text Label 12350 2550 0    60   ~ 0
-COL7_DRV2
+ROW7_DRV2
 $Comp
 L +5V #PWR08
 U 1 1 52129733
@@ -520,21 +520,21 @@ Wire Wire Line
 Wire Wire Line
 	16250 4150 16500 4150
 Text Label 16500 4050 0    60   ~ 0
-ROW0_DRV3
+COL0_DRV3
 Text Label 16500 4250 0    60   ~ 0
-ROW2_DRV3
+COL2_DRV3
 Text Label 16500 4350 0    60   ~ 0
-ROW3_DRV3
+COL3_DRV3
 Text Label 16500 4450 0    60   ~ 0
-ROW4_DRV3
+COL4_DRV3
 Text Label 16500 4550 0    60   ~ 0
-ROW5_DRV3
+COL5_DRV3
 Text Label 16500 4650 0    60   ~ 0
-ROW6_DRV3
+COL6_DRV3
 Text Label 16500 4750 0    60   ~ 0
-ROW7_DRV3
+COL7_DRV3
 Text Label 16500 4150 0    60   ~ 0
-ROW1_DRV3
+COL1_DRV3
 Wire Wire Line
 	16250 3300 16500 3300
 Wire Wire Line
@@ -553,22 +553,22 @@ Wire Wire Line
 	16250 2550 16500 2550
 NoConn ~ 10200 3800
 NoConn ~ 10200 3900
-Text Label 16500 3300 0    60   ~ 0
-COL1_DRV3
 Text Label 16500 3400 0    60   ~ 0
-COL2_DRV3
+ROW1_DRV3
 Text Label 16500 3500 0    60   ~ 0
-COL3_DRV3
+ROW2_DRV3
 Text Label 16500 3600 0    60   ~ 0
-COL4_DRV3
+ROW3_DRV3
 Text Label 16500 3700 0    60   ~ 0
-COL5_DRV3
+ROW4_DRV3
 Text Label 16500 3800 0    60   ~ 0
-COL6_DRV3
+ROW5_DRV3
+Text Label 16500 3300 0    60   ~ 0
+ROW0_DRV3
 Text Label 16500 2450 0    60   ~ 0
-COL7_DRV3
+ROW6_DRV3
 Text Label 16500 2550 0    60   ~ 0
-COL8_DRV3
+ROW7_DRV3
 $Comp
 L +5V #PWR012
 U 1 1 521299B0
@@ -703,21 +703,21 @@ Wire Wire Line
 Wire Wire Line
 	3400 4750 3650 4750
 Text Label 3650 4050 0    60   ~ 0
-ROW0_DRV0
+COL0_DRV0
 Text Label 3650 4150 0    60   ~ 0
-ROW1_DRV0
+COL1_DRV0
 Text Label 3650 4250 0    60   ~ 0
-ROW2_DRV0
+COL2_DRV0
 Text Label 3650 4350 0    60   ~ 0
-ROW3_DRV0
+COL3_DRV0
 Text Label 3650 4450 0    60   ~ 0
-ROW4_DRV0
+COL4_DRV0
 Text Label 3650 4550 0    60   ~ 0
-ROW5_DRV0
+COL5_DRV0
 Text Label 3650 4650 0    60   ~ 0
-ROW6_DRV0
+COL6_DRV0
 Text Label 3650 4750 0    60   ~ 0
-ROW7_DRV0
+COL7_DRV0
 Wire Wire Line
 	3400 3300 3650 3300
 Wire Wire Line
@@ -737,21 +737,21 @@ Wire Wire Line
 NoConn ~ 14350 3800
 NoConn ~ 14350 3900
 Text Label 3650 3300 0    60   ~ 0
-COL0_DRV0
+ROW0_DRV0
 Text Label 3650 3400 0    60   ~ 0
-COL1_DRV0
+ROW1_DRV0
 Text Label 3650 3500 0    60   ~ 0
-COL2_DRV0
+ROW2_DRV0
 Text Label 3650 3600 0    60   ~ 0
-COL3_DRV0
+ROW3_DRV0
 Text Label 3650 3700 0    60   ~ 0
-COL4_DRV0
+ROW4_DRV0
 Text Label 3650 3800 0    60   ~ 0
-COL5_DRV0
+ROW5_DRV0
 Text Label 3650 2450 0    60   ~ 0
-COL6_DRV0
+ROW6_DRV0
 Text Label 3650 2550 0    60   ~ 0
-COL7_DRV0
+ROW7_DRV0
 $Comp
 L +5V #PWR016
 U 1 1 52129A3D
@@ -994,37 +994,37 @@ Wire Wire Line
 Wire Wire Line
 	6600 10300 6600 9950
 Text Label 6600 10300 3    60   ~ 0
-COL1_DRV1
-Text Label 6700 10300 3    60   ~ 0
-COL2_DRV1
-Text Label 6800 10300 3    60   ~ 0
-COL3_DRV1
-Text Label 6900 10300 3    60   ~ 0
-COL4_DRV1
-Text Label 7000 10300 3    60   ~ 0
-COL5_DRV1
-Text Label 7100 10300 3    60   ~ 0
-COL6_DRV1
-Text Label 7200 10300 3    60   ~ 0
-COL7_DRV1
-Text Label 6500 10300 3    60   ~ 0
-COL0_DRV1
-Text Label 6350 6650 1    60   ~ 0
 ROW1_DRV1
-Text Label 6550 6650 1    60   ~ 0
+Text Label 6700 10300 3    60   ~ 0
 ROW2_DRV1
-Text Label 6750 6650 1    60   ~ 0
+Text Label 6800 10300 3    60   ~ 0
 ROW3_DRV1
-Text Label 6950 6650 1    60   ~ 0
+Text Label 6900 10300 3    60   ~ 0
 ROW4_DRV1
-Text Label 7350 6650 1    60   ~ 0
-ROW6_DRV1
-Text Label 7550 6650 1    60   ~ 0
-ROW7_DRV1
-Text Label 7150 6650 1    60   ~ 0
+Text Label 7000 10300 3    60   ~ 0
 ROW5_DRV1
-Text Label 6150 6650 1    60   ~ 0
+Text Label 7100 10300 3    60   ~ 0
+ROW6_DRV1
+Text Label 7200 10300 3    60   ~ 0
+ROW7_DRV1
+Text Label 6500 10300 3    60   ~ 0
 ROW0_DRV1
+Text Label 6350 6650 1    60   ~ 0
+COL1_DRV1
+Text Label 6550 6650 1    60   ~ 0
+COL2_DRV1
+Text Label 6750 6650 1    60   ~ 0
+COL3_DRV1
+Text Label 6950 6650 1    60   ~ 0
+COL4_DRV1
+Text Label 7350 6650 1    60   ~ 0
+COL6_DRV1
+Text Label 7550 6650 1    60   ~ 0
+COL7_DRV1
+Text Label 7150 6650 1    60   ~ 0
+COL5_DRV1
+Text Label 6150 6650 1    60   ~ 0
+COL0_DRV1
 $Comp
 L LED_8X8 MATRIX2
 U 1 1 52131A8E
@@ -1069,37 +1069,37 @@ Wire Wire Line
 Wire Wire Line
 	11000 10300 11000 9950
 Text Label 11000 10300 3    60   ~ 0
-COL1_DRV2
-Text Label 11100 10300 3    60   ~ 0
-COL2_DRV2
-Text Label 11200 10300 3    60   ~ 0
-COL3_DRV2
-Text Label 11300 10300 3    60   ~ 0
-COL4_DRV2
-Text Label 11400 10300 3    60   ~ 0
-COL5_DRV2
-Text Label 11500 10300 3    60   ~ 0
-COL6_DRV2
-Text Label 11600 10300 3    60   ~ 0
-COL7_DRV2
-Text Label 10900 10300 3    60   ~ 0
-COL0_DRV2
-Text Label 10750 6650 1    60   ~ 0
 ROW1_DRV2
-Text Label 10950 6650 1    60   ~ 0
+Text Label 11100 10300 3    60   ~ 0
 ROW2_DRV2
-Text Label 11150 6650 1    60   ~ 0
+Text Label 11200 10300 3    60   ~ 0
 ROW3_DRV2
-Text Label 11350 6650 1    60   ~ 0
+Text Label 11300 10300 3    60   ~ 0
 ROW4_DRV2
-Text Label 11750 6650 1    60   ~ 0
-ROW6_DRV2
-Text Label 11950 6650 1    60   ~ 0
-ROW7_DRV2
-Text Label 11550 6650 1    60   ~ 0
+Text Label 11400 10300 3    60   ~ 0
 ROW5_DRV2
-Text Label 10550 6650 1    60   ~ 0
+Text Label 11500 10300 3    60   ~ 0
+ROW6_DRV2
+Text Label 11600 10300 3    60   ~ 0
+ROW7_DRV2
+Text Label 10900 10300 3    60   ~ 0
 ROW0_DRV2
+Text Label 10750 6650 1    60   ~ 0
+COL1_DRV2
+Text Label 10950 6650 1    60   ~ 0
+COL2_DRV2
+Text Label 11150 6650 1    60   ~ 0
+COL3_DRV2
+Text Label 11350 6650 1    60   ~ 0
+COL4_DRV2
+Text Label 11750 6650 1    60   ~ 0
+COL6_DRV2
+Text Label 11950 6650 1    60   ~ 0
+COL7_DRV2
+Text Label 11550 6650 1    60   ~ 0
+COL5_DRV2
+Text Label 10550 6650 1    60   ~ 0
+COL0_DRV2
 $Comp
 L LED_8X8 MATRIX3
 U 1 1 52131AB4
@@ -1144,37 +1144,37 @@ Wire Wire Line
 Wire Wire Line
 	15200 10300 15200 9950
 Text Label 15200 10300 3    60   ~ 0
-COL1_DRV3
-Text Label 15300 10300 3    60   ~ 0
-COL2_DRV3
-Text Label 15400 10300 3    60   ~ 0
-COL3_DRV3
-Text Label 15500 10300 3    60   ~ 0
-COL4_DRV3
-Text Label 15600 10300 3    60   ~ 0
-COL5_DRV3
-Text Label 15700 10300 3    60   ~ 0
-COL6_DRV3
-Text Label 15800 10300 3    60   ~ 0
-COL7_DRV3
-Text Label 15100 10300 3    60   ~ 0
-COL0_DRV3
-Text Label 14950 6650 1    60   ~ 0
 ROW1_DRV3
-Text Label 15150 6650 1    60   ~ 0
+Text Label 15300 10300 3    60   ~ 0
 ROW2_DRV3
-Text Label 15350 6650 1    60   ~ 0
+Text Label 15400 10300 3    60   ~ 0
 ROW3_DRV3
-Text Label 15550 6650 1    60   ~ 0
+Text Label 15500 10300 3    60   ~ 0
 ROW4_DRV3
-Text Label 15950 6650 1    60   ~ 0
-ROW6_DRV3
-Text Label 16150 6650 1    60   ~ 0
-ROW7_DRV3
-Text Label 15750 6650 1    60   ~ 0
+Text Label 15600 10300 3    60   ~ 0
 ROW5_DRV3
-Text Label 14750 6650 1    60   ~ 0
+Text Label 15700 10300 3    60   ~ 0
+ROW6_DRV3
+Text Label 15800 10300 3    60   ~ 0
+ROW7_DRV3
+Text Label 15100 10300 3    60   ~ 0
 ROW0_DRV3
+Text Label 14950 6650 1    60   ~ 0
+COL1_DRV3
+Text Label 15150 6650 1    60   ~ 0
+COL2_DRV3
+Text Label 15350 6650 1    60   ~ 0
+COL3_DRV3
+Text Label 15550 6650 1    60   ~ 0
+COL4_DRV3
+Text Label 15950 6650 1    60   ~ 0
+COL6_DRV3
+Text Label 16150 6650 1    60   ~ 0
+COL7_DRV3
+Text Label 15750 6650 1    60   ~ 0
+COL5_DRV3
+Text Label 14750 6650 1    60   ~ 0
+COL0_DRV3
 $Comp
 L LED_8X8 MATRIX4
 U 1 1 52131ADA
@@ -1219,37 +1219,37 @@ Wire Wire Line
 Wire Wire Line
 	2300 10300 2300 9950
 Text Label 2400 10300 3    60   ~ 0
-COL1_DRV0
-Text Label 2500 10300 3    60   ~ 0
-COL2_DRV0
-Text Label 2600 10300 3    60   ~ 0
-COL3_DRV0
-Text Label 2700 10300 3    60   ~ 0
-COL4_DRV0
-Text Label 2800 10300 3    60   ~ 0
-COL5_DRV0
-Text Label 2900 10300 3    60   ~ 0
-COL6_DRV0
-Text Label 3000 10300 3    60   ~ 0
-COL7_DRV0
-Text Label 2300 10300 3    60   ~ 0
-COL0_DRV0
-Text Label 2150 6650 1    60   ~ 0
 ROW1_DRV0
-Text Label 2350 6650 1    60   ~ 0
+Text Label 2500 10300 3    60   ~ 0
 ROW2_DRV0
-Text Label 2550 6650 1    60   ~ 0
+Text Label 2600 10300 3    60   ~ 0
 ROW3_DRV0
-Text Label 2750 6650 1    60   ~ 0
+Text Label 2700 10300 3    60   ~ 0
 ROW4_DRV0
-Text Label 3150 6650 1    60   ~ 0
-ROW6_DRV0
-Text Label 3350 6650 1    60   ~ 0
-ROW7_DRV0
-Text Label 2950 6650 1    60   ~ 0
+Text Label 2800 10300 3    60   ~ 0
 ROW5_DRV0
-Text Label 1950 6650 1    60   ~ 0
+Text Label 2900 10300 3    60   ~ 0
+ROW6_DRV0
+Text Label 3000 10300 3    60   ~ 0
+ROW7_DRV0
+Text Label 2300 10300 3    60   ~ 0
 ROW0_DRV0
+Text Label 2150 6650 1    60   ~ 0
+COL1_DRV0
+Text Label 2350 6650 1    60   ~ 0
+COL2_DRV0
+Text Label 2550 6650 1    60   ~ 0
+COL3_DRV0
+Text Label 2750 6650 1    60   ~ 0
+COL4_DRV0
+Text Label 3150 6650 1    60   ~ 0
+COL6_DRV0
+Text Label 3350 6650 1    60   ~ 0
+COL7_DRV0
+Text Label 2950 6650 1    60   ~ 0
+COL5_DRV0
+Text Label 1950 6650 1    60   ~ 0
+COL0_DRV0
 $Comp
 L ATMEGA328P-M IC1
 U 1 1 521524F8
@@ -2083,6 +2083,4 @@ Text Label 2950 12400 0    60   ~ 0
 RESET_DRV2
 NoConn ~ 5500 12300
 NoConn ~ 7500 12400
-Text Notes 550  650  0    100  ~ 20
-Note, seem to have rows and cols mislabeld, but actual wiring is what we \nwant - lucky.
 $EndSCHEMATC
