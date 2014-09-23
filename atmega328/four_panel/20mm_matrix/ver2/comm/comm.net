@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wbd/work/iorodeo/products/panels_g4_hardware/atmega328/four_panel/20mm_matrix/ver2/comm/comm.sch)
-    (date "Tue 22 Jul 2014 08:30:49 PM PDT")
+    (date "Tue 23 Sep 2014 12:33:52 PM PDT")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref IC5)
@@ -16,7 +16,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 52129FEB))
     (comp (ref R5)
-      (value 1k)
+      (value 4.7k)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5212A07D))
