@@ -761,4 +761,6 @@ F 3 "" H 15250 6400 60  0000 C CNN
 $EndComp
 Text Notes 15100 5500 0    60   ~ 0
 Grounded mounting holes
+Text Notes 14600 1200 0    60   ~ 0
+PASS THRU SOCKECT 3M9549-ND
 $EndSCHEMATC

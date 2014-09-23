@@ -40,8 +40,8 @@
       (place P2 70000 -58150 front 0 (PN CONN15))
     )
     (component SM0603_Capa
-      (place C1 58250 -69250 front 180 (PN 0.1uF))
-      (place C2 58200 -71800 front 180 (PN 0.1uF))
+      (place C1 59000 -67800 front 180 (PN 0.1uF))
+      (place C2 59000 -70100 front 180 (PN 0.1uF))
     )
     (component TQFP32
       (place IC5 71000 -71500 front 0 (PN "ATMEGA328-A"))
@@ -50,13 +50,7 @@
       (place R5 74750 -61750 front 0 (PN 1k))
     )
     (component CER_RESO
-      (place X5 61500 -76000 front 270 (PN CER_RESO))
-    )
-    (component PIN_ARRAY_2X2
-      (place P4 56500 -63500 front 270 (PN CONN_2X2))
-      (place P5 56500 -79500 front 270 (PN CONN_2X2))
-      (place P6 83500 -63500 front 270 (PN CONN_2X2))
-      (place P7 83500 -79500 front 270 (PN CONN_2X2))
+      (place X5 61500 -74500 front 270 (PN CER_RESO))
     )
     (component RT_ANG_2PIN
       (place P8 81300 -70000 back 90 (PN CONN_2))
@@ -64,6 +58,12 @@
     (component "2-56 Mount Holes"
       (place M1 54000 -70000 front 0 (PN CONN_1))
       (place M2 86000 -70000 front 0 (PN CONN_1))
+    )
+    (component PASS_THRU_ARRAY_2X2
+      (place P7 83500 -79500 front 270 (PN CONN_2X2))
+      (place P6 83500 -63500 front 270 (PN CONN_2X2))
+      (place P5 56500 -79500 front 270 (PN CONN_2X2))
+      (place P4 56500 -63500 front 270 (PN CONN_2X2))
     )
   )
   (library
@@ -205,16 +205,6 @@
       (pin Rect[T]Pad_500.38x1300.48_um 3 1198.88 0)
       (pin Rect[T]Pad_500.38x1300.48_um 1 -1198.88 0)
     )
-    (image PIN_ARRAY_2X2
-      (outline (path signal 304.8  -2540 2540  2540 2540))
-      (outline (path signal 304.8  2540 2540  2540 -2540))
-      (outline (path signal 304.8  2540 -2540  -2540 -2540))
-      (outline (path signal 304.8  -2540 -2540  -2540 2540))
-      (pin Rect[A]Pad_1524x1524_um 1 -1270 -1270)
-      (pin Round[A]Pad_1524_um 2 -1270 1270)
-      (pin Round[A]Pad_1524_um 3 1270 -1270)
-      (pin Round[A]Pad_1524_um 4 1270 1270)
-    )
     (image RT_ANG_2PIN
       (outline (path signal 150  -2540 -1143  2540 -1143))
       (outline (path signal 150  2540 -1143  2540 10033))
@@ -225,6 +215,29 @@
     )
     (image "2-56 Mount Holes"
       (pin Round[A]Pad_3401.06_um 1 0 0)
+    )
+    (image PASS_THRU_ARRAY_2X2
+      (outline (path signal 254  -2540 -2540  -2540 -5080))
+      (outline (path signal 254  -2540 -5080  2540 -5080))
+      (outline (path signal 254  2540 -5080  2540 -2540))
+      (outline (path signal 254  -2540 2540  -2540 5080))
+      (outline (path signal 254  -2540 5080  2540 5080))
+      (outline (path signal 254  2540 5080  2540 2540))
+      (outline (path signal 254  2540 2540  2540 -2540))
+      (outline (path signal 254  -2540 -2540  -2540 2540))
+      (pin Rect[A]Pad_1524x1524_um 1 -1270 -3810)
+      (pin Round[A]Pad_1524_um 2 -1270 3810)
+      (pin Round[A]Pad_1524_um 3 1270 -3810)
+      (pin Round[A]Pad_1524_um 4 1270 3810)
+      (pin Round[A]Pad_1295.4_um @1 -1270 -1270)
+      (pin Round[A]Pad_1295.4_um @2 -1270 1270)
+      (pin Round[A]Pad_1295.4_um @3 1270 1270)
+      (pin Round[A]Pad_1295.4_um @4 1270 -1270)
+    )
+    (padstack Round[A]Pad_1295.4_um
+      (shape (circle F.Cu 1295.4))
+      (shape (circle B.Cu 1295.4))
+      (attach off)
     )
     (padstack Round[A]Pad_1524_um
       (shape (circle F.Cu 1524))
@@ -351,7 +364,7 @@
       (pins IC5-8 X5-3)
     )
     (net GND
-      (pins P1-2 P2-2 C1-2 C2-2 IC5-5 IC5-3 IC5-21 X5-2 P7-3 P8-1 P8-2 M1-1 M2-1)
+      (pins P1-2 P2-2 C1-2 C2-2 IC5-5 IC5-3 IC5-21 X5-2 P8-1 P8-2 M1-1 M2-1 P7-3)
     )
     (net "N-0000017"
       (pins P7-4)
@@ -399,13 +412,17 @@
     )
   )
   (wiring
-    (wire (path B.Cu 762  52220 -84900  52220 -84720)(net +5V)(type protect))
-    (wire (path B.Cu 762  50750 -59620  52220 -58150)(net +5V)(type protect))
-    (wire (path B.Cu 762  50750 -83250  50750 -59620)(net +5V)(type protect))
-    (wire (path B.Cu 762  52220 -84720  50750 -83250)(net +5V)(type protect))
-    (wire (path F.Cu 762  54760 -58150  54760 -58240)(net GND)(type protect))
-    (wire (path F.Cu 762  50750 -80890  54760 -84900)(net GND)(type protect))
-    (wire (path F.Cu 762  50750 -62250  50750 -80890)(net GND)(type protect))
-    (wire (path F.Cu 762  54760 -58240  50750 -62250)(net GND)(type protect))
+    (wire (path B.Cu 635  52220 -84900  52220 -84420)(net +5V)(type protect))
+    (wire (path B.Cu 635  50700 -59670  52220 -58150)(net +5V)(type protect))
+    (wire (path B.Cu 635  50700 -82900  50700 -59670)(net +5V)(type protect))
+    (wire (path B.Cu 635  52220 -84420  50700 -82900)(net +5V)(type protect))
+    (wire (path F.Cu 635  54760 -84900  54760 -84760)(net GND)(type protect))
+    (wire (path F.Cu 635  53310 -59600  54760 -58150)(net GND)(type protect))
+    (wire (path F.Cu 635  51600 -59600  53310 -59600)(net GND)(type protect))
+    (wire (path F.Cu 635  50800 -60400  51600 -59600)(net GND)(type protect))
+    (wire (path F.Cu 635  50800 -82900  50800 -60400)(net GND)(type protect))
+    (wire (path F.Cu 635  51200 -83300  50800 -82900)(net GND)(type protect))
+    (wire (path F.Cu 635  53300 -83300  51200 -83300)(net GND)(type protect))
+    (wire (path F.Cu 635  54760 -84760  53300 -83300)(net GND)(type protect))
   )
 )

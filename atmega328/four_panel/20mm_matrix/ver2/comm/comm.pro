@@ -1,4 +1,4 @@
-update=Tue 22 Jul 2014 08:18:02 PM PDT
+update=Tue 23 Sep 2014 11:00:50 AM PDT
 version=1
 last_client=pcbnew
 [general]
@@ -55,10 +55,10 @@ LibName34=conn15
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill="    1.016000"
-PadDrillOvalY="    1.016000"
-PadSizeH="    1.524000"
-PadSizeV="    1.524000"
+PadDrill="    1.270000"
+PadDrillOvalY="    1.270000"
+PadSizeH="    1.295400"
+PadSizeV="    1.295400"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -69,7 +69,7 @@ SolderMaskClearance="    0.000000"
 SolderMaskMinWidth="    0.000000"
 DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.250000"
-ModuleOutlineThickness="    0.150000"
+ModuleOutlineThickness="    0.254000"
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -92,3 +92,4 @@ LibName17=HEADER_BOT
 LibName18=CER_RESO
 LibName19=RT_ANG_2PIN
 LibName20=mount_holes
+LibName21=PASS_THRU_2x2
