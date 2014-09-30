@@ -1,4 +1,4 @@
-(pcb /home/wbd/work/iorodeo/products/panels_g4_hardware/atmega328/four_panel/20mm_matrix/ver2/driver/driver.dsn
+(pcb /home/wbd/work/iorodeo/products/temp/panels_g4_hardware/atmega328/four_panel/20mm_matrix/ver2/driver/driver.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -34,10 +34,10 @@
   )
   (placement
     (component SM0603_Capa
-      (place C1 60700 -63800 front 270 (PN 0.1uF))
-      (place C2 61000 -80250 front 270 (PN 0.1uF))
-      (place C3 75500 -63750 front 270 (PN 0.1uF))
-      (place C4 79000 -83750 front 0 (PN 0.1uF))
+      (place C1 60300 -64200 front 270 (PN 0.1uF))
+      (place C2 60300 -79500 front 270 (PN 0.1uF))
+      (place C3 74500 -62000 front 270 (PN 0.1uF))
+      (place C4 79000 -86400 front 0 (PN 0.1uF))
     )
     (component LED_MATRIX_20MM_8x8
       (place MATRIX1 60000 -60000 front 0 (PN LED_8X8))
@@ -46,10 +46,10 @@
       (place MATRIX4 80000 -80000 front 0 (PN LED_8X8))
     )
     (component CER_RESO
-      (place X1 63900 -64400 front 90 (PN CER_RESO))
-      (place X2 64750 -80000 front 90 (PN CER_RESO))
-      (place X3 78750 -64250 front 270 (PN CER_RESO))
-      (place X4 79000 -79750 front 270 (PN CER_RESO))
+      (place X1 63600 -62900 front 0 (PN CER_RESO))
+      (place X2 64200 -79300 front 0 (PN CER_RESO))
+      (place X3 78500 -63800 front 0 (PN CER_RESO))
+      (place X4 78700 -79500 front 0 (PN CER_RESO))
     )
     (component QFN32
       (place IC1 61500 -56750 front 90 (PN "ATMEGA328P-M"))
@@ -90,10 +90,10 @@
       (place R7 55250 -67250 front 180 (PN 180))
       (place R6 55100 -59500 front 180 (PN 180))
       (place R5 55500 -51100 front 180 (PN 180))
-      (place R4 79000 -86250 front 180 (PN 1k))
-      (place R3 82500 -51000 front 0 (PN 1k))
-      (place R2 54500 -71750 front 90 (PN 1k))
-      (place R1 59000 -67250 front 0 (PN 1k))
+      (place R4 79000 -88700 front 180 (PN 4.7k))
+      (place R3 82500 -51000 front 0 (PN 4.7k))
+      (place R2 54500 -71750 front 90 (PN 4.7k))
+      (place R1 59000 -67250 front 0 (PN 4.7k))
     )
     (component PIN_ARRAY_2X2
       (place P1 56500 -63500 back 180 (PN CONN_2X2))
