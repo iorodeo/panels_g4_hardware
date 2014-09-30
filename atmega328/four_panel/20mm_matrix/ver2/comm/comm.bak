@@ -579,7 +579,7 @@ B1_CS1
 Text Label 3900 4600 0    60   ~ 0
 B1_CS2
 Text Label 3900 4700 0    60   ~ 0
-B2_CS3
+B1_CS3
 Wire Wire Line
 	10850 2400 10550 2400
 Wire Wire Line
@@ -607,7 +607,7 @@ B1_CS1
 Text Label 13550 1750 2    60   ~ 0
 B1_CS2
 Text Label 14950 2400 0    60   ~ 0
-B2_CS3
+B1_CS3
 Text Label 11950 1750 0    60   ~ 0
 RESET_DRV0
 Text Label 11950 2500 0    60   ~ 0
