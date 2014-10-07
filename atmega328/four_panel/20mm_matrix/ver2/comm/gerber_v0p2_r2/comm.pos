@@ -1,0 +1,10 @@
+"Module positions - created on Tue 07 Oct 2014 08:41:24 AM PDT"
+"Unit = inches, Angle = deg."
+"Side : F.Cu"
+
+# Ref ,   Val         ,         Package     ,    PosX   ,   PosY   ,     Rot  ,   Side
+C1    ,   0.1uF       ,     SM0603_Capa     ,    2.3228 ,  -2.6693 ,    180.0 ,   F.Cu
+C2    ,   0.1uF       ,     SM0603_Capa     ,    2.3228 ,  -2.7598 ,    180.0 ,   F.Cu
+IC5   ,   ATMEGA328-A ,     TQFP32          ,    2.7953 ,  -2.8150 ,      0.0 ,   F.Cu
+R5    ,   4.7k        ,     SM0603_Resistor ,    2.9429 ,  -2.4311 ,      0.0 ,   F.Cu
+X5    ,   CER_RESO    ,     CER_RESO        ,    2.4213 ,  -2.9331 ,    270.0 ,   F.Cu
