@@ -1030,7 +1030,7 @@ NoConn ~ 2650 6300
 NoConn ~ 2850 6300
 NoConn ~ 2950 7100
 NoConn ~ 3050 7100
-Text Notes 600  7850 0    60   ~ 0
+Text Notes 2350 8100 0    60   ~ 0
 20x2 Header (Digikey HRU40H-ND), IDC Cable (Digikey HKC40S-ND)
 Text Notes 8550 7700 0    60   ~ 0
 68-pin DSUB for NI cable,  TE Connectivity 2-5174225-5\nDigikey PN A33476-ND
@@ -1360,4 +1360,8 @@ Wire Wire Line
 Connection ~ 2800 4050
 Wire Wire Line
 	3450 3675 3450 3470
+Text Notes 1750 7750 0    60   ~ 0
+SPI 20x2 #1
+Text Notes 5300 7750 0    60   ~ 0
+SPI 20x2 #2
 $EndSCHEMATC

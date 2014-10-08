@@ -34,15 +34,15 @@
   )
   (placement
     (component Capacitor_Polarized
-      (place C1 89000 -73000 front 0 (PN 10uF))
-      (place C2 130000 -73000 front 0 (PN 10uF))
-      (place C3 170000 -73000 front 0 (PN 10uF))
-      (place C4 211000 -73000 front 0 (PN 10uF))
-      (place C5 250000 -73000 front 0 (PN 10uF))
+      (place C1 77620 -68930 front 0 (PN 10uF))
+      (place C2 118620 -68930 front 0 (PN 10uF))
+      (place C3 158620 -68930 front 0 (PN 10uF))
+      (place C4 199620 -68930 front 0 (PN 10uF))
+      (place C5 238620 -68930 front 0 (PN 10uF))
     )
     (component PIN_ARRAY_SHRD_20X2
-      (place P7 124280 -87650 front 0 (PN CONN_20X2))
-      (place P10 186470 -87470 front 0 (PN CONN_20X2))
+      (place P7 121990 -88160 front 0 (PN CONN_20X2))
+      (place P10 184180 -87980 front 0 (PN CONN_20X2))
     )
     (component HEADER_TOP
       (place P1 69750 -58100 front 0 (PN CONN15))
@@ -61,7 +61,7 @@
       (place M1 42500 -65000 front 0 (PN VAL**))
     )
     (component TE_CONN_DSUB_RA_68
-      (place P8 254590 -100030 front 0 (PN CONN_34X2))
+      (place P8 259500 -100100 front 0 (PN CONN_34X2))
     )
     (component DCJACK_2PIN_HIGHCURRENT
       (place P9 57500 -99970 front 180 (PN CONN_2))
@@ -673,16 +673,16 @@
     (class kicad_default "" /CS0 /CS1 /CS2 /CS3 /CS4 /CS5 /CS6 /CS7 /EXT_INT
       /MISO_0 /MISO_1 /MISO_10 /MISO_11 /MISO_2 /MISO_3 /MISO_4 /MISO_5 /MISO_6
       /MISO_7 /MISO_8 /MISO_9 /MOSI_0 /MOSI_1 /MOSI_10 /MOSI_11 /MOSI_2 /MOSI_3
-      /MOSI_4 /MOSI_5 /MOSI_6 /MOSI_7 /MOSI_8 /MOSI_9 /RESET /RESET_PAN /SCK_0
-      /SCK_1 /SCK_2 /SCK_3 /SCK_4 /SCK_5 "N-000001" "N-000002" "N-0000027"
-      "N-0000028" "N-0000029" "N-000003" "N-0000030" "N-0000031" "N-0000034"
-      "N-0000035" "N-0000036" "N-0000037" "N-0000038" "N-0000039" "N-000004"
-      "N-0000040" "N-0000041" "N-0000042" "N-000005" "N-0000053" "N-000006"
-      "N-0000062" "N-0000068" "N-0000069" "N-000007" "N-0000070" "N-0000071"
-      "N-0000072" "N-0000073" "N-0000074" "N-0000075" "N-0000076" "N-0000077"
-      "N-0000078" "N-0000079" "N-000008" "N-0000080" "N-0000081" "N-0000083"
-      "N-0000084" "N-0000085" "N-0000086" "N-0000087" "N-0000088" "N-0000089"
-      "N-000009" "N-0000090" "N-0000091"
+      /MOSI_4 /MOSI_5 /MOSI_6 /MOSI_7 /MOSI_8 /MOSI_9 /RESET /SCK_0 /SCK_1
+      /SCK_2 /SCK_3 /SCK_4 /SCK_5 "N-000001" "N-000002" "N-0000027" "N-0000028"
+      "N-0000029" "N-000003" "N-0000030" "N-0000031" "N-0000034" "N-0000035"
+      "N-0000036" "N-0000037" "N-0000038" "N-0000039" "N-000004" "N-0000040"
+      "N-0000041" "N-0000042" "N-000005" "N-0000053" "N-000006" "N-0000062"
+      "N-0000068" "N-0000069" "N-000007" "N-0000070" "N-0000071" "N-0000072"
+      "N-0000073" "N-0000074" "N-0000075" "N-0000076" "N-0000077" "N-0000078"
+      "N-0000079" "N-000008" "N-0000080" "N-0000081" "N-0000083" "N-0000084"
+      "N-0000085" "N-0000086" "N-0000087" "N-0000088" "N-0000089" "N-000009"
+      "N-0000090" "N-0000091"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -696,11 +696,78 @@
         (use_via Via[0-1]_889:635_um)
       )
       (rule
-        (width 889)
+        (width 635)
+        (clearance 254.1)
+      )
+    )
+    (class Reset_Pan /RESET_PAN
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 635)
         (clearance 254.1)
       )
     )
   )
   (wiring
+    (wire (path B.Cu 1778  74880.2 -92400  73240 -92400)(net +5V)(type protect))
+    (wire (path B.Cu 1778  68821.2 -87981.2  57500 -87981.2)(net +5V)(type protect))
+    (wire (path B.Cu 1778  73240 -92400  68821.2 -87981.2)(net +5V)(type protect))
+    (wire (path F.Cu 1778  210580 -54100  250520 -54100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  252470 -56050  252470 -58100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  250520 -54100  252470 -56050)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  170510 -54100  210580 -54100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  212370 -55890  212370 -58100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  210580 -54100  212370 -55890)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  129190 -54100  170510 -54100  170640 -54100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  172270 -55730  172270 -58100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  170640 -54100  172270 -55730)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  90120 -54100  129190 -54100  129640 -54100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  132170 -56630  132170 -58100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  129640 -54100  132170 -56630)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  51970 -58100  51970 -56440)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  92070 -56050  92070 -58100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  90120 -54100  92070 -56050)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  54310 -54100  90120 -54100)(net /VIN)(type protect))
+    (wire (path F.Cu 1778  51970 -56440  54310 -54100)(net /VIN)(type protect))
+    (wire (path B.Cu 1778  75080 -68930  60240 -68930)(net /VIN)(type protect))
+    (wire (path B.Cu 1778  51970 -60660  51970 -58100)(net /VIN)(type protect))
+    (wire (path B.Cu 1778  60240 -68930  51970 -60660)(net /VIN)(type protect))
+    (wire (path B.Cu 1778  79630 -92400  79630 -80240)(net /VIN)(type protect))
+    (wire (path B.Cu 1778  75080 -75690  75080 -68930)(net /VIN)(type protect))
+    (wire (path B.Cu 1778  79630 -80240  75080 -75690)(net /VIN)(type protect))
+    (wire (path B.Cu 1778  213130 -54040  252750 -54040)(net GND)(type protect))
+    (wire (path B.Cu 1778  255010 -56300  255010 -58100)(net GND)(type protect))
+    (wire (path B.Cu 1778  252750 -54040  255010 -56300)(net GND)(type protect))
+    (wire (path B.Cu 1778  172940 -54040  213130 -54040  213300 -54040)(net GND)(type protect))
+    (wire (path B.Cu 1778  214910 -55650  214910 -58100)(net GND)(type protect))
+    (wire (path B.Cu 1778  213300 -54040  214910 -55650)(net GND)(type protect))
+    (wire (path B.Cu 1778  132590 -54040  172940 -54040  172990 -54040)(net GND)(type protect))
+    (wire (path B.Cu 1778  174810 -55860  174810 -58100)(net GND)(type protect))
+    (wire (path B.Cu 1778  172990 -54040  174810 -55860)(net GND)(type protect))
+    (wire (path B.Cu 1778  92430 -54040  132590 -54040  132830 -54040)(net GND)(type protect))
+    (wire (path B.Cu 1778  134710 -55920  134710 -58100)(net GND)(type protect))
+    (wire (path B.Cu 1778  132830 -54040  134710 -55920)(net GND)(type protect))
+    (wire (path B.Cu 1778  54510 -58100  54510 -55460)(net GND)(type protect))
+    (wire (path B.Cu 1778  94610 -56220  94610 -58100)(net GND)(type protect))
+    (wire (path B.Cu 1778  92430 -54040  94610 -56220)(net GND)(type protect))
+    (wire (path B.Cu 1778  55930 -54040  92430 -54040)(net GND)(type protect))
+    (wire (path B.Cu 1778  54510 -55460  55930 -54040)(net GND)(type protect))
+    (wire (path B.Cu 1778  80160 -68930  80110 -68930)(net GND)(type protect))
+    (wire (path B.Cu 1778  54510 -60326.3  54510 -58100)(net GND)(type protect))
+    (wire (path B.Cu 1778  60403.7 -66220  54510 -60326.3)(net GND)(type protect))
+    (wire (path B.Cu 1778  77400 -66220  60403.7 -66220)(net GND)(type protect))
+    (wire (path B.Cu 1778  80110 -68930  77400 -66220)(net GND)(type protect))
+    (wire (path B.Cu 1778  80160 -68930  80160 -75920)(net GND)(type protect))
+    (wire (path B.Cu 1778  84379.8 -80139.8  84379.8 -92400)(net GND)(type protect))
+    (wire (path B.Cu 1778  80160 -75920  84379.8 -80139.8)(net GND)(type protect))
+    (wire (path B.Cu 1778  57500 -93975.6  57500 -93710)(net GND)(type protect))
+    (wire (path B.Cu 1778  84379.8 -95330.2  84379.8 -92400)(net GND)(type protect))
+    (wire (path B.Cu 1778  82260 -97450  84379.8 -95330.2)(net GND)(type protect))
+    (wire (path B.Cu 1778  72420 -97450  82260 -97450)(net GND)(type protect))
+    (wire (path B.Cu 1778  66500 -91530  72420 -97450)(net GND)(type protect))
+    (wire (path B.Cu 1778  59680 -91530  66500 -91530)(net GND)(type protect))
+    (wire (path B.Cu 1778  57500 -93710  59680 -91530)(net GND)(type protect))
   )
 )
