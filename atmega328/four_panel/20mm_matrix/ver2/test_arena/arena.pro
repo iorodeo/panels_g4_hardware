@@ -1,4 +1,4 @@
-update=Mon 29 Sep 2014 08:10:56 PM PDT
+update=Tue 07 Oct 2014 06:28:07 PM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -48,14 +48,15 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=conn15
+LibName32=conn_34x2
 [pcbnew]
 version=1
 LastNetListRead=arena.net
 UseCmpFile=1
-PadDrill="    0.800000"
-PadDrillOvalY="    0.800000"
-PadSizeH="    1.200000"
-PadSizeV="    1.200000"
+PadDrill="    0.600000"
+PadDrillOvalY="    0.600000"
+PadSizeH="    1.500000"
+PadSizeV="    1.500000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -92,3 +93,5 @@ LibName20=PIN_ARRAY_SHRD_20X2
 LibName21=HEADER_TOP
 LibName22=MOUNT_HOLE_4_40
 LibName23=TE_CONN_DSUB_RA_68
+LibName24=DCJACK_2PIN_HC
+LibName25=slide_switch
