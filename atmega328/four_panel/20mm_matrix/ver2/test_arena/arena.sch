@@ -1382,4 +1382,6 @@ F 3 "" H 7450 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7700 6250
+Text Notes 3700 3750 0    100  ~ 20
+NOTE: fix MOSFET pinout 
 $EndSCHEMATC
