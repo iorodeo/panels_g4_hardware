@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by PcbNew date = Tue 23 Sep 2014 11:03:52 AM PDT
+
+BeginCmp
+TimeStamp = /521309B9;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /521309C8;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /52129B63;
+Reference = IC5;
+ValeurCmp = ATMEGA328-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CF2CE7;
+Reference = M1;
+ValeurCmp = CONN_1;
+IdModule  = 2-56 Mount Holes;
+EndCmp
+
+BeginCmp
+TimeStamp = /53CF2CF6;
+Reference = M2;
+ValeurCmp = CONN_1;
+IdModule  = 2-56 Mount Holes;
+EndCmp
+
+BeginCmp
+TimeStamp = /5212B587;
+Reference = P1;
+ValeurCmp = CONN15;
+IdModule  = HEADER_BOT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5212B596;
+Reference = P2;
+ValeurCmp = CONN15;
+IdModule  = HEADER_TOP;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BF241F;
+Reference = P4;
+ValeurCmp = CONN_2X2;
+IdModule  = PASS_THRU_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BF243F;
+Reference = P5;
+ValeurCmp = CONN_2X2;
+IdModule  = PASS_THRU_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BF2430;
+Reference = P6;
+ValeurCmp = CONN_2X2;
+IdModule  = PASS_THRU_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BF244E;
+Reference = P7;
+ValeurCmp = CONN_2X2;
+IdModule  = PASS_THRU_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C45937;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = RT_ANG_2PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /5212A07D;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /52129FEB;
+Reference = X5;
+ValeurCmp = CER_RESO;
+IdModule  = CER_RESO;
+EndCmp
+
+EndListe
