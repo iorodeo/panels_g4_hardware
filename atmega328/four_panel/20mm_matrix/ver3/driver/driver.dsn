@@ -1,4 +1,4 @@
-(pcb /home/wbd/work/products/panels_g4_hardware/atmega328/four_panel/20mm_matrix/ver3/driver/driver.dsn
+(pcb /home/wbd/work/products/tmp/panels_g4_hardware/atmega328/four_panel/20mm_matrix/ver3/driver/driver.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -80,9 +80,9 @@
       (place R11 70000 -56300 front 180 (PN 180))
       (place R10 70000 -53700 front 180 (PN 180))
       (place R9 70000 -51000 front 180 (PN 180))
-      (place R8 62100 -51100 front 180 (PN 180))
+      (place R8 62350 -51100 front 180 (PN 180))
       (place R7 55250 -67250 front 180 (PN 180))
-      (place R6 55100 -59500 front 180 (PN 180))
+      (place R6 55150 -59700 front 180 (PN 180))
       (place R5 55500 -51100 front 180 (PN 180))
       (place R4 79000 -88700 front 180 (PN 4.7k))
       (place R3 82500 -51000 front 0 (PN 4.7k))
@@ -503,9 +503,6 @@
       (pins C1-2 X1-2 X2-2 X3-2 X4-2 C2-2 IC1-3 IC1-5 IC1-21 IC1-33 IC2-3 IC2-5 IC2-21
         IC2-33 IC3-3 IC3-5 IC3-21 IC3-33 IC4-3 IC4-5 IC4-21 IC4-33 C3-2 C4-2 P4-2)
     )
-    (net "N-00000102"
-      (pins P2-2)
-    )
     (net "N-00000103"
       (pins R18-2 MATRIX2-15)
     )
@@ -554,21 +551,6 @@
     (net "N-00000118"
       (pins R28-2 MATRIX3-13)
     )
-    (net "N-0000019"
-      (pins IC2-22)
-    )
-    (net "N-0000029"
-      (pins IC2-19)
-    )
-    (net "N-0000030"
-      (pins IC4-19)
-    )
-    (net "N-0000036"
-      (pins IC3-19)
-    )
-    (net "N-0000038"
-      (pins IC4-22)
-    )
     (net "N-0000043"
       (pins R36-2 MATRIX4-13)
     )
@@ -580,15 +562,6 @@
     )
     (net "N-0000046"
       (pins R33-2 MATRIX4-16)
-    )
-    (net "N-000006"
-      (pins IC3-22)
-    )
-    (net "N-0000066"
-      (pins IC1-22)
-    )
-    (net "N-0000071"
-      (pins IC1-19)
     )
     (net "N-0000076"
       (pins R8-2 MATRIX1-8)
@@ -626,12 +599,6 @@
     (net "N-0000095"
       (pins R7-2 MATRIX1-7)
     )
-    (net "N-0000096"
-      (pins P3-3)
-    )
-    (net "N-0000098"
-      (pins P4-4)
-    )
     (class kicad_default "" +5V /COL0_DRV0 /COL0_DRV1 /COL0_DRV2 /COL0_DRV3
       /COL1_DRV0 /COL1_DRV1 /COL1_DRV2 /COL1_DRV3 /COL2_DRV0 /COL2_DRV1 /COL2_DRV2
       /COL2_DRV3 /COL3_DRV0 /COL3_DRV1 /COL3_DRV2 /COL3_DRV3 /COL4_DRV0 /COL4_DRV1
@@ -644,14 +611,12 @@
       /ROW5_DRV1 /ROW5_DRV2 /ROW5_DRV3 /ROW6_DRV0 /ROW6_DRV1 /ROW6_DRV2 /ROW6_DRV3
       /ROW7_DRV0 /ROW7_DRV1 /ROW7_DRV2 /ROW7_DRV3 /SCK /XTAL0_DRV0 /XTAL0_DRV1
       /XTAL0_DRV2 /XTAL0_DRV3 /XTAL1_DRV0 /XTAL1_DRV1 /XTAL1_DRV2 /XTAL1_DRV3
-      GND "N-00000102" "N-00000103" "N-00000104" "N-00000105" "N-00000106"
-      "N-00000107" "N-00000108" "N-00000109" "N-00000110" "N-00000111" "N-00000112"
-      "N-00000113" "N-00000114" "N-00000115" "N-00000116" "N-00000117" "N-00000118"
-      "N-0000019" "N-0000029" "N-0000030" "N-0000036" "N-0000038" "N-0000043"
-      "N-0000044" "N-0000045" "N-0000046" "N-000006" "N-0000066" "N-0000071"
-      "N-0000076" "N-0000077" "N-0000078" "N-0000079" "N-0000080" "N-0000082"
-      "N-0000084" "N-0000086" "N-0000088" "N-0000093" "N-0000094" "N-0000095"
-      "N-0000096" "N-0000098"
+      GND "N-00000103" "N-00000104" "N-00000105" "N-00000106" "N-00000107"
+      "N-00000108" "N-00000109" "N-00000110" "N-00000111" "N-00000112" "N-00000113"
+      "N-00000114" "N-00000115" "N-00000116" "N-00000117" "N-00000118" "N-0000043"
+      "N-0000044" "N-0000045" "N-0000046" "N-0000076" "N-0000077" "N-0000078"
+      "N-0000079" "N-0000080" "N-0000082" "N-0000084" "N-0000086" "N-0000088"
+      "N-0000093" "N-0000094" "N-0000095"
       (circuit
         (use_via Via[0-1]_762:508_um)
       )
@@ -662,5 +627,34 @@
     )
   )
   (wiring
+    (wire (path F.Cu 177.8  62401.1 -62900  62401.1 -61448.9)(net /XTAL0_DRV0)(type protect))
+    (wire (path F.Cu 177.8  62749.7 -61100.3  62749.7 -59249.4)(net /XTAL0_DRV0)(type protect))
+    (wire (path F.Cu 177.8  62401.1 -61448.9  62749.7 -61100.3)(net /XTAL0_DRV0)(type protect))
+    (wire (path F.Cu 177.8  63001.1 -79300  63001.1 -77051.1)(net /XTAL0_DRV1)(type protect))
+    (wire (path F.Cu 177.8  62749.7 -76799.7  62749.7 -75249.4)(net /XTAL0_DRV1)(type protect))
+    (wire (path F.Cu 177.8  63001.1 -77051.1  62749.7 -76799.7)(net /XTAL0_DRV1)(type protect))
+    (wire (path F.Cu 177.8  77301.1 -63800  77301.1 -63098.9)(net /XTAL0_DRV2)(type protect))
+    (wire (path F.Cu 177.8  80749.7 -60050.3  80749.7 -59249.4)(net /XTAL0_DRV2)(type protect))
+    (wire (path F.Cu 177.8  78350 -62450  80749.7 -60050.3)(net /XTAL0_DRV2)(type protect))
+    (wire (path F.Cu 177.8  77950 -62450  78350 -62450)(net /XTAL0_DRV2)(type protect))
+    (wire (path F.Cu 177.8  77301.1 -63098.9  77950 -62450)(net /XTAL0_DRV2)(type protect))
+    (wire (path F.Cu 177.8  80749.7 -75249.4  80749.7 -76500.3)(net /XTAL0_DRV3)(type protect))
+    (wire (path F.Cu 177.8  77501.1 -78748.9  77501.1 -79500)(net /XTAL0_DRV3)(type protect))
+    (wire (path F.Cu 177.8  77950 -78300  77501.1 -78748.9)(net /XTAL0_DRV3)(type protect))
+    (wire (path F.Cu 177.8  78950 -78300  77950 -78300)(net /XTAL0_DRV3)(type protect))
+    (wire (path F.Cu 177.8  80749.7 -76500.3  78950 -78300)(net /XTAL0_DRV3)(type protect))
+    (wire (path F.Cu 177.8  63250.1 -59249.4  63250.1 -61100.1)(net /XTAL1_DRV0)(type protect))
+    (wire (path F.Cu 177.8  64798.9 -62648.9  64798.9 -62900)(net /XTAL1_DRV0)(type protect))
+    (wire (path F.Cu 177.8  63250.1 -61100.1  64798.9 -62648.9)(net /XTAL1_DRV0)(type protect))
+    (wire (path F.Cu 177.8  65398.9 -79300  65398.9 -78548.9)(net /XTAL1_DRV1)(type protect))
+    (wire (path F.Cu 177.8  63300 -75299.3  63250.1 -75249.4)(net /XTAL1_DRV1)(type protect))
+    (wire (path F.Cu 177.8  63300 -76450  63300 -75299.3)(net /XTAL1_DRV1)(type protect))
+    (wire (path F.Cu 177.8  65398.9 -78548.9  63300 -76450)(net /XTAL1_DRV1)(type protect))
+    (wire (path F.Cu 177.8  81250.1 -59249.4  81250.1 -60749.9)(net /XTAL1_DRV2)(type protect))
+    (wire (path F.Cu 177.8  79698.9 -62301.1  79698.9 -63800)(net /XTAL1_DRV2)(type protect))
+    (wire (path F.Cu 177.8  81250.1 -60749.9  79698.9 -62301.1)(net /XTAL1_DRV2)(type protect))
+    (wire (path F.Cu 177.8  79898.9 -79500  79898.9 -78051.1)(net /XTAL1_DRV3)(type protect))
+    (wire (path F.Cu 177.8  81250.1 -76699.9  81250.1 -75249.4)(net /XTAL1_DRV3)(type protect))
+    (wire (path F.Cu 177.8  79898.9 -78051.1  81250.1 -76699.9)(net /XTAL1_DRV3)(type protect))
   )
 )
