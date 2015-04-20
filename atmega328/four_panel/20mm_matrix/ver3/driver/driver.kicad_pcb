@@ -2431,13 +2431,13 @@
     )
   )
 
-  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 551C7D13) (tstamp 52132042)
+  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 553555F7) (tstamp 52132042)
     (at 80 80)
     (path /52131ADA)
-    (fp_text reference MATRIX4 (at 1.5 0 90) (layer F.SilkS)
+    (fp_text reference MATRIX4 (at 1.5 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS)
+    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 0 -10) (end 10 -10) (layer F.SilkS) (width 0.15))
@@ -2511,13 +2511,13 @@
     )
   )
 
-  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 551C7D13) (tstamp 52132029)
+  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 553555D9) (tstamp 52132029)
     (at 80 60)
     (path /52131AB4)
-    (fp_text reference MATRIX3 (at 1.5 0 90) (layer F.SilkS)
+    (fp_text reference MATRIX3 (at 1.5 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS)
+    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 0 -10) (end 10 -10) (layer F.SilkS) (width 0.15))
@@ -2591,13 +2591,13 @@
     )
   )
 
-  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 551C7D13) (tstamp 52132010)
+  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 553555EA) (tstamp 52132010)
     (at 60 80)
     (path /52131A8E)
-    (fp_text reference MATRIX2 (at 1.5 0 90) (layer F.SilkS)
+    (fp_text reference MATRIX2 (at 1.5 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS)
+    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 0 -10) (end 10 -10) (layer F.SilkS) (width 0.15))
@@ -2671,13 +2671,13 @@
     )
   )
 
-  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 551C7D13) (tstamp 52131FF7)
+  (module LED_MATRIX_20MM_8x8 (layer F.Cu) (tedit 553555BF) (tstamp 52131FF7)
     (at 60 60)
     (path /52131F30)
-    (fp_text reference MATRIX1 (at 1.5 0 90) (layer F.SilkS)
+    (fp_text reference MATRIX1 (at 1.5 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS)
+    (fp_text value LED_8X8 (at -1 0 90) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start 0 -10) (end 10 -10) (layer F.SilkS) (width 0.15))
