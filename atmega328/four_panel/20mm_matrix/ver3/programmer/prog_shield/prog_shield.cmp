@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 18 Aug 2015 03:06:15 PM PDT
+
+BeginCmp
+TimeStamp = /55D3A922;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = Capacitor_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D3A909;
+Reference = P1;
+ValeurCmp = CONN_3X2;
+IdModule  = 3X2_SHRD_HEADER;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D3A8F9;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+EndListe
