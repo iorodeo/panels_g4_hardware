@@ -2,7 +2,7 @@
 
   (general
     (links 15)
-    (no_connects 15)
+    (no_connects 0)
     (area 47.63262 49.627499 90.150001 90.406221)
     (thickness 1.6)
     (drawings 9)
@@ -343,7 +343,7 @@
     )
   )
 
-  (gr_text "4x20mm atmega328 \ncomm programmer v0.1" (at 71.9328 86.5251) (layer F.SilkS)
+  (gr_text "4x20mm atmega328 \ncomm programmer v0.3" (at 71.9328 86.5251) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (gr_text "USB PWR" (at 83.3882 82.8548 90) (layer F.SilkS)
