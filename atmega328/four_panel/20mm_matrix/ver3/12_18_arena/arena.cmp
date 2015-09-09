@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 08 Sep 2015 10:56:04 AM PDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 08 Sep 2015 11:56:33 AM PDT
 
 BeginCmp
 TimeStamp = /55EB94E8;
@@ -130,84 +130,84 @@ BeginCmp
 TimeStamp = /524B4593;
 Reference = P1;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /524B4A00;
 Reference = P2;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /524B4A5B;
 Reference = P3;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /524B4A8C;
 Reference = P4;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /524B4ABF;
 Reference = P5;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /524B5E2D;
 Reference = P6;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EB6B45;
 Reference = P7;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EB6DE7;
 Reference = P8;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EB6E52;
 Reference = P9;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EB8B83;
 Reference = P10;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EB8C5A;
 Reference = P11;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EB8CE0;
 Reference = P12;
 ValeurCmp = CONN15;
-IdModule  = HEADER_TOP;
+IdModule  = PANEL_G4;
 EndCmp
 
 BeginCmp
