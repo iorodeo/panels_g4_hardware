@@ -4,7 +4,8 @@ import scipy
 import matplotlib.pyplot as plt
 
 # these are the depth and width of the LED module in inches
-outputFile = 'pos_data.txt'
+posDataOutFile = 'pos_data.txt'
+edgDataOutFile = 'edg_data.txt'
 plot = False
 numPanels = 18 
 numRemove = 6 
@@ -15,18 +16,21 @@ pinDist = 0.6; # Distance from the front surface to pins
 pinSpacing = 0.1
 pinWidth = (numPins - 1)*pinSpacing; 
 xOffset = 8.0
-yOffset = 8.0
+yOffset = 9.0
 in2mm = 25.4
 
 subAngle = 2.0*math.pi/numPanels;   #angle subtended by one panel from center
 radius = panelWidth/(math.tan(subAngle/2.0))/2.0
 backRadius = radius + panelDepth
+arcRadius = radius - 0.05
+edgDim = 6.5*2 
 
 shifterRadius = backRadius  + 0.8
 shuntRadius = shifterRadius - 0.55
 innerResRadius = shifterRadius - 0.55
 outerResRadius = shifterRadius
 capRadius = shifterRadius - 0.55
+
 innerResOffsetY = -0.2
 outerResOffsetY = 0.6 
 capOffsetY = 0.25
@@ -36,7 +40,7 @@ circPosAngleArray = circPosAngleArray[:-numRemove]
 circPosAngleArray = circPosAngleArray + numRemove*subAngle/2.0 + subAngle/2.0 - math.pi/2.0 + math.pi
 panelAngleArray = circPosAngleArray + math.pi/2
 
-#refList = ['P{0}'.format(i+1) for i in range(panelAngleArray.shape[0])]
+
 
 angleIndList = range(panelAngleArray.shape[0])
 panelRefList = ['P{0}'.format(i+1) for i in angleIndList]
@@ -146,7 +150,7 @@ plt.axis('equal')
 if plot:
     plt.show()
 
-with open(outputFile,'w') as f:
+with open(posDataOutFile,'w') as f:
 
     print('panel (x,y) angle')
     print('-----------------')
@@ -226,3 +230,49 @@ with open(outputFile,'w') as f:
         ang10xDeg = 10*angDeg
         f.write('{0} {1} {2} {3}\n'.format(ref,xmm,ymm,angDeg))
         print(ref, x, y, ang10xDeg)
+
+
+# Get arc parameters
+theta0 = circPosAngleArray.min() - subAngle
+theta1 = circPosAngleArray.max() + subAngle
+totalAngle = theta1 - theta0
+xCenter = xOffset
+yCenter = yOffset
+arcX0 = arcRadius*math.cos(theta0) + xCenter
+arcY0 = arcRadius*math.sin(theta0) + yCenter
+arcX1 = arcRadius*math.cos(theta1) + xCenter
+arcY1 = arcRadius*math.sin(theta1) + yCenter
+
+xCenter_mm = in2mm*xCenter
+yCenter_mm = in2mm*yCenter
+arcX0mm = in2mm*arcX0
+arcY0mm = in2mm*arcY0
+arcX1mm = in2mm*arcX1
+arcY1mm = in2mm*arcY1
+totalAngleDeg = totalAngle*180.0/math.pi
+
+edgDelta = edgDim/2.0 - arcRadius
+edgX0 = xCenter - edgDim/2.0 
+edgY0 = arcY0
+edgX1 = edgX0
+edgY1 = yCenter - edgDim/2.0
+
+edgX2 = xCenter + edgDim/2.0
+edgY2 = edgY1
+edgX3 = edgX2
+edgY3 = arcY1
+
+edgPt = [(arcX0,arcY0), (edgX0,edgY0), (edgX1, edgY1), (edgX2,edgY2), (edgX3,edgY3), (arcX1, arcY1)]
+edgPt_mm = [(in2mm*x, in2mm*y) for x,y in edgPt]
+
+with open(edgDataOutFile,'w') as f:
+    f.write('{0} {1} {2} {3} {4} {5}\n'.format('arc',xCenter_mm, yCenter_mm, arcX0mm, arcY0mm, totalAngleDeg))
+    for i in range(1,len(edgPt_mm)):
+        p = edgPt_mm[i-1]
+        q = edgPt_mm[i]
+        x0mm, y0mm = p
+        x1mm, y1mm = q
+        f.write('{0} {1} {2} {3} {4} {5}\n'.format('line',x0mm, y0mm, x1mm, y1mm,90.0))
+
+
+

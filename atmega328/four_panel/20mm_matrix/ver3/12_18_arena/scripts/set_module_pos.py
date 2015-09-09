@@ -41,7 +41,7 @@ def findModuleIndex(pcbLineList, ref):
         if refStr in line:
             moduleIndex = lastModuleIndex
             break
-    print(ref, moduleIndex)
+    #print(ref, moduleIndex)
     return moduleIndex 
 
 def setModulePosition(pcbLineList,ref,pos):
@@ -56,19 +56,45 @@ def setModulePosition(pcbLineList,ref,pos):
     pcbLineList[atLineIndex] = atLineMod
 
 
+def loadEdgData(filename):
+    with open(filename,'r') as f:
+        lineList = f.readlines()
+    edgList = []
+    for line in lineList:
+        line = line.strip()
+        line = line.split(' ')
+        edgType = line[0]
+        edgData = [edgType] + [float(x) for x in line[1:]]
+        edgList.append(edgData)
+    return edgList 
+
+def addEdgToPcb(pcbLineList,edgList):
+    for edg in edgList:
+        if edg[0] == 'arc':
+            edgStr = '(gr_arc (start {0} {1}) (end {2} {3}) (angle {4}) (layer Edge.Cuts) (width 0.1))\n'.format(*edg[1:])
+        elif edg[0] == 'line':
+            edgStr = '(gr_line (start {0} {1}) (end {2} {3}) (angle {4}) (layer Edge.Cuts) (width 0.1))\n'.format(*edg[1:])
+        else:
+            raise ValueError, 'uknown edge type {0}'.format(edg[0])
+        pcbLineList.insert(len(pcbLineList)-1,edgStr)
+
+
 # --------------------------------------------------------------------------------
 if __name__ == '__main__':
 
-    inFile = 'arena.kicad_pcb'
+    inFile = 'arena.kicad_pcb.template'
     outFile = 'arena.kicad_pcb.mod'
     refToPosFile = 'pos_data.txt'
+    edgDataFile =  'edg_data.txt'
 
     pcbLineList = loadPcbLines(inFile)
     refToPosDict = loadRefToPosFile(refToPosFile)
+    edgList = loadEdgData(edgDataFile)
+    print(edgList)
 
     for ref, pos in refToPosDict.iteritems():
         setModulePosition(pcbLineList,ref,pos)
 
+    addEdgToPcb(pcbLineList,edgList)
     savePcbLines(pcbLineList,outFile)
-
 
