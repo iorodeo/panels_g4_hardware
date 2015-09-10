@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 08 Sep 2015 11:56:33 AM PDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 10 Sep 2015 10:42:43 AM PDT
 
 BeginCmp
 TimeStamp = /55EB94E8;
@@ -122,7 +122,42 @@ EndCmp
 BeginCmp
 TimeStamp = /55EF80E5;
 Reference = C18;
-ValeurCmp = CP;
+ValeurCmp = 10uf;
+IdModule  = Capacitor_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1B707;
+Reference = C19;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1B70D;
+Reference = C20;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1B713;
+Reference = C21;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1B719;
+Reference = C22;
+ValeurCmp = 10uF;
+IdModule  = Capacitor_Polarized;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1B71F;
+Reference = C23;
+ValeurCmp = 10uF;
 IdModule  = Capacitor_Polarized;
 EndCmp
 
@@ -306,6 +341,41 @@ TimeStamp = /524B4691;
 Reference = P26;
 ValeurCmp = CONN_2;
 IdModule  = DCJACK_2PIN_HIGHCURRENT;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1935D;
+Reference = P27;
+ValeurCmp = CONN_2;
+IdModule  = TERM_7P5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1CF3A;
+Reference = P28;
+ValeurCmp = CONN_1;
+IdModule  = 0P25_MOUNT_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1CF49;
+Reference = P29;
+ValeurCmp = CONN_1;
+IdModule  = 0P25_MOUNT_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1CF58;
+Reference = P30;
+ValeurCmp = CONN_1;
+IdModule  = 0P25_MOUNT_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55F1CF67;
+Reference = P31;
+ValeurCmp = CONN_1;
+IdModule  = 0P25_MOUNT_HOLE;
 EndCmp
 
 BeginCmp

@@ -41,7 +41,6 @@ def findModuleIndex(pcbLineList, ref):
         if refStr in line:
             moduleIndex = lastModuleIndex
             break
-    #print(ref, moduleIndex)
     return moduleIndex 
 
 def setModulePosition(pcbLineList,ref,pos):
@@ -71,9 +70,9 @@ def loadEdgData(filename):
 def addEdgToPcb(pcbLineList,edgList):
     for edg in edgList:
         if edg[0] == 'arc':
-            edgStr = '(gr_arc (start {0} {1}) (end {2} {3}) (angle {4}) (layer Edge.Cuts) (width 0.1))\n'.format(*edg[1:])
+            edgStr = '(gr_arc (start {0} {1}) (end {2} {3}) (angle {4}) (layer Edge.Cuts) (width 0.3))\n'.format(*edg[1:])
         elif edg[0] == 'line':
-            edgStr = '(gr_line (start {0} {1}) (end {2} {3}) (angle {4}) (layer Edge.Cuts) (width 0.1))\n'.format(*edg[1:])
+            edgStr = '(gr_line (start {0} {1}) (end {2} {3}) (angle {4}) (layer Edge.Cuts) (width 0.3))\n'.format(*edg[1:])
         else:
             raise ValueError, 'uknown edge type {0}'.format(edg[0])
         pcbLineList.insert(len(pcbLineList)-1,edgStr)
@@ -90,7 +89,6 @@ if __name__ == '__main__':
     pcbLineList = loadPcbLines(inFile)
     refToPosDict = loadRefToPosFile(refToPosFile)
     edgList = loadEdgData(edgDataFile)
-    print(edgList)
 
     for ref, pos in refToPosDict.iteritems():
         setModulePosition(pcbLineList,ref,pos)

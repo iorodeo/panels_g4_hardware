@@ -29,11 +29,12 @@ shifterRadius = backRadius  + 0.8
 shuntRadius = shifterRadius - 0.55
 innerResRadius = shifterRadius - 0.55
 outerResRadius = shifterRadius
-capRadius = shifterRadius - 0.55
+misoCapRadius = shifterRadius - 0.55
+filtCapRadius = backRadius + 0.8
 
 innerResOffsetY = -0.2
 outerResOffsetY = 0.6 
-capOffsetY = 0.25
+misoCapOffsetY = 0.25
 
 circPosAngleArray = scipy.arange(0.0, 2.0*math.pi,subAngle)
 circPosAngleArray = circPosAngleArray[:-numRemove]
@@ -43,12 +44,27 @@ panelAngleArray = circPosAngleArray + math.pi/2
 
 
 angleIndList = range(panelAngleArray.shape[0])
+numAngle = len(angleIndList)
 panelRefList = ['P{0}'.format(i+1) for i in angleIndList]
 shifterRefList = ['U{0}'.format(i+1) for i in angleIndList] 
-shuntRefList = ['P{0}'.format(i+len(angleIndList)+1) for i in angleIndList] 
+shuntRefList = ['P{0}'.format(i+numAngle+1) for i in angleIndList] 
 innerResRefList = ['R{0}'.format(i+1) for i in angleIndList]
-outerResRefList = ['R{0}'.format(i+len(angleIndList)+1) for i in angleIndList]
-capRefList =['C{0}'.format(i+1) for i in angleIndList]
+outerResRefList = ['R{0}'.format(i+numAngle+1) for i in angleIndList]
+misoCapRefList =['C{0}'.format(i+1) for i in angleIndList]
+filtCapRefList = ['C{0}'.format(i+numAngle+1) for i in range(numAngle-1)]
+
+filtCapCircPosAngleList = []
+panelMidAngleList = []
+for i in range(1,numAngle):
+    circPosAng0 = circPosAngleArray[i-1]
+    circPosAng1 = circPosAngleArray[i]
+    filtCapAngle = 0.5*(circPosAng0 + circPosAng1)
+    filtCapCircPosAngleList.append(filtCapAngle)
+
+    panelAng0 = panelAngleArray[i-1]
+    panelAng1 = panelAngleArray[i]
+    panelMidAng = 0.5*(panelAng0 + panelAng1)
+    panelMidAngleList.append(panelMidAng)
 
 
 zippedAngles = zip(circPosAngleArray, panelAngleArray)
@@ -124,16 +140,16 @@ for circPosAngle, panelAngle in zippedAngles:
     innerResPosList.append((x,y))
     innerResAngleList.append(panelAngle + 3*math.pi/2.0)
 
-capPosList = []
-capAngleList = []
+misoCapPosList = []
+misoCapAngleList = []
 for circPosAngle, panelAngle in zippedAngles:
-    x = capRadius*math.cos(circPosAngle) + xOffset
-    y = capRadius*math.sin(circPosAngle) + yOffset 
-    x = x + capOffsetY*math.cos(panelAngle)
-    y = y + capOffsetY*math.sin(panelAngle)
+    x = misoCapRadius*math.cos(circPosAngle) + xOffset
+    y = misoCapRadius*math.sin(circPosAngle) + yOffset 
+    x = x + misoCapOffsetY*math.cos(panelAngle)
+    y = y + misoCapOffsetY*math.sin(panelAngle)
     print(x,y)
-    capPosList.append((x,y))
-    capAngleList.append(panelAngle + 3*math.pi/2.0)
+    misoCapPosList.append((x,y))
+    misoCapAngleList.append(panelAngle + 3*math.pi/2.0)
 
 outerResPosList = []
 outerResAngleList = []
@@ -145,6 +161,15 @@ for circPosAngle, panelAngle in zippedAngles:
     print(x,y)
     outerResPosList.append((x,y))
     outerResAngleList.append(panelAngle + 3*math.pi/2.0)
+
+filtCapPosList = []
+filtCapAngleList = []
+for circPosAngle, panelMidAngle in zip(filtCapCircPosAngleList,panelMidAngleList):
+    x = filtCapRadius*math.cos(circPosAngle) + xOffset
+    y = filtCapRadius*math.sin(circPosAngle) + yOffset 
+    print(x,y)
+    filtCapPosList.append((x,y))
+    filtCapAngleList.append(panelMidAngle + 3*math.pi/2.0)
 
 plt.axis('equal')
 if plot:
@@ -206,9 +231,9 @@ with open(posDataOutFile,'w') as f:
         print(ref, x, y, ang10xDeg)
     
     print()
-    print('cap (x,y) angle')
+    print('misoCap (x,y) angle')
     print('-----------------')
-    for ref, pos, ang in zip(capRefList, capPosList, capAngleList):
+    for ref, pos, ang in zip(misoCapRefList, misoCapPosList, misoCapAngleList):
         x,y = pos
         xmm = in2mm*x
         ymm = in2mm*y
@@ -231,6 +256,18 @@ with open(posDataOutFile,'w') as f:
         f.write('{0} {1} {2} {3}\n'.format(ref,xmm,ymm,angDeg))
         print(ref, x, y, ang10xDeg)
 
+    print()
+    print('filtCap (x,y) angle')
+    print('-----------------')
+    for ref, pos, ang in zip(filtCapRefList, filtCapPosList, filtCapAngleList):
+        x,y = pos
+        xmm = in2mm*x
+        ymm = in2mm*y
+        angDeg = ang*180.0/math.pi
+        angDeg = -(angDeg%360)
+        ang10xDeg = 10*angDeg
+        f.write('{0} {1} {2} {3}\n'.format(ref,xmm,ymm,angDeg))
+        print(ref, x, y, ang10xDeg)
 
 # Get arc parameters
 theta0 = circPosAngleArray.min() - subAngle
