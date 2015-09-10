@@ -41,7 +41,7 @@ $Descr User 24000 16000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "8 sep 2015"
+Date "10 sep 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -3441,4 +3441,25 @@ Connection ~ 8550 11550
 Wire Wire Line
 	8550 12250 8550 12500
 Connection ~ 8550 12250
+$Comp
+L CONN_2 P27
+U 1 1 55F1935D
+P 6500 12350
+F 0 "P27" V 6450 12350 40  0000 C CNN
+F 1 "CONN_2" V 6550 12350 40  0000 C CNN
+F 2 "" H 6500 12350 60  0000 C CNN
+F 3 "" H 6500 12350 60  0000 C CNN
+	1    6500 12350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 12450 5475 12450
+Wire Wire Line
+	5475 12450 5475 11825
+Connection ~ 5475 11825
+Wire Wire Line
+	6150 12250 5650 12250
+Wire Wire Line
+	5650 12250 5650 11625
+Connection ~ 5650 11625
 $EndSCHEMATC

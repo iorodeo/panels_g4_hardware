@@ -22,7 +22,7 @@ in2mm = 25.4
 subAngle = 2.0*math.pi/numPanels;   #angle subtended by one panel from center
 radius = panelWidth/(math.tan(subAngle/2.0))/2.0
 backRadius = radius + panelDepth
-arcRadius = radius - 0.05
+arcRadius = radius - 0.0
 edgDim = 6.5*2 
 
 shifterRadius = backRadius  + 0.8
