@@ -3609,4 +3609,6 @@ F 3 "" H 2400 13800 60  0000 C CNN
 $EndComp
 Text Notes 1600 13800 0    60   ~ 0
 Mount holes
+Text Notes 4350 12650 0    60   ~ 0
+Terminal block ED1605-ND
 $EndSCHEMATC
