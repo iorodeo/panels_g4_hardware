@@ -41,7 +41,7 @@ $Descr User 24000 16000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 sep 2015"
+Date "11 sep 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -3607,6 +3607,78 @@ F 3 "" H 2400 13800 60  0000 C CNN
 	1    2400 13800
 	1    0    0    -1  
 $EndComp
-Text Notes 1600 13800 0    60   ~ 0
-Mount holes
+Text Notes 1400 13750 0    60   ~ 0
+1/4" Mount holes
+Text Notes 4350 12650 0    60   ~ 0
+Terminal block ED1605-ND
+$Comp
+L CONN_1 P?
+U 1 1 55F31819
+P 2950 13250
+F 0 "P?" H 3030 13250 40  0000 L CNN
+F 1 "CONN_1" H 2950 13305 30  0001 C CNN
+F 2 "" H 2950 13250 60  0000 C CNN
+F 3 "" H 2950 13250 60  0000 C CNN
+	1    2950 13250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 55F31828
+P 3300 13250
+F 0 "P?" H 3380 13250 40  0000 L CNN
+F 1 "CONN_1" H 3300 13305 30  0001 C CNN
+F 2 "" H 3300 13250 60  0000 C CNN
+F 3 "" H 3300 13250 60  0000 C CNN
+	1    3300 13250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 55F31837
+P 3650 13250
+F 0 "P?" H 3730 13250 40  0000 L CNN
+F 1 "CONN_1" H 3650 13305 30  0001 C CNN
+F 2 "" H 3650 13250 60  0000 C CNN
+F 3 "" H 3650 13250 60  0000 C CNN
+	1    3650 13250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P?
+U 1 1 55F31846
+P 4000 13250
+F 0 "P?" H 4080 13250 40  0000 L CNN
+F 1 "CONN_1" H 4000 13305 30  0001 C CNN
+F 2 "" H 4000 13250 60  0000 C CNN
+F 3 "" H 4000 13250 60  0000 C CNN
+	1    4000 13250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 13400 2950 13550
+Wire Wire Line
+	2950 13550 4000 13550
+Wire Wire Line
+	3300 13550 3300 13400
+Wire Wire Line
+	3650 13550 3650 13400
+Connection ~ 3300 13550
+Wire Wire Line
+	4000 13400 4000 13800
+Connection ~ 3650 13550
+Connection ~ 4000 13550
+$Comp
+L GND #PWR?
+U 1 1 55F3219D
+P 4000 13800
+F 0 "#PWR?" H 4000 13800 30  0001 C CNN
+F 1 "GND" H 4000 13730 30  0001 C CNN
+F 2 "" H 4000 13800 60  0000 C CNN
+F 3 "" H 4000 13800 60  0000 C CNN
+	1    4000 13800
+	1    0    0    -1  
+$EndComp
+Text Notes 3050 13750 0    60   ~ 0
+#4 GND Holes
 $EndSCHEMATC

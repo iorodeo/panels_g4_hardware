@@ -1,4 +1,4 @@
-update=Thu 10 Sep 2015 10:39:45 AM PDT
+update=Fri 11 Sep 2015 11:00:51 AM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -56,10 +56,10 @@ LibName35=sparkfun_txb0104
 version=1
 LastNetListRead=arena.net
 UseCmpFile=1
-PadDrill="    6.756400"
-PadDrillOvalY="    6.756400"
-PadSizeH="    8.128000"
-PadSizeV="    8.128000"
+PadDrill="    3.263900"
+PadDrillOvalY="    3.263900"
+PadSizeH="    5.080000"
+PadSizeV="    5.080000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -103,3 +103,4 @@ LibName27=SPARKFUN_TXB0104
 LibName28=PANEL_G4
 LibName29=TERM_7P5MM
 LibName30=0P25_MOUNT_HOLE
+LibName31=NUM4_THROUGH_HOLE
