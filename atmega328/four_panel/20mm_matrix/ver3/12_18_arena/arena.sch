@@ -41,7 +41,7 @@ $Descr User 24000 16000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "11 sep 2015"
+Date "5 oct 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -3609,8 +3609,8 @@ F 3 "" H 2400 13800 60  0000 C CNN
 $EndComp
 Text Notes 1400 13750 0    60   ~ 0
 1/4" Mount holes
-Text Notes 4350 12650 0    60   ~ 0
-Terminal block ED1605-ND
+Text Notes 4950 12600 0    60   ~ 0
+Terminal Block 
 $Comp
 L CONN_1 P32
 U 1 1 55F31819
@@ -3681,4 +3681,6 @@ F 3 "" H 4000 13800 60  0000 C CNN
 $EndComp
 Text Notes 3050 13750 0    60   ~ 0
 #4 GND Holes
+Text Notes 4950 11950 0    60   ~ 0
+Power Jack
 $EndSCHEMATC
