@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat 28 Nov 2015 05:48:58 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 11 Sep 2015 11:02:08 AM PDT
 
 BeginCmp
 TimeStamp = /55EB94E8;
@@ -159,174 +159,6 @@ TimeStamp = /55F1B71F;
 Reference = C23;
 ValeurCmp = 10uF;
 IdModule  = Capacitor_Polarized;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A64D7;
-Reference = C24;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A64DD;
-Reference = C25;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A64E3;
-Reference = C26;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A64B4;
-Reference = C27;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A64BA;
-Reference = C28;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A64C0;
-Reference = C29;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6491;
-Reference = C30;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6497;
-Reference = C31;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A649D;
-Reference = C32;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A5971;
-Reference = C33;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A5977;
-Reference = C34;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A597D;
-Reference = C35;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6563;
-Reference = C36;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6569;
-Reference = C37;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A656F;
-Reference = C38;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6540;
-Reference = C39;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6546;
-Reference = C40;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A654C;
-Reference = C41;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A651D;
-Reference = C42;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6523;
-Reference = C43;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6529;
-Reference = C44;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A64FA;
-Reference = C45;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6500;
-Reference = C46;
-ValeurCmp = 30pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /565A6506;
-Reference = C47;
-ValeurCmp = 30pF;
-IdModule  = C1;
 EndCmp
 
 BeginCmp
@@ -768,6 +600,97 @@ TimeStamp = /54349200;
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
 IdModule  = slide_switch;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A20EF;
+Reference = U1;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A20FE;
+Reference = U2;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A210D;
+Reference = U3;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A211C;
+Reference = U4;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A212B;
+Reference = U5;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /557A213A;
+Reference = U6;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB6B9D;
+Reference = U7;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB6E3F;
+Reference = U8;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB6EAA;
+Reference = U9;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB8BD9;
+Reference = U10;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB8CAE;
+Reference = U11;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB8D34;
+Reference = U12;
+ValeurCmp = SPARKFUN_TXB0104;
+IdModule  = SPARKFUN_TXB0104;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661ECA;
+Reference = U13;
+ValeurCmp = POLOLU_3V3;
+IdModule  = POLOLU_3V3;
 EndCmp
 
 EndListe
