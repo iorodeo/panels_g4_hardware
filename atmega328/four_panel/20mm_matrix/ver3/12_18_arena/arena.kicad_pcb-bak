@@ -3,7 +3,7 @@
   (general
     (links 331)
     (no_connects 331)
-    (area 37.949999 63.349999 368.450001 302.121564)
+    (area 22.466288 61.4464 388.698276 326.804008)
     (thickness 1.6)
     (drawings 18)
     (tracks 0)
@@ -254,15 +254,6 @@
     (add_net N-0000056)
     (add_net N-0000057)
     (add_net N-0000095)
-  )
-
-  (net_class 3V3Pwr ""
-    (clearance 0.254)
-    (trace_width 0.635)
-    (via_dia 0.889)
-    (via_drill 0.635)
-    (uvia_dia 0.508)
-    (uvia_drill 0.127)
   )
 
   (net_class Pwr ""
@@ -4284,4 +4275,36 @@
   (gr_line (start 368.3 63.5) (end 368.3 301.971563) (angle 90) (layer Edge.Cuts) (width 0.3))
   (gr_line (start 368.3 301.971563) (end 290.640824 301.971563) (angle 90) (layer Edge.Cuts) (width 0.3))
 
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 565B7987) (hatch full 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))
+    (fill (arc_segments 16) (thermal_gap 0.762) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 318.643 229.362) (xy 317.246 248.666) (xy 311.531 270.002) (xy 303.53 286.385) (xy 293.116 300.482)
+        (xy 113.411 301.117) (xy 102.743 286.385) (xy 94.615 267.589) (xy 89.281 249.047) (xy 87.63 227.838)
+        (xy 88.773 208.661) (xy 95.758 184.277) (xy 102.743 170.688) (xy 115.443 152.908) (xy 128.143 139.954)
+        (xy 145.669 128.016) (xy 163.195 119.888) (xy 184.404 114.3) (xy 202.819 112.776) (xy 224.917 115.062)
+        (xy 242.697 119.761) (xy 261.239 128.397) (xy 277.622 139.7) (xy 291.592 153.924) (xy 303.53 170.561)
+        (xy 311.785 188.722) (xy 317.119 208.661)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 565B79E5) (hatch full 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (copperpour not_allowed))
+    (fill (arc_segments 16) (thermal_gap 0.762) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 318.643 229.108) (xy 317.373 248.539) (xy 311.277 270.891) (xy 303.149 286.893) (xy 293.116 300.482)
+        (xy 113.411 301.117) (xy 102.743 286.385) (xy 94.615 267.462) (xy 89.027 249.047) (xy 87.376 227.33)
+        (xy 88.773 208.915) (xy 95.631 183.896) (xy 102.87 170.688) (xy 115.316 153.162) (xy 128.397 139.7)
+        (xy 145.669 128.016) (xy 163.449 119.761) (xy 184.277 114.3) (xy 203.2 112.649) (xy 225.044 115.062)
+        (xy 242.951 119.761) (xy 261.62 128.524) (xy 277.749 139.954) (xy 292.481 154.94) (xy 303.53 170.688)
+        (xy 312.039 189.23) (xy 317.373 208.534)
+      )
+    )
+  )
 )
