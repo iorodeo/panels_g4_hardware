@@ -1,9 +1,9 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-mar-13)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-jul-07)-stable")
 
   (general
     (links 51)
     (no_connects 0)
-    (area 99.809299 67.810379 132.191761 100.190301)
+    (area 99.593139 67.591939 132.404861 100.403661)
     (thickness 1.6002)
     (drawings 11)
     (tracks 284)
@@ -13,10 +13,6 @@
   )
 
   (page A4)
-  (title_block
-    (date "2 apr 2013")
-  )
-
   (layers
     (15 Front signal)
     (0 Back signal)
@@ -85,9 +81,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber_v1p3/))
+      (outputdirectory gerber_v2p0/))
   )
 
   (net 0 "")
