@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sat 30 Apr 2016 09:59:09 AM PDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 09 May 2016 02:22:19 PM PDT
 
 BeginCmp
 TimeStamp = /521309B9;
@@ -2126,6 +2126,230 @@ TimeStamp = /52156DB7;
 Reference = R36;
 ValeurCmp = 180;
 IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5730FAB9;
+Reference = U1;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /573106E4;
+Reference = U2;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5731070A;
+Reference = U3;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57310730;
+Reference = U4;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57310756;
+Reference = U5;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5731077C;
+Reference = U6;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /573107A2;
+Reference = U7;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /573107C8;
+Reference = U8;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313BEB;
+Reference = U9;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313C11;
+Reference = U10;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313C37;
+Reference = U11;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313C5D;
+Reference = U12;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313C83;
+Reference = U13;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313CA9;
+Reference = U14;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313CCF;
+Reference = U15;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313CF5;
+Reference = U16;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313D1B;
+Reference = U17;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313D41;
+Reference = U18;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313D67;
+Reference = U19;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313D8D;
+Reference = U20;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313DB3;
+Reference = U21;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313DD9;
+Reference = U22;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313DFF;
+Reference = U23;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313E25;
+Reference = U24;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313E4B;
+Reference = U25;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313E71;
+Reference = U26;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313E97;
+Reference = U27;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313EBD;
+Reference = U28;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313EE3;
+Reference = U29;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313F09;
+Reference = U30;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313F2F;
+Reference = U31;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57313F55;
+Reference = U32;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
 EndCmp
 
 BeginCmp
