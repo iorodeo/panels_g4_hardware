@@ -1,4 +1,4 @@
-update=Mon 09 May 2016 02:21:07 PM PDT
+update=Mon 09 May 2016 05:19:27 PM PDT
 version=1
 last_client=pcbnew
 [general]
@@ -58,8 +58,8 @@ LastNetListRead=
 UseCmpFile=1
 PadDrill="    0.000000"
 PadDrillOvalY="    0.000000"
-PadSizeH="    0.375000"
-PadSizeV="    0.500000"
+PadSizeH="    1.270000"
+PadSizeV="    2.540000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -70,7 +70,7 @@ SolderMaskClearance="    0.000000"
 SolderMaskMinWidth="    0.000000"
 DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.250000"
-ModuleOutlineThickness="    0.150000"
+ModuleOutlineThickness="    0.200000"
 [pcbnew/libraries]
 LibDir=
 LibName1=sockets
@@ -96,3 +96,4 @@ LibName20=PIN_ARRAY_F_2X2
 LibName21=PIN_ARRAY_F_3X2
 LibName22=LED0603_CUSTOM
 LibName23=DMC2400UV
+LibName24=SMD_2X2

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/wbd/work/products/panels_g4_hardware/atmega328/four_panel/20mm_matrix/ver3/driver_w_leds/driver.sch)
-    (date "Mon 09 May 2016 02:21:34 PM PDT")
+    (date "Mon 09 May 2016 05:21:03 PM PDT")
     (tool "eeschema (2013-jul-07)-stable"))
   (components
     (comp (ref X1)
