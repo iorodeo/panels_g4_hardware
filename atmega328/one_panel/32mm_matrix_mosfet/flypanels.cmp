@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 19 Aug 2013 10:35:27 AM PDT
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 22 May 2016 03:50:50 PM PDT
 
 BeginCmp
 TimeStamp = /504E3A3D;
@@ -103,6 +103,62 @@ TimeStamp = /504A9F2F;
 Reference = R9;
 ValeurCmp = 10K;
 IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /57423259;
+Reference = U1;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /574235B6;
+Reference = U2;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /574235DB;
+Reference = U3;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /574235FF;
+Reference = U4;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57423624;
+Reference = U5;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57423648;
+Reference = U6;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /5742366D;
+Reference = U7;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
+EndCmp
+
+BeginCmp
+TimeStamp = /57423691;
+Reference = U8;
+ValeurCmp = DMC2400UV;
+IdModule  = DMC2400UV;
 EndCmp
 
 BeginCmp

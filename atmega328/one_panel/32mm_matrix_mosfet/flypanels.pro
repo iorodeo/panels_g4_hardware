@@ -1,4 +1,4 @@
-update=Mon 19 Aug 2013 10:34:55 AM PDT
+update=Sun 22 May 2016 03:49:17 PM PDT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -55,6 +55,7 @@ LibName30=atmel2
 LibName31=cer_reso
 LibName32=led_8x8
 LibName33=uln2804a
+LibName34=dmc2400uv
 [pcbnew]
 version=1
 LastNetListRead=flypanels.net
@@ -90,3 +91,4 @@ LibName11=CONN_8x1
 LibName12=LED_8X8
 LibName13=XZL_CR
 LibName14=XZL_SOP18
+LibName15=DMC2400UV
