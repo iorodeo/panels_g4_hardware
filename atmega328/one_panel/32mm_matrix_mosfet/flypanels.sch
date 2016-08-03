@@ -40,7 +40,7 @@ $Descr User 14000 10000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "22 may 2016"
+Date "24 jul 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1203,4 +1203,6 @@ Text Label 3250 7050 0    60   ~ 0
 CAT7
 Text Label 3250 5650 0    60   ~ 0
 CAT8
+Text Notes 6850 3750 0    100  ~ 0
+Error on board - 5V not connected to VCC!!!!
 $EndSCHEMATC
