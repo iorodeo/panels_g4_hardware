@@ -4127,7 +4127,7 @@
   (gr_text K1 (at 50.8 50.9778 90) (layer F.SilkS)
     (effects (font (size 0.889 0.889) (thickness 0.2032)))
   )
-  (gr_text "4-Matrix Atmega328 Driver V0.4 R2\nwww.iorodeo.com" (at 63.5 70 90) (layer B.SilkS)
+  (gr_text "4-Matrix Atmega328 Driver V0.4 R2\nwww.iorodeo.com" (at 62.484 65.7606 90) (layer B.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
   )
   (gr_line (start 90 90) (end 90 50) (angle 90) (layer Edge.Cuts) (width 0.25))
