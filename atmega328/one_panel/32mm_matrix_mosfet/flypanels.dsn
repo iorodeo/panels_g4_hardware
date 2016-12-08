@@ -35,14 +35,14 @@
   (placement
     (component SM0603
       (place R9 129300 -69400 front 0 (PN 10K))
-      (place R8 102100 -98500 front 0 (PN 150))
-      (place R7 101400 -94100 front 270 (PN 150))
-      (place R6 101300 -78100 front 270 (PN 150))
-      (place R5 130700 -80300 front 270 (PN 150))
-      (place R4 101300 -73600 front 270 (PN 150))
-      (place R3 130700 -85600 front 270 (PN 150))
-      (place R2 130800 -90000 front 270 (PN 150))
-      (place R1 107550 -80350 front 0 (PN 150))
+      (place R8 102100 -98500 front 0 (PN 160))
+      (place R7 101400 -94100 front 270 (PN 160))
+      (place R6 101300 -78100 front 270 (PN 160))
+      (place R5 130700 -80300 front 270 (PN 160))
+      (place R4 101300 -73600 front 270 (PN 160))
+      (place R3 130700 -85600 front 270 (PN 160))
+      (place R2 130800 -90000 front 270 (PN 160))
+      (place R1 107550 -80350 front 0 (PN 160))
       (place C2 124200 -91850 front 0 (PN 0.1uF))
       (place C1 107600 -83850 front 180 (PN 0.1uF))
     )
@@ -248,7 +248,8 @@
   )
   (network
     (net +5V
-      (pins U1-4 U2-4 U3-4 U4-4 U5-4 U6-4 U7-4 U8-4)
+      (pins IC1-6 IC1-4 IC1-18 IC1-20 C2-1 C1-1 P1-7 P2-7 U1-4 U2-4 U3-4 U4-4 U5-4
+        U6-4 U7-4 U8-4)
     )
     (net /CAT1
       (pins MATRIX1-5 U8-3 U8-6)
@@ -302,62 +303,65 @@
       (pins R9-2 IC1-5 IC1-3 IC1-21 C2-2 C1-2 P1-8 P2-8 X1-2 U1-1 U2-1 U3-1 U4-1 U5-1
         U6-1 U7-1 U8-1)
     )
+    (net "N-0000016"
+      (pins R9-1 IC1-26 P1-3)
+    )
     (net "N-0000017"
-      (pins R3-2 IC1-17 P2-5)
-    )
-    (net "N-0000018"
-      (pins IC1-7 X1-1)
-    )
-    (net "N-0000019"
-      (pins R7-1 MATRIX1-15)
-    )
-    (net "N-0000020"
-      (pins R2-1 MATRIX1-3)
-    )
-    (net "N-0000021"
-      (pins R7-2 IC1-13)
-    )
-    (net "N-0000022"
-      (pins R5-1 MATRIX1-6)
-    )
-    (net "N-0000023"
-      (pins R6-2 IC1-14)
-    )
-    (net "N-0000024"
-      (pins IC1-27 P1-2 P2-2)
-    )
-    (net "N-0000025"
-      (pins R1-1 MATRIX1-13)
-    )
-    (net "N-0000026"
-      (pins R8-2 IC1-12)
-    )
-    (net "N-0000027"
-      (pins R2-2 IC1-23)
-    )
-    (net "N-0000028"
-      (pins R1-2 IC1-24)
-    )
-    (net "N-0000029"
       (pins R6-1 MATRIX1-11)
     )
-    (net "N-0000030"
+    (net "N-0000018"
       (pins R8-1 MATRIX1-16)
     )
-    (net "N-0000031"
+    (net "N-0000019"
+      (pins R3-2 IC1-17 P2-5)
+    )
+    (net "N-0000020"
+      (pins IC1-7 X1-1)
+    )
+    (net "N-0000021"
+      (pins IC1-27 P1-2 P2-2)
+    )
+    (net "N-0000022"
+      (pins R7-1 MATRIX1-15)
+    )
+    (net "N-0000023"
+      (pins R5-1 MATRIX1-6)
+    )
+    (net "N-0000024"
       (pins IC1-29 P2-3)
     )
+    (net "N-0000025"
+      (pins IC1-28 P1-1 P2-1)
+    )
+    (net "N-0000026"
+      (pins R1-1 MATRIX1-13)
+    )
+    (net "N-0000027"
+      (pins R2-1 MATRIX1-3)
+    )
+    (net "N-0000028"
+      (pins R7-2 IC1-13)
+    )
+    (net "N-0000029"
+      (pins R8-2 IC1-12)
+    )
+    (net "N-0000030"
+      (pins R6-2 IC1-14)
+    )
+    (net "N-0000031"
+      (pins R2-2 IC1-23)
+    )
     (net "N-0000032"
-      (pins IC1-8 X1-3)
+      (pins R1-2 IC1-24)
     )
     (net "N-0000033"
-      (pins R4-1 MATRIX1-10)
+      (pins IC1-8 X1-3)
     )
     (net "N-0000034"
-      (pins R3-1 MATRIX1-4)
+      (pins R4-1 MATRIX1-10)
     )
-    (net "N-0000038"
-      (pins R9-1 IC1-26 P1-3)
+    (net "N-0000035"
+      (pins R3-1 MATRIX1-4)
     )
     (net "N-0000044"
       (pins R5-2 IC1-15 P2-6)
@@ -365,18 +369,12 @@
     (net "N-0000045"
       (pins R4-2 IC1-16 P2-4)
     )
-    (net "N-0000047"
-      (pins IC1-28 P1-1 P2-1)
-    )
-    (net VCC
-      (pins IC1-6 IC1-4 IC1-18 IC1-20 C2-1 C1-1 P1-7 P2-7)
-    )
-    (class kicad_default "" +5V /CAT1 /CAT2 /CAT3 /CAT4 /CAT5 /CAT6 /CAT7
-      /CAT8 /D0 /D1 /D2 /D3 /D4 /D5 /D6 /D7 "N-0000017" "N-0000018" "N-0000019"
-      "N-0000020" "N-0000021" "N-0000022" "N-0000023" "N-0000024" "N-0000025"
-      "N-0000026" "N-0000027" "N-0000028" "N-0000029" "N-0000030" "N-0000031"
-      "N-0000032" "N-0000033" "N-0000034" "N-0000038" "N-0000044" "N-0000045"
-      "N-0000047"
+    (class kicad_default "" /CAT1 /CAT2 /CAT3 /CAT4 /CAT5 /CAT6 /CAT7 /CAT8
+      /D0 /D1 /D2 /D3 /D4 /D5 /D6 /D7 "N-0000016" "N-0000017" "N-0000018"
+      "N-0000019" "N-0000020" "N-0000021" "N-0000022" "N-0000023" "N-0000024"
+      "N-0000025" "N-0000026" "N-0000027" "N-0000028" "N-0000029" "N-0000030"
+      "N-0000031" "N-0000032" "N-0000033" "N-0000034" "N-0000035" "N-0000044"
+      "N-0000045"
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -385,7 +383,7 @@
         (clearance 203.3)
       )
     )
-    (class VCC GND VCC
+    (class VCC +5V GND
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -396,26 +394,11 @@
     )
   )
   (wiring
-    (wire (path Front 203.2  106838 -83850  106838 -84338)(net GND)(type protect))
-    (wire (path Front 203.2  110076 -85875.9  111934 -85875.9)(net GND)(type protect))
-    (wire (path Front 203.2  109000 -84800  110076 -85875.9)(net GND)(type protect))
-    (wire (path Front 203.2  107300 -84800  109000 -84800)(net GND)(type protect))
-    (wire (path Front 203.2  106838 -84338  107300 -84800)(net GND)(type protect))
-    (wire (path Back 635  124889 -94500.7  124889 -76499.7)(net GND)(type protect))
-    (wire (path Front 406.4  124962 -91850  124962 -94427.7  124889 -94500.7)(net GND)(type protect))
-    (wire (path Front 203.2  107750 -87701.1  109099 -87701.1)(net "N-0000018")(type protect))
-    (wire (path Front 203.2  109324 -87476.1  111934 -87476.1)(net "N-0000018")(type protect))
-    (wire (path Front 203.2  109099 -87701.1  109324 -87476.1)(net "N-0000018")(type protect))
-    (wire (path Front 203.2  107750 -90098.9  108401 -90098.9)(net "N-0000032")(type protect))
-    (wire (path Front 203.2  110224 -88276.2  111934 -88276.2)(net "N-0000032")(type protect))
-    (wire (path Front 203.2  108401 -90098.9  110224 -88276.2)(net "N-0000032")(type protect))
-    (wire (path Front 203.2  108362 -83850  108650 -83850)(net VCC)(type protect))
-    (wire (path Front 203.2  109876 -85075.8  111934 -85075.8)(net VCC)(type protect))
-    (wire (path Front 203.2  108650 -83850  109876 -85075.8)(net VCC)(type protect))
-    (wire (path Back 635  122349 -94500.7  122349 -94451)(net VCC)(type protect))
-    (wire (path Back 635  123900 -78050.7  122349 -76499.7)(net VCC)(type protect))
-    (wire (path Back 635  123900 -92900  123900 -78050.7)(net VCC)(type protect))
-    (wire (path Back 635  122349 -94451  123900 -92900)(net VCC)(type protect))
-    (wire (path Front 406.4  123438 -91850  123438 -93411.7  122349 -94500.7)(net VCC)(type protect))
+    (wire (path Back 635  122349 -94500.7  122349 -93830.4)(net +5V)(type protect))
+    (wire (path Back 635  122349 -77619.6  122349 -76499.7)(net +5V)(type protect))
+    (wire (path Back 635  123977 -79248  122349 -77619.6)(net +5V)(type protect))
+    (wire (path Back 635  123977 -92202  123977 -79248)(net +5V)(type protect))
+    (wire (path Back 635  122349 -93830.4  123977 -92202)(net +5V)(type protect))
+    (wire (path Back 635  124889 -76499.7  124889 -94500.7)(net GND)(type protect))
   )
 )
