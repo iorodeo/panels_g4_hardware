@@ -1,4 +1,4 @@
-### Module positions - created on Tue 06 Dec 2016 12:23:58 PM PST ###
+### Module positions - created on Tue 03 Jan 2017 12:46:23 PM PST ###
 ### Printed by Pcbnew version pcbnew (2013-jul-07)-stable
 ## Unit = inches, Angle = deg.
 ## Side : F.Cu
@@ -11,6 +11,7 @@ IC1      ATMEGA328P-M     QFN32               2.4213    -2.2343      90.0    F.C
 IC2      ATMEGA328P-M     QFN32               2.4213    -2.8642      90.0    F.Cu
 IC3      ATMEGA328P-M     QFN32               3.1299    -2.2343      90.0    F.Cu
 IC4      ATMEGA328P-M     QFN32               3.1299    -2.8642      90.0    F.Cu
+MATRIX4  LED_8X8          LED_MATRIX_20MM_    3.1496    -3.1496       0.0    F.Cu
 R1       4.7k             SM0603_Resistor     2.3228    -2.6476       0.0    F.Cu
 R2       4.7k             SM0603_Resistor     2.3583    -3.2913       0.0    F.Cu
 R3       4.7k             SM0603_Resistor     2.9724    -2.6181     270.0    F.Cu
@@ -47,4 +48,13 @@ R33      160              SM0603_Resistor     3.3661    -2.7559     270.0    F.C
 R34      160              SM0603_Resistor     3.3150    -3.4961       0.0    F.Cu
 R35      160              SM0603_Resistor     3.2756    -3.4055       0.0    F.Cu
 R36      160              SM0603_Resistor     3.2756    -3.3228       0.0    F.Cu
+U3       DMC2400UV        DMC2400UV           2.1732    -2.1220     270.0    F.Cu
+U10      DMC2400UV        DMC2400UV           2.1693    -2.7480     270.0    F.Cu
+U16      DMC2400UV        DMC2400UV           2.7559    -3.4803     270.0    F.Cu
+U19      DMC2400UV        DMC2400UV           2.9567    -2.4055     270.0    F.Cu
+U28      DMC2400UV        DMC2400UV           2.7559    -3.2126     270.0    F.Cu
+X1       CER_RESO         CER_RESO            2.5039    -2.4764       0.0    F.Cu
+X2       CER_RESO         CER_RESO            2.5276    -3.1220       0.0    F.Cu
+X3       CER_RESO         CER_RESO            3.0906    -2.5118       0.0    F.Cu
+X4       CER_RESO         CER_RESO            3.0984    -3.1299       0.0    F.Cu
 ## End
