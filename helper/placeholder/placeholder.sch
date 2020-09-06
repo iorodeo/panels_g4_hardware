@@ -1,0 +1,176 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "G4 Panel comm placeholder"
+Date "2020-09-10"
+Rev "0.1"
+Comp "Janelia | Reiser Lab"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x15_Female J2
+U 1 1 5F56BEF1
+P 5200 2150
+F 0 "J2" H 5228 2176 50  0000 L CNN
+F 1 "Conn_01x15_Female" H 5228 2085 50  0000 L CNN
+F 2 "placeholdere-feet:HEADER_TOP" H 5200 2150 50  0001 C CNN
+F 3 "~" H 5200 2150 50  0001 C CNN
+	1    5200 2150
+	1    0    0    -1  
+$EndComp
+Text Notes 3900 750  0    50   ~ 0
+Panel-to-Panel headers
+$Comp
+L power:+5V #PWR0101
+U 1 1 5F56EF84
+P 3900 1200
+F 0 "#PWR0101" H 3900 1050 50  0001 C CNN
+F 1 "+5V" H 3915 1373 50  0000 C CNN
+F 2 "" H 3900 1200 50  0001 C CNN
+F 3 "" H 3900 1200 50  0001 C CNN
+	1    3900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F56F516
+P 4750 1200
+F 0 "#PWR0102" H 4750 1050 50  0001 C CNN
+F 1 "+5V" H 4765 1373 50  0000 C CNN
+F 2 "" H 4750 1200 50  0001 C CNN
+F 3 "" H 4750 1200 50  0001 C CNN
+	1    4750 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1450 3900 1450
+Wire Wire Line
+	3900 1450 3900 1200
+Wire Wire Line
+	5000 1450 4750 1450
+Wire Wire Line
+	4750 1450 4750 1200
+$Comp
+L power:GND #PWR0103
+U 1 1 5F5701F1
+P 3900 1550
+F 0 "#PWR0103" H 3900 1300 50  0001 C CNN
+F 1 "GND" V 3905 1422 50  0000 R CNN
+F 2 "" H 3900 1550 50  0001 C CNN
+F 3 "" H 3900 1550 50  0001 C CNN
+	1    3900 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F570BE8
+P 4750 1550
+F 0 "#PWR0104" H 4750 1300 50  0001 C CNN
+F 1 "GND" V 4755 1422 50  0000 R CNN
+F 2 "" H 4750 1550 50  0001 C CNN
+F 3 "" H 4750 1550 50  0001 C CNN
+	1    4750 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 1550 5000 1550
+Wire Wire Line
+	3900 1550 3600 1550
+Wire Wire Line
+	3600 1650 5000 1650
+Wire Wire Line
+	3600 1750 5000 1750
+Wire Wire Line
+	3600 1850 5000 1850
+Wire Wire Line
+	3600 1950 5000 1950
+Text Label 4200 1750 0    50   ~ 0
+SCK
+Text Label 4200 1850 0    50   ~ 0
+COPI
+Text Label 4200 1950 0    50   ~ 0
+CIPO
+$Comp
+L Connector:Conn_01x15_Male J1
+U 1 1 5F56C7EF
+P 3400 2150
+F 0 "J1" H 3508 3031 50  0000 C CNN
+F 1 "Conn_01x15_Male" H 3508 2940 50  0000 C CNN
+F 2 "placeholdere-feet:HEADER_BOT" H 3400 2150 50  0001 C CNN
+F 3 "~" H 3400 2150 50  0001 C CNN
+	1    3400 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2850 3600 2850
+Text Label 4200 2850 0    50   ~ 0
+EXT_INTO
+Text Label 4200 1650 0    50   ~ 0
+RESET
+Wire Wire Line
+	3600 2150 3700 2150
+Wire Wire Line
+	3700 2150 3700 2050
+Wire Wire Line
+	3700 2050 5000 2050
+Wire Wire Line
+	3600 2250 3750 2250
+Wire Wire Line
+	3750 2250 3750 2150
+Wire Wire Line
+	3750 2150 5000 2150
+Wire Wire Line
+	3600 2350 3800 2350
+Wire Wire Line
+	3800 2350 3800 2250
+Wire Wire Line
+	3800 2250 5000 2250
+Wire Wire Line
+	3600 2450 3850 2450
+Wire Wire Line
+	3850 2450 3850 2350
+Wire Wire Line
+	3850 2350 5000 2350
+Wire Wire Line
+	3600 2550 3900 2550
+Wire Wire Line
+	3900 2550 3900 2450
+Wire Wire Line
+	3900 2450 5000 2450
+Wire Wire Line
+	3600 2650 3950 2650
+Wire Wire Line
+	3950 2650 3950 2550
+Wire Wire Line
+	3950 2550 5000 2550
+Wire Wire Line
+	3600 2750 4000 2750
+Wire Wire Line
+	4000 2750 4000 2650
+Wire Wire Line
+	4000 2650 5000 2650
+Text Notes 4950 3000 0    50   ~ 0
+TOP HEADER
+Text Notes 3200 3000 0    50   ~ 0
+BOTTOM HEADER
+Text Label 4200 2050 0    50   ~ 0
+CS1
+Text Label 4200 2150 0    50   ~ 0
+CS2
+Text Label 4200 2250 0    50   ~ 0
+CS3
+Text Label 4200 2350 0    50   ~ 0
+CS4
+Text Label 4200 2450 0    50   ~ 0
+CS5
+Text Label 4200 2550 0    50   ~ 0
+CS6
+Text Label 4200 2650 0    50   ~ 0
+CS7
+$EndSCHEMATC
