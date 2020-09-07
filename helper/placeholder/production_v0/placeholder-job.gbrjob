@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.6"
     },
-    "CreationDate":  "2020-09-08T10:01:19-04:00"
+    "CreationDate":  "2020-09-08T13:50:04-04:00"
   },
   "GeneralSpecs":
   {
@@ -32,7 +32,7 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.254,
+      "MinLineWidth":  0.250,
       "TrackToRegion":  0.200,
       "RegionToRegion":  0.200
     }
@@ -47,16 +47,6 @@
     {
       "Path":  "placeholder-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "placeholder-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "placeholder-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -92,10 +82,6 @@
       "Notes":  "Layer F.SilkS"
     },
     {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
-    },
-    {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
     },
@@ -115,10 +101,6 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",
