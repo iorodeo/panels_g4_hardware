@@ -1,7 +1,8 @@
 ---
-title: Hardware
-parent: Generation 4
-has_children: true
+title: other Hardware
+parent: Setup
+grand_parent: Generation 4
+nav_order: 4
 ---
 
 # G4 Hardware
