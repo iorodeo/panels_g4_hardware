@@ -11,7 +11,7 @@ The original development of the G4 Hardware Panels. Currently, in the year 2020,
 
 The current version of the communication board (`comm`) and `programmer` are in `atmega328/four_panel/20mm_matrix/ver3`.
 
-In addition, the directory helper contains a `placeholder` panel, which can be used as a drop in replacement for a panel with a 35mm×21mm opening to look through.
+In addition, the directory `placeholder` contains a panel, which can be used as a drop in replacement for a panel with a 35mm×21mm opening to look through.
 
 ## Project structure
 
@@ -26,6 +26,5 @@ In addition, the directory helper contains a `placeholder` panel, which can be u
 ├── stm32
 │   ├── pcb_big_v0
 │   └── pcb_big_v1
-└── helper
-    └── placeholder
+└── placeholder
 ```
