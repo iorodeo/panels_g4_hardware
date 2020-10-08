@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "G4 Panel comm placeholder"
-Date "2020-09-10"
-Rev "0.1"
+Title "G4 Panel Window"
+Date "2020-10-08"
+Rev "0.3"
 Comp "Janelia | Reiser Lab"
 Comment1 ""
 Comment2 ""

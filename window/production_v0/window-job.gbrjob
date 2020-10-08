@@ -5,22 +5,22 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.6"
+      "Version":     "5.1.7"
     },
-    "CreationDate":  "2020-09-08T13:50:04-04:00"
+    "CreationDate":  "2020-10-08T13:52:21-04:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "placeholder",
-      "GUID": "706c6163-6568-46f6-9c64-65722e6b6963",
+      "Name": "window",
+      "GUID": "77696e64-6f77-42e6-9b69-6361645f7063",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 40.250,
-      "Y": 40.250
+      "X": 0.000,
+      "Y": 0.000
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -40,37 +40,37 @@
   "FilesAttributes":
   [
     {
-      "Path":  "placeholder-F_Cu.gbr",
+      "Path":  "window-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "placeholder-B_Cu.gbr",
+      "Path":  "window-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "placeholder-F_SilkS.gbr",
+      "Path":  "window-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "placeholder-B_SilkS.gbr",
+      "Path":  "window-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "placeholder-F_Mask.gbr",
+      "Path":  "window-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "placeholder-B_Mask.gbr",
+      "Path":  "window-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "placeholder-Edge_Cuts.gbr",
+      "Path":  "window-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

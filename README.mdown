@@ -4,7 +4,7 @@ This repository is part of <https://reiserlab.github.io/Modular-LED-Display/>. I
 
 This repository contains many files that are not required for current systems, but are kept for historic reasons. Refer to the above website for more details.
 
-In addition, the directory `placeholder` contains a panel, which can be used as a drop in replacement for a panel with a 35mm×21mm opening to look through.
+In addition, the directory `window` contains a panel, which can be used as a drop in replacement for a panel with a 35mm×21mm opening to look through.
 
 # Files
 
@@ -19,5 +19,5 @@ In addition, the directory `placeholder` contains a panel, which can be used as 
 ├── stm32           - do not use: early prototype files 
 │   ├── pcb_big_v0
 │   └── pcb_big_v1  
-└── placeholder     - drop in replacement for panel with "window"
+└── window          - drop in replacement for panel with "window"
 ```
