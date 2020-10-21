@@ -18,7 +18,7 @@ While the chip select line is active for the current panel, a micro controller u
 ## Panel Comm PCB v0.3
 {:#comm-v0p3 .clear}
 
-![A rendering of the communication board](../assets/comm_v0.3_top_render.jpg){:.ifr}
+![A rendering of the communication board](../assets/comm_v0.3_top_render.jpg){:.ifr .pop}
 
 The communicaiton board is a 40×40mm² PCB with two layers, most recently available as [version v0.3](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver3/comm/). The connectors are designed as through-hole, other components are SMD.
 
@@ -26,7 +26,7 @@ The communicaiton board is a 40×40mm² PCB with two layers, most recently avail
 
 The comm board v0.3 receive signals (P1), send them on (P2). Based on the chip select line it identifies the signals relevant for the current panel. This processing is done with the help of a 20MHz ATMEGA328P-AUR (IC5). The relevant signals are passed to one of the four driver board quadrants (P4…P7).
 
-![A picture of the assembled board](../assets/comm_v0.3_top_photo.jpg){:.ifr}
+![A picture of the assembled board](../assets/comm_v0.3_top_photo.jpg){:.ifr .pop}
 
 ### Design
 
@@ -43,7 +43,7 @@ For an order volume of 150 pieces we would expect prices around $16 for the asse
 ## Panel Window PCB
 {:#window}
 
-![The assembled window PCB (as "placeholder v0.2")](../assets/comm_placeholder_bottom_photo.jpg){:.ifr}
+![The assembled window PCB (as "placeholder v0.2")](../assets/comm_placeholder_bottom_photo.jpg){:.ifr .pop}
 
 This PCB acts as a drop-in replacement for panels within a column. It has a cut out of 35×21mm² which you can use to point a camera or other device through that column. In most cases this is not needed, yet it is the most simple and cheap PCB you can get produced from the G4 system. So if you haven't had any experience with the process of ordering PCBs, you might want to start here. Before version v0.3 this was called "placeholder".
 
@@ -52,7 +52,7 @@ If you want to skip a panel within a column, you will need to connect the chip s
 Alternatively you can use the window PCB to achieve the same. The PCB has the same outer dimensions and same connectors as the Comm PCB and provides the wiring described above between input and output.
 {:.clear}
 
-![A rendering of the "window"](../assets/window_v0.3_iso_render.jpg){:.ifr}
+![A rendering of the "window"](../assets/window_v0.3_iso_render.jpg){:.ifr .pop}
 
 The design files for this simple 2-layer PCB are in the [panels_g4_hardware](https://github.com/floesche/panels_g4_hardware/tree/master/window) repository inside the `window` directory. The design was done in [KiCAD](https://kicad-pcb.org/). The files ready for production are inside the `window/production_v0` folder. Most recently [window-v0.3](https://github.com/floesche/panels_g4_hardware/blob/master/window/production_v0/window_v0p3.zip) uses length matched traces. All you need to order this design is the zip file, which contains the relevant files from the directory, and most manufacturers will accept. So far we have ordered this exact design from [OSHPark](https://oshpark.com/) with a quick turn-around time of around 5 days and a total cost of $10 per board, including components. With enough lead time, higher quantities, and other manufacturers the price should be around $1 per unit.
 
@@ -65,7 +65,7 @@ These designs are kept for historic reasons and to debug existing systems. If yo
 ## Panel Comm PCB v0.2
 {:#comm-v0p2 .clear}
 
-![A picture of the assembled comm board v0.2](../assets/comm_v0.2_top_photo.jpg){:.ifr}
+![A picture of the assembled comm board v0.2](../assets/comm_v0.2_top_photo.jpg){:.ifr .pop}
 
 This is only relevant if you have an older G4 setup where the driver boards have two 2×3 pin connectors and the female side of the connectors on the driver board. Similarly to the v0.3, the design files are on the [panel_g4_hardware](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver2/comm) repository.
 
