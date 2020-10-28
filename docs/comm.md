@@ -5,6 +5,9 @@ grand_parent: Generation 4
 nav_order: 5
 ---
 
+1. TOC
+{:toc}
+
 # Communication PCB
 
 The communication PCB or "comm board" measures 40×40mm² and has a 15 pin connector on the bottom and a matching socket on the top edge. In addition, there are four 4×4 female sockets ([v0.3](#commv0p3)) or two 3×6 male pins ([v0.2](#comm-v0p2)) on the top side of the PCB. This board extracts data packets for the current panel from the SPI stream and sends them via I²C to the driver board. The connectors always need to be connected to either a adjacent comm board or an arena.
