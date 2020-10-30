@@ -85,21 +85,23 @@ The [panel_g4_hardware](https://github.com/floesche/panels_g4_hardware/tree/mast
 The bottom pins have the following meanings, seen from the direction of the driver:
 
 ```
- 1 -- 5VCC        (5V Power)
- 2 -- GND         (Ground)
- 3 -- RESET_MAIN  (Reset all panels)
- 4 -- SCK         (Serial Clock)
- 5 -- COPI        (Controller Out, Peripheral In)
- 6 -- CIPO        (Controller In, Peripheral Out)
- 7 -- CS1         (Chip Select 1)
- 8 -- CS2         (Chip Select 2)
- 9 -- CS3         (Chip Select 3)
-10 -- CS4         (Chip Select 4)
-11 -- CS5         (Chip Select 5)
-12 -- CS6         (Chip Select 6)
-13 -- CS7         (Chip Select 7)
-14 -- NC          (Not Connected)
+No    Name             Description
+==    ====             ===========
+ 1 -- 5VCC             (5V Power)
+ 2 -- GND              (Ground)
+ 3 -- RESET_MAIN       (Reset all panels)
+ 4 -- SCK              (Serial Clock)
+ 5 -- COPI             (Controller Out, Peripheral In)
+ 6 -- CIPO             (Controller In, Peripheral Out)
+ 7 -- CS1              (Chip Select 1)
+ 8 -- CS2              (Chip Select 2)
+ 9 -- CS3              (Chip Select 3)
+10 -- CS4              (Chip Select 4)
+11 -- CS5              (Chip Select 5)
+12 -- CS6              (Chip Select 6)
+13 -- CS7              (Chip Select 7)
+14 -- NC               (Not Connected)
 15 -- EXT_INTO
 ```
 
-Here, `SCK`, `COPI`, `CIPO`, and `CSx` are used for the SPI communication.
+Here, `SCK`, `COPI`, `CIPO`, and `CSx` are used for the SPI communication. `RESET_MAIN` sends a reset signal to all MCUs.
