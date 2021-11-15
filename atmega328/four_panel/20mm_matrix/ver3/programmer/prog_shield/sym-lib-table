@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name prog_shield-rescue)(type Legacy)(uri ${KIPRJMOD}/prog_shield-rescue.lib)(options "")(descr ""))
+  (lib (name arduino)(type Legacy)(uri ${KIPRJMOD}/arduino.lib)(options "")(descr ""))
+)

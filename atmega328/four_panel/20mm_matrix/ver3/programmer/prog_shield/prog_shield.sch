@@ -1,37 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:arduino
-LIBS:prog_shield-cache
-EELAYER 27 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ARDUINO_SHIELD SHIELD1
+L arduino:ARDUINO_SHIELD SHIELD1
 U 1 1 55D3A8F9
 P 3700 2600
 F 0 "SHIELD1" H 3350 3550 60  0000 C CNN
@@ -57,7 +25,7 @@ F 3 "" H 3700 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_3X2 P1
+L prog_shield-rescue:CONN_3X2 P1
 U 1 1 55D3A909
 P 6550 2500
 F 0 "P1" H 6550 2750 50  0000 C CNN
@@ -68,7 +36,7 @@ F 3 "" H 6550 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C1
+L prog_shield-rescue:CP1 C1
 U 1 1 55D3A922
 P 1650 2400
 F 0 "C1" H 1700 2500 50  0000 L CNN
@@ -81,9 +49,7 @@ $EndComp
 Wire Wire Line
 	2750 2400 2500 2400
 Wire Wire Line
-	2750 2200 2500 2200
-Wire Wire Line
-	2500 2600 2750 2600
+	2500 2600 2650 2600
 Wire Wire Line
 	2650 2500 2750 2500
 Wire Wire Line
@@ -95,7 +61,7 @@ Wire Wire Line
 	4650 2100 4900 2100
 Wire Wire Line
 	4650 2200 4900 2200
-Text Label 2500 2200 2    60   ~ 0
+Text Label 4900 2300 0    60   ~ 0
 RST
 Text Label 2500 2400 2    60   ~ 0
 5V
@@ -149,7 +115,7 @@ NoConn ~ 2750 3300
 NoConn ~ 2750 3400
 NoConn ~ 4650 1800
 NoConn ~ 4650 1900
-NoConn ~ 4650 2300
+NoConn ~ 2750 2200
 NoConn ~ 4650 2400
 NoConn ~ 4650 2500
 NoConn ~ 4650 2700
@@ -161,7 +127,7 @@ NoConn ~ 4650 3000
 NoConn ~ 4650 2900
 NoConn ~ 4650 3200
 $Comp
-L PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG01
 U 1 1 55D3AC23
 P 8650 2450
 F 0 "#FLG01" H 8650 2545 30  0001 C CNN
@@ -172,7 +138,7 @@ F 3 "" H 8650 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 55D3AC32
 P 9200 2450
 F 0 "#FLG02" H 9200 2545 30  0001 C CNN
@@ -194,4 +160,8 @@ Text Label 8450 2400 1    60   ~ 0
 5V
 Text Label 9200 2600 3    60   ~ 0
 GND
+Wire Wire Line
+	2650 2600 2750 2600
+Wire Wire Line
+	4650 2300 4900 2300
 $EndSCHEMATC

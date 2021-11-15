@@ -21,7 +21,7 @@ While the chip select line is active for the current panel, a micro controller u
 ## Panel Comm PCB v0.3
 {:#comm-v0p3 .clear}
 
-![A rendering of the communication board](assets/comm_v0.3_top_render.jpg){:.ifr .pop}
+![A rendering of the communication board](assets/comm_v0.3_front_render.jpg){:.ifr .pop}
 
 The communication board is a 40×40mm² PCB with two layers, most recently available as [version v0.3](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver3/comm/). The connectors are designed as through-hole, other components are SMD.
 
