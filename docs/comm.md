@@ -62,23 +62,6 @@ The design files for this simple 2-layer PCB are in the [panels_g4_hardware](htt
 
 The window might be a good start to familiarize yourself with file types, the organization of our repositories, and the whole production process, if you have never done that before. Otherwise please apologize the boring details in the text above.
 
-# Historic designs
-
-These designs are kept for historic reasons and to debug existing systems. If you have one of them, you probably know what to do and just need the files. If you are building a new system, don't use them.
-
-## Panel Comm PCB v0.2
-{:#comm-v0p2 .clear}
-
-![A picture of the assembled comm board v0.2](assets/comm_v0.2_top_photo.jpg){:.ifr .pop}
-
-This is only relevant if you have an older G4 setup where the driver boards have two 2×3 pin connectors and the female side of the connectors on the driver board. Similarly to the v0.3, the design files are on the [panel_g4_hardware](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver2/comm) repository.
-
-Everything else regarding design and production is very similar to the [Comm board v0.3](#comm-v0p3). There is no reason to build a comm board v0.2, except maybe replacing a broken one. Even then you might consider an upgrade of your hardware instead.
-
-## Panel Comm PCB v0.1
-
-The [panel_g4_hardware](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver1/comm) repository contains an earlier comm board. This uses a different communication protocol and is not compatible with drivers-v0.2 and up. The files are there, should you need to repair your existing system with [driver-v0.1]({{site.baseurl}}/Generation%204/Panel/docs/driver.html#driver-v0p1).
-
 # Connections
 
 The bottom pins have the following meanings, seen from the direction of the driver:
@@ -102,3 +85,26 @@ The bottom pins have the following meanings, seen from the direction of the driv
 | 15 | `EXT_INTO`     |  |
 
 Here, `SCK`, `COPI`, `CIPO`, and `CSx` are used for the SPI communication. `RESET_MAIN` sends a reset signal to all MCUs.
+
+# Historic designs
+
+These designs are kept for historic reasons and to debug existing systems. If you have one of them, you probably know what to do and just need the files. If you are building a new system, don't use them.
+
+## Panel Comm PCB v0.2
+{:#comm-v0p2 .clear}
+
+![](assets/comm_v0p2_front.png){:.ifr .pop}
+![](assets/comm_v0p2_back.png){:.ifr .pop .clear}
+![A picture of the assembled comm board v0.2](assets/comm_v0p2_front_photo.jpg){:.ifr .pop .clear}
+
+In theory, the v0.2 should have a 2×3 pin connector that was used for a brief time in certain drivers. The actual comm board with the 2×3 connector seems to be lost, so at this time we are not sure what version 0.2 is. If you wanna try and have a look at the [schematic](assets/omm_v0p2_schematic.pdf), feel free to use the project files in `comm_v0p2`.
+
+Everything else regarding design and production is very similar to the [Comm board v0.3](#comm-v0p3). There is no reason to build a comm board v0.2, except maybe replacing a broken one. Even then you might consider an upgrade of your hardware instead, sepscially with the unknown background.
+
+## Panel Comm PCB v0.1
+{:.clear}
+
+![](assets/comm_v0p1_front.png){:.ifr .pop}
+![](assets/comm_v0p1_back.png){:.ifr .pop .clear}
+
+`comm_v0p1` contains an earlier comm board project (see [schematic](assets/comm_v0p1_schematic.pdf)). This uses a different communication protocol and is not compatible with drivers-v0.2 and up. The files are there, should you need to repair your existing system with [driver-v0.1]({{site.baseurl}}/Generation%204/Panel/docs/driver.html#driver-v0p1).

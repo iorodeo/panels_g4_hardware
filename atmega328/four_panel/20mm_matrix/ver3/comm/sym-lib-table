@@ -1,8 +1,0 @@
-(sym_lib_table
-  (lib (name comm-rescue)(type Legacy)(uri ${KIPRJMOD}/comm-rescue.lib)(options "")(descr ""))
-  (lib (name atmel2)(type Legacy)(uri ${KIPRJMOD}/atmel2.lib)(options "")(descr ""))
-  (lib (name cer_reso)(type Legacy)(uri ${KIPRJMOD}/cer_reso.lib)(options "")(descr ""))
-  (lib (name conn15x2)(type Legacy)(uri ${KIPRJMOD}/conn15x2.lib)(options "")(descr ""))
-  (lib (name led_8x8)(type Legacy)(uri ${KIPRJMOD}/led_8x8.lib)(options "")(descr ""))
-  (lib (name conn15)(type Legacy)(uri ${KIPRJMOD}/conn15.lib)(options "")(descr ""))
-)
