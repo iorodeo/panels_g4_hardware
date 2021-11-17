@@ -21,23 +21,24 @@ While the chip select line is active for the current panel, a micro controller u
 ## Panel Comm PCB v0.3
 {:#comm-v0p3 .clear}
 
-![A rendering of the communication board](assets/comm_v0.3_front_render.jpg){:.ifr .pop}
+![A rendering of the communication board v0.3 front](assets/comm_v0p3_front.png){:.ifr .pop}
+![A rendering of the communication board v0.3 back](assets/comm_v0p3_back.png){:.ifr .pop .clear}
 
-The communication board is a 40×40mm² PCB with two layers, most recently available as [version v0.3](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver3/comm/). The connectors are designed as through-hole, other components are SMD.
+The communication board is a 40×40mm² PCB with two layers, most recently available as version v0.3 available in `comm_v0p3` (see [schematic](assets/comm_v0p3_schematic.pdf)). The connectors are designed as through-hole, other components are SMD.
 
 ### Function
 
 The comm board v0.3 receive signals (P1), send them on (P2). Based on the chip select line it identifies the signals relevant for the current panel. This processing is done with the help of a 20MHz ATmega328P-AUR (IC5). The relevant signals are passed to one of the four driver board quadrants (P4…P7).
 
-![A picture of the assembled board](assets/comm_v0.3_top_photo.jpg){:.ifr .pop}
-
 ### Design
 
-The files are inside the [panels_g4_hardware](https://github.com/floesche/panels_g4_hardware/tree/master/atmega328/four_panel/20mm_matrix/ver3/comm) repository. Find the relevant files inside the `atmega328` tree with the `four panel` layout on a `20mm matrix`. The link above gets you inside this tree, directly to the `comm` board layout. Find the production files inside the `gerber` directory.
+The files are inside the `comm_v0p3` folder and find the production files inside the `comm_v0p3/production_v0/` directory.
 
 The design files are shared under a creative commons license as [KiCAD](https://kicad-pcb.org/) EDA source files. They were initially developed by [IORodeo](https://iorodeo.com). If you open the schematics in a current version of KiCAD you will be asked to remap the symbols when you first open the files.
 
 ### Production
+
+![A picture of the assembled board v0.3](assets/comm_v0p3_front_photo.jpg){:.ifr .pop}
 
 The Comm board v0.3 is a two layer PCB with 1oz copper that has no special requirements on the production process. We typically order them on the default FR-4. The board has through-hole components such as the connectors, but the majority of components are SMD with the smallest package of 0603 (imperial) or 1608 (metric).
 
@@ -99,7 +100,9 @@ These designs are kept for historic reasons and to debug existing systems. If yo
 
 In theory, the v0.2 should have a 2×3 pin connector that was used for a brief time in certain drivers. The actual comm board with the 2×3 connector seems to be lost, so at this time we are not sure what version 0.2 is. If you wanna try and have a look at the [schematic](assets/omm_v0p2_schematic.pdf), feel free to use the project files in `comm_v0p2`.
 
-Everything else regarding design and production is very similar to the [Comm board v0.3](#comm-v0p3). There is no reason to build a comm board v0.2, except maybe replacing a broken one. Even then you might consider an upgrade of your hardware instead, sepscially with the unknown background.
+Everything else regarding design and production is very similar to the [Comm board v0.3](#comm-v0p3). There is no reason to build a comm board v0.2, except maybe replacing a broken one. Even then you might consider an upgrade of your hardware instead, especially with the unknown background.
+
+The original documentation for v0.2 contained hints that the communication was changed from I²C to SPI and that the board-to-board headers were improved.
 
 ## Panel Comm PCB v0.1
 {:.clear}
