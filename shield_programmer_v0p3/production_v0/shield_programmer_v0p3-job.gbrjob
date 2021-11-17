@@ -5,16 +5,16 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.9"
+      "Version":     "5.1.10"
     },
-    "CreationDate":  "2021-02-19T12:46:16-05:00"
+    "CreationDate":  "2021-11-17T00:54:39-05:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "prog_shield",
-      "GUID": "70726f67-5f73-4686-9965-6c642e6b6963",
+      "Name": "shield_programmer_v0p3",
+      "GUID": "73686965-6c64-45f7-9072-6f6772616d6d",
       "Revision": "rev?"
     },
     "Size":
@@ -38,37 +38,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "prog_shield-F_Cu.gtl",
+      "Path":  "shield_programmer_v0p3-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "prog_shield-B_Cu.gbl",
+      "Path":  "shield_programmer_v0p3-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "prog_shield-F_SilkS.gto",
+      "Path":  "shield_programmer_v0p3-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "shield_programmer_v0p3-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "shield_programmer_v0p3-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "prog_shield-B_SilkS.gbo",
+      "Path":  "shield_programmer_v0p3-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "prog_shield-F_Mask.gts",
+      "Path":  "shield_programmer_v0p3-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "prog_shield-B_Mask.gbs",
+      "Path":  "shield_programmer_v0p3-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "prog_shield-Edge_Cuts.gm1",
+      "Path":  "shield_programmer_v0p3-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
@@ -78,6 +88,10 @@
     {
       "Type":  "Legend",
       "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
     },
     {
       "Type":  "SolderMask",
@@ -99,6 +113,10 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

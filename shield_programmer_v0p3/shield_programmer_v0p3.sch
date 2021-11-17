@@ -19,8 +19,8 @@ U 1 1 55D3A8F9
 P 3700 2600
 F 0 "SHIELD1" H 3350 3550 60  0000 C CNN
 F 1 "ARDUINO_SHIELD" H 3750 1650 60  0000 C CNN
-F 2 "" H 3700 2600 60  0000 C CNN
-F 3 "" H 3700 2600 60  0000 C CNN
+F 2 "shield_programmer_v0p3:ARDUINO_SHIELD" H 3700 2600 60  0001 C CNN
+F 3 "" H 3700 2600 60  0001 C CNN
 	1    3700 2600
 	1    0    0    -1  
 $EndComp
@@ -29,8 +29,8 @@ L Connector_Generic:Conn_02x03_Odd_Even P1
 U 1 1 55D3A909
 P 6550 2450
 F 0 "P1" H 6550 2700 50  0000 C CNN
-F 1 "CONN_3X2" V 6550 2500 40  0000 C CNN
-F 2 "" H 6550 2450 60  0000 C CNN
+F 1 "CONN_3X2" H 6600 2250 40  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6550 2450 60  0001 C CNN
 F 3 "" H 6550 2450 60  0000 C CNN
 	1    6550 2450
 	1    0    0    -1  
@@ -41,8 +41,8 @@ U 1 1 55D3A922
 P 1650 2400
 F 0 "C1" H 1700 2500 50  0000 L CNN
 F 1 "CP1" H 1700 2300 50  0000 L CNN
-F 2 "~" H 1650 2400 60  0000 C CNN
-F 3 "~" H 1650 2400 60  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 1650 2400 60  0001 C CNN
+F 3 "" H 1650 2400 60  0001 C CNN
 	1    1650 2400
 	1    0    0    -1  
 $EndComp
@@ -70,9 +70,9 @@ GND
 Text Label 4900 2000 0    60   ~ 0
 SCK
 Text Label 4900 2100 0    60   ~ 0
-MISO
+CIPO
 Text Label 4900 2200 0    60   ~ 0
-MOSI
+COPI
 Wire Wire Line
 	1650 2250 1650 2000
 Wire Wire Line
@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 2550 7200 2550
 Text Label 5900 2350 2    60   ~ 0
-MISO
+CIPO
 Text Label 5900 2450 2    60   ~ 0
 SCK
 Text Label 5900 2550 2    60   ~ 0
@@ -102,7 +102,7 @@ RST
 Text Label 7200 2350 0    60   ~ 0
 5V
 Text Label 7200 2450 0    60   ~ 0
-MOSI
+COPI
 Text Label 7200 2550 0    60   ~ 0
 GND
 NoConn ~ 2750 2300

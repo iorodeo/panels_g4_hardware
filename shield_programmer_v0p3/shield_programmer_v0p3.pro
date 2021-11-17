@@ -1,4 +1,4 @@
-update=Fri 19 Feb 2021 12:40:14 PM EST
+update=Wed 17 Nov 2021 12:31:53 AM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,7 +24,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=prog_shield.net
+LastNetListRead=shield_programmer_v0p3.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
