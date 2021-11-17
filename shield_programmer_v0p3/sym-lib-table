@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name shield_programmer_v0p3)(type Legacy)(uri ${KIPRJMOD}/shield_programmer_v0p3.lib)(options "")(descr ""))
+)
