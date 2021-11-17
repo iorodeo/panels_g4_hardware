@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name placeholdere-feet)(type KiCad)(uri "/home/loeschef/srcs/Panel/Generation 4/Hardware/helper/placeholder")(options "")(descr ""))
+  (lib (name comm_placeholder_v0)(type KiCad)(uri ${KIPRJMOD}/comm_placeholder_v0.pretty)(options "")(descr ""))
 )

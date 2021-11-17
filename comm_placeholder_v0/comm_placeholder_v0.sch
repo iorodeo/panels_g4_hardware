@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "G4 Panel Window"
+Title "Modular LED Display G4 Communication Placeholder"
 Date "2020-10-08"
 Rev "0.3"
 Comp "Janelia | Reiser Lab"
@@ -19,7 +19,7 @@ U 1 1 5F56BEF1
 P 5200 2150
 F 0 "J2" H 5228 2176 50  0000 L CNN
 F 1 "Conn_01x15_Female" H 5228 2085 50  0000 L CNN
-F 2 "placeholdere-feet:HEADER_TOP" H 5200 2150 50  0001 C CNN
+F 2 "comm_placeholder_v0:HEADER_TOP" H 5200 2150 50  0001 C CNN
 F 3 "~" H 5200 2150 50  0001 C CNN
 	1    5200 2150
 	1    0    0    -1  
@@ -102,7 +102,7 @@ U 1 1 5F56C7EF
 P 3400 2150
 F 0 "J1" H 3508 3031 50  0000 C CNN
 F 1 "Conn_01x15_Male" H 3508 2940 50  0000 C CNN
-F 2 "placeholdere-feet:HEADER_BOT" H 3400 2150 50  0001 C CNN
+F 2 "comm_placeholder_v0:HEADER_BOT" H 3400 2150 50  0001 C CNN
 F 3 "~" H 3400 2150 50  0001 C CNN
 	1    3400 2150
 	1    0    0    -1  
@@ -173,4 +173,6 @@ Text Label 4200 2550 0    50   ~ 0
 CS6
 Text Label 4200 2650 0    50   ~ 0
 CS7
+NoConn ~ 3600 2050
+NoConn ~ 5000 2750
 $EndSCHEMATC
