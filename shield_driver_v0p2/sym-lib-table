@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name shield_driver_v0p2)(type Legacy)(uri ${KIPRJMOD}/shield_driver_v0p2.lib)(options "")(descr ""))
+)
