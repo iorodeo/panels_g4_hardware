@@ -16,8 +16,9 @@ The use of the programmer is explained in more detail in the [Assembly → Firmw
 
 ## Arduino shield
 
-![The arduino shield for the programmer version 0.3.4 front](assets/shield_programmer_v0p3_front.png){:.ifr .pop}
-![The arduino shield for the programmer version 0.3.4 back](assets/shield_programmer_v0p3_back.png){:.ifr .pop .clear}
+![The arduino shield for the programmer version 0.3.4 (front)](assets/shield_programmer_v0p3_front.png){:.ifr .pop}
+
+![The arduino shield for the programmer version 0.3.4](assets/shield_programmer_v0p3_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 The Arduino programming shield measures 72.39×53.34mm². The gerber files and a drill file of the most recent version v0.3.4 (see [schematics](assets/shield_programmer_v0p3_schematic.pdf)) are archived in `shield_programmer_v0p3/production_v0/shield_programmer_v0p3r4.zip` but have never been produced. They should fix the issue mentioned in the _Quick Fix_ below. The most recent version that was produced is v0.3.1 in the same directory.
 
@@ -29,7 +30,8 @@ The basic functionality of the Arduino shield is to convert the signals from the
 {:.clear}
 
 ![The front of the Arduino shield board with the quick fix](assets/shield_programmer_v0p1_front_photo.jpg "The front of the Arduino shield board with the quick fix"){:.ifr .pop}
-![The back of the Arduino shield board with the quick fix](assets/shield_programmer_v0p1_back_photo.jpg "The back of the Arduino shield board with the quick fix"){:.ifr .pop .clear}
+
+![The Arduino shield board with the quick fix](assets/shield_programmer_v0p1_back_photo.jpg "The back of the Arduino shield board with the quick fix"){:standalone .ifr .clear data-img-class="pop"}
 
 Apparently there is an error in the arduino shields prior to version v0.3.4 of the programmer. If you happen to have one of those programmers, please cut the trace on the bottom as shown in the image on the right and add a new connection as demonstrated in the two images. Alternatively you can try to produce v0.3.4 and [let us know]({{site.baseurl}}/Contact) how it worked.
 
@@ -37,7 +39,8 @@ Apparently there is an error in the arduino shields prior to version v0.3.4 of t
 {:#driver .clear}
 
 ![The driver shield for programming the four MCUs (front)](assets/shield_driver_v0p3_front.png){:.ifr .pop}
-![The driver shield for programming the four MCUs (back)](assets/shield_driver_v0p3_back.png){:.ifr .pop .clear}
+
+![The driver shield for programming the four MCUs](assets/shield_driver_v0p3_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 The driver programmer has double the size of a panel board, it is 40×80mm².
 
@@ -51,7 +54,8 @@ The shield adapts the signal from the ribbon connector (P4) to the four driver b
 {:#comm .clear}
 
 ![The shield for programming comm boards (front)](assets/shield_comm_v0p3_front.png){:.ifr .pop}
-![The shield for programming comm board (back)](assets/shield_comm_v0p3_back.png){:.ifr .pop .clear}
+
+![The shield for programming comm board](assets/shield_comm_v0p3_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 With 40×40mm² the PCB for the communication board programmer has the same dimensions as a communication board or a driver board. The most recent KiCad design files are at `shield_comm_v0p3` (also see [schematics](assets/shield_comm_v0p3_schematic.pdf)).
 

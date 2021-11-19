@@ -21,7 +21,7 @@ While the chip select line is active for the current panel, a micro controller u
 ## Panel Comm PCB v0.3
 {:#comm-v0p3 .clear}
 
-![A rendering of the communication board v0.3 front](assets/comm_v0p3_front.png){:standalone .ifr .clear data-img-class="pop"}
+![A rendering of the communication board v0.3 front](assets/comm_v0p3_front.png){:.ifr .pop}
 
 ![A rendering of the communication board v0.3 back](assets/comm_v0p3_back.png){:standalone .ifr .clear data-img-class="pop"}
 
@@ -58,9 +58,9 @@ If you want to skip a panel within a column, you will need to connect the chip s
 
 Alternatively you can use the window PCB to achieve the same. The PCB has the same outer dimensions and same connectors as the Comm PCB and provides the wiring described above between input and output.
 
-![A rendering of the "window" v0.3 (front)](assets/comm_placeholder_v0_front.png){:standalone .ifr .clear data-img-class="pop"}
+![A rendering of the "window" v0.3 (front)](assets/comm_placeholder_v0_front.png){:.ifr .pop .clear}
 
-![A rendering of the "window" v0.3 (back)](assets/comm_placeholder_v0_back.png){:standalone .ifr .clear data-img-class="pop"}
+![A rendering of the "window" v0.3](assets/comm_placeholder_v0_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 The KiCad design files for this simple 2-layer PCB are in the folder `comm_placeholder_v0`. The files ready for production are inside the `comm_placeholder_v0/production_v0` folder. Most recently `comm_placeholder_v0p3.zip` uses length matched traces. All you need to order this design is the zip file, which contains the relevant files from the directory, and most manufacturers will accept. So far we have ordered this exact design from [OSHPark](https://oshpark.com/) with a quick turn-around time of around 5 days and a total cost of $10 per board, including components. With enough lead time, higher quantities, and other manufacturers the price should be around $1 per unit. For example, in October 2020 an order of 30 window PCB at [JLCPCB](https://jlcpcb.com/) cost less than $20 including shipping and was delivered within 14 days.
 
@@ -98,7 +98,7 @@ These designs are kept for historic reasons and to debug existing systems. If yo
 ## Panel Comm PCB v0.2
 {:#comm-v0p2 .clear}
 
-![Rendering of the communication board v0.2 (front)](assets/comm_v0p2_front.png){:standalone .ifr data-img-class="pop"}
+![Rendering of the communication board v0.2 (front)](assets/comm_v0p2_front.png){:.ifr .pop}
 
 ![Rendering of the communication board v0.2 (back)](assets/comm_v0p2_back.png){:standalone .ifr .clear data-img-class="pop"}
 
@@ -111,9 +111,9 @@ The original documentation for v0.2 contained hints that the communication was c
 ## Panel Comm PCB v0.1
 {:.clear #comm-v0p1}
 
-![Rendering of the communication board v0.1 (front)](assets/comm_v0p1_front.png){:standalone .ifr data-img-class="pop"}
+![Rendering of the communication board v0.1 (front)](assets/comm_v0p1_front.png){:.ifr .pop}
 
-![Rendering of the communication board v0.1 (back)](assets/comm_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
+![Rendering of the communication board v0.1](assets/comm_v0p1_back.png){:standalone .ifr .clear data-img-class="pop"}
 
 ![A picture of the assembled comm board v0.1 (front)](assets/comm_v0p2_front_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
