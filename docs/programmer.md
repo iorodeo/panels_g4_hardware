@@ -14,7 +14,7 @@ The programmer is built from 3 PCB: An Arduino shield, the comm programmer, and 
 
 The use of the programmer is explained in more detail in the [Assembly → Firmware section]({{site.baseurl}}/Generation%204/Firmware/docs/), but the general principle is as follows: The Arduino shield needs to be mounted on an Arduino. The same shield can be used for programming the communication boards and the driver boards. Connect the corresponding programmer board via a ribbon cable to the Arduino shield, and the board you want to program to the programmer board.
 
-## Arduino shield
+## Arduino shield {#arduino-shield}
 
 ![The arduino shield for the programmer version 0.3.4 (front)](assets/shield_programmer_v0p3_front.png){:.ifr .pop}
 
@@ -35,7 +35,7 @@ The basic functionality of the Arduino shield is to convert the signals from the
 
 Apparently there is an error in the arduino shields prior to version v0.3.4 of the programmer. If you happen to have one of those programmers, please cut the trace on the bottom as shown in the image on the right and add a new connection as demonstrated in the two images. Alternatively you can try to produce v0.3.4 and [let us know]({{site.baseurl}}/Contact) how it worked.
 
-## Driver board shield
+## Driver board shield {#driver-shield}
 {:#driver .clear}
 
 ![The driver shield for programming the four MCUs (front)](assets/shield_driver_v0p3_front.png){:.ifr .pop}
@@ -50,7 +50,7 @@ The most recent version of the production files is version v0.3 in `shield_drive
 
 The shield adapts the signal from the ribbon connector (P4) to the four driver board connectors (P0…P3), while also powering the driver board during programming (P5). The switch (S1) allows to select which driver MCU will be programmed (usually all 4 are on).
 
-## Comm board shield
+## Comm board shield {#comm-shield}
 {:#comm .clear}
 
 ![The shield for programming comm boards (front)](assets/shield_comm_v0p3_front.png){:.ifr .pop}
