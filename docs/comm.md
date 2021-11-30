@@ -18,8 +18,7 @@ To identify packets for the current panel, each comm uses four of its connectors
 
 While the chip select line is active for the current panel, a micro controller unit (MCU) splits the incoming signal into smaller chunks. The driver boards are usually divided into quadrants, and the comm board forwards the matching data packages to the quadrants via I²C bus. The change of protocol has historic reasons. Most recent [comm boards v0.3](#comm-v0p3) use four connectors for the driver board, earlier versions had only two.
 
-## Panel Comm PCB v0.3
-{:#comm-v0p3 .clear}
+## Panel Comm PCB v0.3 {#comm-v0p3}
 
 ![A rendering of the communication board v0.3 front](assets/comm_v0p3_front.png){:.ifr .pop}
 
@@ -45,8 +44,7 @@ The Comm board v0.3 is a two layer PCB with 1oz copper that has no special requi
 
 For an order volume of 150 pieces we would expect prices around $16 for the assembled board. This might be around $1.50 for the board, $8 for the components, $6 for the assembly, and $.50 for shipping. Recently we have had good experiences with [Bittele](https://www.7pcb.com/).
 
-## Panel Window PCB
-{:#window}
+## Panel Window PCB {#window}
 
 ![The assembled window PCB (as "placeholder v0.2")](assets/comm_placeholder_bottom_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
@@ -67,7 +65,6 @@ The KiCad design files for this simple 2-layer PCB are in the folder `comm_place
 The window might be a good start to familiarize yourself with file types, the organization of our repositories, and the whole production process, if you have never done that before. Otherwise please apologize the boring details in the text above.
 
 # Connections
-{:.clear}
 
 The bottom pins have the following meanings, seen from the direction of the driver:
 
@@ -95,8 +92,7 @@ Here, `SCK`, `COPI`, `CIPO`, and `CSx` are used for the SPI communication. `RESE
 
 These designs are kept for historic reasons and to debug existing systems. If you have one of them, you probably know what to do and just need the files. If you are building a new system, don't use them.
 
-## Panel Comm PCB v0.2
-{:#comm-v0p2 .clear}
+## Panel Comm PCB v0.2 {#comm-v0p2}
 
 ![Rendering of the communication board v0.2 (front)](assets/comm_v0p2_front.png){:.ifr .pop}
 
