@@ -50,7 +50,7 @@ For an order volume of 150 pieces we would expect prices around $16 for the asse
 
 This PCB acts as a drop-in replacement for panels within a column. It has a cut out of 35×21mm² which you can use to point a camera or other device through that column. In most cases this is not needed, yet it is the most simple and cheap PCB you can get produced from the G4 system. So if you haven't had any experience with the process of ordering PCBs, you might want to start here. Before version v0.3 this was called "placeholder".
 
-![Window PCB placed in a full arena, allowing to see through](assets/comm_placeholder_arena_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
+![Window PCB placed in a full 12-12 arena v1, allowing to see through](assets/comm_placeholder_arena_photo.jpg){:standalone .ifr .clear data-img-class="pop"}
 
 If you want to skip a panel within a column, you will need to connect the chip select lines accordingly. The image on the right shows which input and output connectors your want to connect. Note, that the signal is travelling from the bottom to the top. This has often been done with wires.
 
