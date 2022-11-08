@@ -42,7 +42,7 @@ The design files are shared under a creative commons license as [KiCad](https://
 
 The Comm board v0.3 is a two layer PCB with 1oz copper that has no special requirements on the production process. We typically order them on the default FR-4. The board has through-hole components such as the connectors, but the majority of components are SMD with the smallest package of 0603 (imperial) or 1608 (metric).
 
-For an order volume of 150 pieces we would expect prices around $16 for the assembled board. This might be around $1.50 for the board, $8 for the components, $6 for the assembly, and $.50 for shipping. Recently we have had good experiences with [Bittele](https://www.7pcb.com/).
+For an order volume of 150 pieces we would expect prices around $16 for the assembled board. This might be around $1.50 for the board, $8 for the components, $6 for the assembly, and $.50 for shipping. Recently we have had good experiences with [Bittele](https://www.7pcb.com/). If you decide to order at Bittele, you can provide quotation Q70762A1 and order number 39493C2 as references for successful builds.
 
 ## Panel Window PCB {#window}
 
