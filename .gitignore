@@ -41,4 +41,17 @@ out/
 
 # End of https://www.toptal.com/developers/gitignore/api/kicad
 
+
+# Created by https://www.toptal.com/developers/gitignore/api/freecad
+# Edit at https://www.toptal.com/developers/gitignore?templates=freecad
+
+### FreeCad ###
+*.pyc
+*.fcstd1
+*.FCStd1
+*.fcstd2
+*.FCStd2
+
+# End of https://www.toptal.com/developers/gitignore/api/freecad
+
 *~
