@@ -418,7 +418,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "comm_v0p4.kicad_pro",
+    "filename": "comm_v0p5.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -566,7 +566,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "comm_v0p4.dsn",
+      "specctra_dsn": "comm_v0p5.dsn",
       "step": "",
       "vrml": ""
     },
