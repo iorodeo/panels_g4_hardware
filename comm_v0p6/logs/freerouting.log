@@ -1,0 +1,113 @@
+2023-05-22 08:31:02.325 [main] INFO  Freerouting v1.7.0 (build-date: 2023-02-08)
+2023-05-22 08:31:02.328 [main] DEBUG  Version: 1.7.0,2023-02-08
+2023-05-22 08:31:02.330 [main] DEBUG  Command line arguments: '-h'
+2023-05-22 08:31:02.330 [main] DEBUG  Architecture: Linux,amd64,5.15.0-71-generic
+2023-05-22 08:31:02.331 [main] DEBUG  Java: 17.0.6,Eclipse Adoptium
+2023-05-22 08:31:02.332 [main] DEBUG  System Language: en,en_US
+2023-05-22 08:31:02.334 [main] DEBUG  Hardware: 4 CPU cores,3914 MB RAM
+2023-05-22 08:31:02.347 [main] DEBUG  UTC Time: 2023-05-22T15:31:02.335240534Z
+2023-05-22 08:31:02.349 [main] DEBUG  GUI Language: en_US
+2023-05-22 08:31:27.547 [main] INFO  Freerouting v1.7.0 (build-date: 2023-02-08)
+2023-05-22 08:31:27.550 [main] DEBUG  Version: 1.7.0,2023-02-08
+2023-05-22 08:31:27.553 [main] DEBUG  Command line arguments: '-de comm_v0p4.dsn -us Global'
+2023-05-22 08:31:27.553 [main] DEBUG  Architecture: Linux,amd64,5.15.0-71-generic
+2023-05-22 08:31:27.554 [main] DEBUG  Java: 17.0.6,Eclipse Adoptium
+2023-05-22 08:31:27.555 [main] DEBUG  System Language: en,en_US
+2023-05-22 08:31:27.558 [main] DEBUG  Hardware: 4 CPU cores,3914 MB RAM
+2023-05-22 08:31:27.574 [main] DEBUG  UTC Time: 2023-05-22T15:31:27.558624436Z
+2023-05-22 08:31:27.577 [main] DEBUG  GUI Language: en_US
+2023-05-22 08:31:27.582 [main] INFO  Opening 'comm_v0p4.dsn'...
+2023-05-22 08:31:28.814 [main] INFO  Opening 'comm_v0p4.rules'...
+2023-05-22 08:31:28.814 [main] ERROR File 'comm_v0p4.rules' was not found.
+2023-05-22 08:31:29.273 [main] TRACE Method 'MainApplication.main()' was performed in 1.84 seconds.
+2023-05-22 08:31:31.365 [Thread-0] INFO  Starting auto-routing...
+2023-05-22 08:31:33.382 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '627f16bf7ce10727114bdca60fb134dc' making 29 changes' was performed in 1.89 seconds.
+2023-05-22 08:31:35.109 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'f105610edd13d10e7297a2f134e12c53' making 37 changes' was performed in 1.71 seconds.
+2023-05-22 08:31:36.495 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '759a723bdaeae3077ac276b4345f5b3f' making 45 changes' was performed in 1.37 seconds.
+2023-05-22 08:31:37.501 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board 'b320abd8299778163e5770e9ca7c7ce3' making 31 changes' was performed in 0.98 seconds.
+2023-05-22 08:31:37.861 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board '637664c0883de6726beb50c02ad30fb9' making 16 changes' was performed in 0.34 seconds.
+2023-05-22 08:31:37.902 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board '5096b8cd3098e7848d7b201f2a529f37' making 0 changes' was performed in 0.03 seconds.
+2023-05-22 08:31:37.906 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 6.54 seconds.
+2023-05-22 08:31:37.907 [Thread-0] INFO  Auto-routing was completed in 6.54 seconds.
+2023-05-22 08:31:37.908 [Thread-0] INFO  Starting route optimization on 1 thread...
+2023-05-22 08:31:38.336 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #1 with 26 vias and 862,686.46 trace length.' was performed in 0.42 seconds.
+2023-05-22 08:31:38.712 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #2 with 26 vias and 862,686.46 trace length.' was performed in 0.38 seconds.
+2023-05-22 08:31:38.713 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.80 seconds.
+2023-05-22 08:31:38.714 [Thread-0] INFO  Route optimization was completed in 0.80 seconds.
+2023-05-22 08:31:38.722 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 7.36 seconds.
+2023-05-22 08:32:14.443 [AWT-EventQueue-0] INFO  Saving 'comm_v0p4.ses'...
+2023-05-22 10:42:33.877 [main] INFO  Freerouting v1.7.0 (build-date: 2023-02-08)
+2023-05-22 10:42:33.886 [main] DEBUG  Version: 1.7.0,2023-02-08
+2023-05-22 10:42:33.889 [main] DEBUG  Command line arguments: '-de comm_v0p4.dsn -us Global'
+2023-05-22 10:42:33.892 [main] DEBUG  Architecture: Linux,amd64,5.15.0-71-generic
+2023-05-22 10:42:33.899 [main] DEBUG  Java: 17.0.6,Eclipse Adoptium
+2023-05-22 10:42:33.903 [main] DEBUG  System Language: en,en_US
+2023-05-22 10:42:33.912 [main] DEBUG  Hardware: 4 CPU cores,3914 MB RAM
+2023-05-22 10:42:33.928 [main] DEBUG  UTC Time: 2023-05-22T17:42:33.913471038Z
+2023-05-22 10:42:33.931 [main] DEBUG  GUI Language: en_US
+2023-05-22 10:42:33.950 [main] INFO  Opening 'comm_v0p4.dsn'...
+2023-05-22 10:42:36.584 [main] INFO  Opening 'comm_v0p4.rules'...
+2023-05-22 10:42:36.585 [main] ERROR File 'comm_v0p4.rules' was not found.
+2023-05-22 10:42:37.311 [main] TRACE Method 'MainApplication.main()' was performed in 3.71 seconds.
+2023-05-22 10:42:39.525 [Thread-0] INFO  Starting auto-routing...
+2023-05-22 10:42:43.424 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '627f16bf7ce10727114bdca60fb134dc' making 29 changes' was performed in 3.60 seconds.
+2023-05-22 10:42:46.808 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'f105610edd13d10e7297a2f134e12c53' making 37 changes' was performed in 3.34 seconds.
+2023-05-22 10:42:49.243 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '759a723bdaeae3077ac276b4345f5b3f' making 45 changes' was performed in 2.40 seconds.
+2023-05-22 10:42:51.083 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board 'b320abd8299778163e5770e9ca7c7ce3' making 31 changes' was performed in 1.82 seconds.
+2023-05-22 10:42:51.646 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board '637664c0883de6726beb50c02ad30fb9' making 16 changes' was performed in 0.54 seconds.
+2023-05-22 10:42:51.729 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board '5096b8cd3098e7848d7b201f2a529f37' making 0 changes' was performed in 0.06 seconds.
+2023-05-22 10:42:51.739 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 12.21 seconds.
+2023-05-22 10:42:51.742 [Thread-0] INFO  Auto-routing was completed in 12.21 seconds.
+2023-05-22 10:42:51.743 [Thread-0] INFO  Starting route optimization on 1 thread...
+2023-05-22 10:42:52.641 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #1 with 26 vias and 862,686.46 trace length.' was performed in 0.89 seconds.
+2023-05-22 10:42:53.327 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #2 with 26 vias and 862,686.46 trace length.' was performed in 0.67 seconds.
+2023-05-22 10:42:53.329 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 1.58 seconds.
+2023-05-22 10:42:53.330 [Thread-0] INFO  Route optimization was completed in 1.58 seconds.
+2023-05-22 10:42:53.344 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 13.82 seconds.
+2023-10-24 10:55:17.835 [main] INFO  Freerouting v1.7.0 (build-date: 2023-02-08)
+2023-10-24 10:55:17.838 [main] DEBUG  Version: 1.7.0,2023-02-08
+2023-10-24 10:55:17.840 [main] DEBUG  Command line arguments: '-h'
+2023-10-24 10:55:17.841 [main] DEBUG  Architecture: Linux,amd64,5.15.0-76-generic
+2023-10-24 10:55:17.842 [main] DEBUG  Java: 17.0.6,Eclipse Adoptium
+2023-10-24 10:55:17.842 [main] DEBUG  System Language: en,en_US
+2023-10-24 10:55:17.845 [main] DEBUG  Hardware: 4 CPU cores,3912 MB RAM
+2023-10-24 10:55:17.858 [main] DEBUG  UTC Time: 2023-10-24T17:55:17.845771434Z
+2023-10-24 10:55:17.861 [main] DEBUG  GUI Language: en_US
+2023-10-24 10:55:49.910 [main] INFO  Freerouting v1.7.0 (build-date: 2023-02-08)
+2023-10-24 10:55:49.912 [main] DEBUG  Version: 1.7.0,2023-02-08
+2023-10-24 10:55:49.915 [main] DEBUG  Command line arguments: '-de comm_v0p6.dsn -us hybrid'
+2023-10-24 10:55:49.916 [main] DEBUG  Architecture: Linux,amd64,5.15.0-76-generic
+2023-10-24 10:55:49.916 [main] DEBUG  Java: 17.0.6,Eclipse Adoptium
+2023-10-24 10:55:49.917 [main] DEBUG  System Language: en,en_US
+2023-10-24 10:55:49.920 [main] DEBUG  Hardware: 4 CPU cores,3912 MB RAM
+2023-10-24 10:55:49.937 [main] DEBUG  UTC Time: 2023-10-24T17:55:49.920804057Z
+2023-10-24 10:55:49.940 [main] DEBUG  GUI Language: en_US
+2023-10-24 10:55:49.965 [main] INFO  Opening 'comm_v0p6.dsn'...
+2023-10-24 10:55:51.608 [main] INFO  Opening 'comm_v0p6.rules'...
+2023-10-24 10:55:51.609 [main] ERROR File 'comm_v0p6.rules' was not found.
+2023-10-24 10:55:51.949 [main] TRACE Method 'MainApplication.main()' was performed in 2.15 seconds.
+2023-10-24 10:55:53.481 [Thread-0] INFO  Starting auto-routing...
+2023-10-24 10:55:55.220 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'ce4527702258975bb4e942ea784ed95c' making 41 changes' was performed in 1.61 seconds.
+2023-10-24 10:55:56.721 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '8ad34958ba94d1b398856c11e00cf9e2' making 28 changes' was performed in 1.48 seconds.
+2023-10-24 10:55:57.927 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '9f360f470e283f1cc3b4dcb4f8296d6c' making 49 changes' was performed in 1.19 seconds.
+2023-10-24 10:55:58.432 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #4 on board '66079951e6bb24dc3197c11b2472242d' making 17 changes' was performed in 0.49 seconds.
+2023-10-24 10:55:59.146 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #5 on board '1134ec7b54225a89199bc56b43e8cf28' making 49 changes' was performed in 0.70 seconds.
+2023-10-24 10:55:59.268 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #6 on board '05a2d39ea69b36942894e2f64353bbc7' making 6 changes' was performed in 0.11 seconds.
+2023-10-24 10:55:59.292 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #7 on board '936a8d165122b26a172f72f65af1fc79' making 0 changes' was performed in 0.01 seconds.
+2023-10-24 10:55:59.293 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 5.81 seconds.
+2023-10-24 10:55:59.294 [Thread-0] INFO  Auto-routing was completed in 5.81 seconds.
+2023-10-24 10:55:59.294 [Thread-0] INFO  Starting route optimization on 1 thread...
+2023-10-24 10:56:04.943 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #1 with 24 vias and 785,142.53 trace length.' was performed in 5.64 seconds.
+2023-10-24 10:56:09.727 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #2 with 23 vias and 779,265.29 trace length.' was performed in 4.78 seconds.
+2023-10-24 10:56:13.733 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #3 with 23 vias and 772,482.99 trace length.' was performed in 4.00 seconds.
+2023-10-24 10:56:18.173 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #4 with 23 vias and 767,736.46 trace length.' was performed in 4.44 seconds.
+2023-10-24 10:56:21.979 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #5 with 23 vias and 766,913.34 trace length.' was performed in 3.80 seconds.
+2023-10-24 10:56:25.799 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #6 with 23 vias and 766,676.75 trace length.' was performed in 3.82 seconds.
+2023-10-24 10:56:29.390 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #7 with 22 vias and 780,677.63 trace length.' was performed in 3.59 seconds.
+2023-10-24 10:56:40.856 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #8 with 22 vias and 780,677.63 trace length.' was performed in 11.46 seconds.
+2023-10-24 10:56:52.415 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #9 with 20 vias and 790,054.35 trace length.' was performed in 11.56 seconds.
+2023-10-24 10:57:03.227 [Thread-0] TRACE Method 'BatchOptRoute.opt_route_pass #10 with 20 vias and 790,063.78 trace length.' was performed in 10.81 seconds.
+2023-10-24 10:57:03.229 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 1 minute(s) 3.93 seconds.
+2023-10-24 10:57:03.230 [Thread-0] INFO  Route optimization was completed in 1 minute(s) 3.93 seconds and it improved the design by ~49.69%.
+2023-10-24 10:57:03.238 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1 minute(s) 9.76 seconds.
+2023-10-24 10:57:14.941 [AWT-EventQueue-0] INFO  Saving 'comm_v0p6.ses'...
