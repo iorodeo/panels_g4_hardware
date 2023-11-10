@@ -3,3 +3,8 @@
 *.dsn
 *.ses
 fp-info-cache
+*#auto_saved_files#
+*.swp
+*_autosave*
+*.~lock*
+*.lck
