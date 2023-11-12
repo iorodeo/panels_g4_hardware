@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.2-6a45011f42~172~ubuntu22.04.1"
+      "Version": "7.0.8-7.0.8~ubuntu22.04.1"
     },
-    "CreationDate": "2023-05-29T22:59:09-07:00"
+    "CreationDate": "2023-11-12T15:46:44-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "comm_v0p5",
-      "GUID": "636f6d6d-5f76-4307-9035-2e6b69636164",
+      "Name": "comm_v0p6",
+      "GUID": "636f6d6d-5f76-4307-9036-2e6b69636164",
       "Revision": "rev?"
     },
     "Size": {
@@ -40,57 +40,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "comm_v0p5-F_Cu.gtl",
+      "Path": "comm_v0p6-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-In1_Cu.g2",
+      "Path": "comm_v0p6-In1_Cu.g2",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-In2_Cu.g3",
+      "Path": "comm_v0p6-In2_Cu.g3",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-B_Cu.gbl",
+      "Path": "comm_v0p6-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-F_Paste.gtp",
+      "Path": "comm_v0p6-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-B_Paste.gbp",
+      "Path": "comm_v0p6-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-F_Silkscreen.gto",
+      "Path": "comm_v0p6-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-B_Silkscreen.gbo",
+      "Path": "comm_v0p6-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "comm_v0p5-F_Mask.gts",
+      "Path": "comm_v0p6-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "comm_v0p5-B_Mask.gbs",
+      "Path": "comm_v0p6-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "comm_v0p5-Edge_Cuts.gm1",
+      "Path": "comm_v0p6-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
