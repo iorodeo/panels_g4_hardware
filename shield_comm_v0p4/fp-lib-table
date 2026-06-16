@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "shield_comm_v0p3")(type "KiCad")(uri "${KIPRJMOD}/shield_comm_v0p4.pretty")(options "")(descr ""))
+)

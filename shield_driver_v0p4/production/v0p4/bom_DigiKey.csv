@@ -1,0 +1,6 @@
+"Reference","Qty","Value","Footprint","DigiKey Part #","PN"
+"J5","1","Barrel_Jack_Switch","Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002","732-5930-ND","694106301002"
+"P0,P1,P2,P3","4","CONN_2X2","Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical","S7105-ND","PPPC022LFBN-RC"
+"P4","1","CONN_3X2","Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical","609-2845-ND","75869-131LF"
+"RP1","1","R_PACK8","Package_DIP:DIP-16_W7.62mm","4116R-1-103LF-ND","4116R-1-103LF"
+"SW1","1","SW_DIP_x04","Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm","450-1358-ND","1825002-5"

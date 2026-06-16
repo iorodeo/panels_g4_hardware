@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "conn15")(type "Legacy")(uri "${KIPRJMOD}/conn15.lib")(options "")(descr ""))
+)

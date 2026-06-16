@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J5,BarrelJack_Wuerth_6941xx301002,1,Barrel_Jack_Switch,
+"P0, P1, P2, P3",PinSocket_2x02_P2.54mm_Vertical,4,CONN_2X2,
+P4,PinHeader_2x03_P2.54mm_Vertical,1,CONN_3X2,C168680
+RP1,DIP-16_W7.62mm,1,R_PACK8,C6087381
+SW1,SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm,1,SW_DIP_x04,C5165467

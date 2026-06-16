@@ -1,0 +1,9 @@
+(module "2-56 Mount Holes" (layer F.Cu) (tedit 4EFB8DDA)
+  (fp_text reference "2-56 Mount Holes" (at 0 -2.54) (layer F.SilkS) hide
+    (effects (font (size 1.00076 1.00076) (thickness 0.09906)))
+  )
+  (fp_text value VAL** (at 0 3.175) (layer F.SilkS)
+    (effects (font (size 1.00076 1.00076) (thickness 0.09906)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.40106 3.40106) (drill 2.4384) (layers *.Cu *.Mask F.SilkS))
+)
