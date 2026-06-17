@@ -1,0 +1,9 @@
+Id,Designator,Footprint,Qty,Comment,LCSC Part #
+1,C3,C_0805_2012Metric,1,10uF,C2932476
+2,"J4,J6,J5,J7",PinSocket_2x02_P2.54mm_Vertical,4,2x2 socket,C718234
+3,R5,R_0603_1608Metric,1,4.7k,C105428
+4,J1,PinHeader_1x15_P2.54mm_Horizontal,1,1x15 header,C247916
+5,"C2,C1",C_0402_1005Metric,2,1uF,C5137499
+6,J2,PinSocket_1x15_P2.54mm_Horizontal,1,1x15 socket,C2897397
+7,U1,QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm,1,ATmega328PB-M,C2651951
+8,Y1,Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm,1,20MHz,C882604

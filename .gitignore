@@ -25,10 +25,12 @@
 *-backups
 *.dsn
 *.ses
+**/backups/*zip
 
 # Exported BOM files
 *.xml
 *.csv
+!**/production/**/*csv
 
 ### KiCad Patch ###
 rescue-backup/

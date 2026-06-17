@@ -1,0 +1,4 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+P1,BarrelJack_Wuerth_6941xx301002,1,CONN_2,
+P2,PinHeader_2x03_P2.54mm_Vertical,1,CONN_3X2,
+P3,PinSocket_1x15_P2.54mm_Horizontal,1,CONN15,

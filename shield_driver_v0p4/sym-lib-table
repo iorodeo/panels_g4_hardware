@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "shield_driver_v0p3")(type "Legacy")(uri "${KIPRJMOD}/shield_driver_v0p4.lib")(options "")(descr ""))
+)
